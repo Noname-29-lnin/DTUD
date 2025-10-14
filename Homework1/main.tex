@@ -1,0 +1,68 @@
+\documentclass{my-article}
+\usepackage{my-coverpage}
+\usepackage{my-codespace}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage[vietnamese]{babel}
+
+%\usepackage{textcomp}
+% =========================
+% Cover page information
+% =========================
+
+\NameUpperUniname{Vietnam National University Ho Chi Minh City}
+\NameUniname{Ho Chi Minh City University of Technology}
+\NameDeptname{Faculty of Electrical and Electronics Engineering}
+\NamePathlogo{./my-chapters/my-images/01_logobachkhoatoi.png}
+\NameClass{Digital signal processing on FPGA}
+\NameGroup{08}
+\NameLesson[\Large]{LABORATORY REPORT}
+\NameTitle[\Huge]{Waveform generator}
+\NameAdvisor{Nguyễn Tuấn Hùng}
+\NamePlace{Ho Chi Minh}
+\NameTime{../../20..}
+\NamePathBackground[width=\paperwidth,height=\paperheight]{./my-chapters/my-images/bia.jpg} 
+\MemberTableData{
+1 &  & Đoàn Văn Sang & L01 \\ \hline
+2 & 2210780 & Nguyễn Đại Đồng & L01 \\ \hline
+3 &  & Nguyễn Thị Trâm Ánh & L01 \\ \hline
+}
+
+% =========================
+% Configuration
+% =========================
+
+\newcommand{\question}[1]{%
+	{\section*{#1}}%
+	\addcontentsline{toc}{section}{#1}%
+}
+\newcommand{\answer}[2]{%
+	\subsection*{\textbf{#1}\kern0.2em)~#2}%
+	\addcontentsline{toc}{subsection}{#1)}%
+}
+%--- Header and footer
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+% =========================
+% Document
+% =========================
+\begin{document}
+\pagestyle{empty}
+\MycoverFinalProject % Cover page
+\newpage
+\renewcommand{\arraystretch}{1.5} % tăng khoảng cách dòng (row height)
+\setlength{\parindent}{1cm}
+\onehalfspacing
+\setlength{\parskip}{6pt} 
+\tableofcontents
+\listoffigures
+\listoftables
+\listoflistings
+\newpage
+\pagestyle{fancy}
+\MycountPages{number}
+\fancyfoot[L]{\includegraphics[width=.02\linewidth]{./my-chapters/my-images/logo_DEE.png}\text{ Department of Electronics}}
+
+\include{./my-chapters/Question6.tex}
+\end{document}
