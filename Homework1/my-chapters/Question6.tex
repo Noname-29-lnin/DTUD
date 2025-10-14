@@ -132,8 +132,8 @@
 	\end{figure}
 	
 	\begin{itemize}[label = +]
-		\item $R_{in1} = R_{5} // R_{6} = \dfrac{4M \times 1M}{4M + 1M} = 0.8M \Omega$
-		\item $R_{out1} = R_{D1} = 15k \Omega$
+		\item $R_{in1} = \dfrac{v_{i}}{i_{i}}|_{v_{o}=0} = R_{5} // R_{6} = \dfrac{4M \times 1M}{4M + 1M} = 0.8M \Omega$
+		\item $R_{out1} = \dfrac{v_{o}}{i_{o}}|_{i_{i} = 0} = R_{D1} = 15k \Omega$
 		\item $A_{vo_{1}} = \dfrac{v_{o_{1}}}{v_{i_{1}}}|_{R_{L} = \infty} = \dfrac{v_{o_{1}}}{V_{gs}} = -g_{m} R_{D1}$
 		
 		Trong đó, $g_{m} = \dfrac{2I_{DQ}}{V_{OV}} = \dfrac{2I_{DQ}}{V_{GS} - V_{tn}} = \dfrac{2\times 0.1595mA}{1.5645V - 1V} \approx 0.5651 mA/V$
@@ -149,16 +149,59 @@
 	\end{figure}
 	
 	\begin{itemize}[label = +]
-		\item $R_{in2} = R_{1} // R_{2} // r_{\pi}$
+		\item $R_{in2} = \dfrac{v_{i}}{i_{i}}|_{v_{o}=0} = R_{1} // R_{2} // r_{\pi}$
 		
 		Trong đó, $r_{\pi} = \dfrac{\beta}{g_{m}} = \beta \dfrac{V_{T}}{I_{C}} = 100 \dfrac{25mV}{1.270mA} = 1.9685k\Omega$
 		
 		$\Rightarrow R_{in2} = 1.8604k\Omega$
-		\item $R_{out1} = R_{C2} = 4.7k \Omega$
+		\item $R_{out2} = \dfrac{v_{o}}{i_{o}}|_{i_{i} = 0} = R_{C2} = 4.7k \Omega$
 		\item $A_{vo_{2}} = \dfrac{v_{o_{2}}}{v_{i_{2}}}|_{R_{L} = \infty} = \dfrac{v_{o_{2}}}{v_{be}} = -g_{m}R_{C2}$
 		
 		Trong đó, $g_{m} = \dfrac{I_{C}}{V_{T}} = \dfrac{1.270mA}{25mV} = 0.0508 A/V$
 		
 		$\Rightarrow A_{v_{o_{2}}} = -0.0508\times 4.7k = -238.76 V/V$.
 	\end{itemize}
+	
+	\item Tầng 3:
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.7\linewidth]{./my-chapters/my-diagrams/Question6/caub_stage3.png}
+	\end{figure}
+	
+	\begin{itemize}[label = +]
+		\item $R_{in3} = \dfrac{v_{i}}{i_{i}}|_{v_{o}=0} = R_{3} // R_{4} // ((\beta + 1)(r_{e} + R_{E3}))$
+		
+		Trong đó, $r_{e} = \alpha\dfrac{V_{T}}{I_{C}} = \dfrac{\beta}{\beta + 1}\dfrac{V_{T}}{I_{C}} = \dfrac{100}{100+1} \dfrac{25mV}{2.86mA} = 8.6547\Omega$
+		
+		$\Rightarrow R_{in3} = 42.0078k\Omega$
+		\item $R_{out3} = \dfrac{v_{o}}{i_{o}}|_{i_{i} = 0} = R_{E3} + r_{e} + \dfrac{R_{3}//R_{4}}{\beta + 1} = 2.7211k\Omega$
+		\item $A_{vo_{3}} = \dfrac{v_{o_{3}}}{v_{i_{3}}}|_{R_{L} = \infty} = \dfrac{R_{E3}}{r_{e} + R_{E3}} = 0.9961 V/V$
+		
+		$\Rightarrow A_{v_{o_{3}}} = 0.9961 V/V$.
+	\end{itemize}
 \end{itemize}
+
+\noindent Cuối cùng ta có mạch tương đương như sau:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-diagrams/Question6/caub_1.png}
+\end{figure}
+
+\begin{itemize}[label =-]
+	\item $R_{in} = R_{in1} = 0.8M \Omega$
+	\item $R_{out} = R_{out3} = 2.7211k \Omega$
+	\item 
+	$A_{vo} = \dfrac{v_{o}}{v_{i}}|_{R_{L} = \infty}$
+	
+	$\begin{matrix}
+			   & = & A_{vo_{3}} \dfrac{R_{in3}}{R_{in3} + R_{out2}} A_{vo_{2}} \dfrac{R_{in2}}{R_{in2} + R_{out1}}A_{vo_{1}} \hfill\\
+			   & = & 0.9961 \dfrac{42.0078}{42.0078 + 4.7} (-238.76) \dfrac{1.8604}{1.8604 + 15} (-8.4765) \hfill\\
+			   & = & 200.0599 V/V \hfill
+	\end{matrix}$
+\end{itemize}
+
+\answer{c}{Vẽ dạng sóng ngõ vs và vo khi đi qua từng tầng (vị trí trước khi đi qua tụ ghép).}
+
+\noindent Cho $V_{s} = 5\sin\left(\omega t\right) (mV)$
