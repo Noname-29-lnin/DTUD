@@ -52,9 +52,9 @@
 % =====================
 \setcounter{secnumdepth}{3} % Numbering depth for sections
 \setcounter{tocdepth}{3}    % Depth for TOC % Number equations, tables, figures by section
-\AtBeginDocument{\counterwithin{equation}{section}}
-\AtBeginDocument{\counterwithin{table}{section}}
-\AtBeginDocument{\counterwithin{figure}{section}}
+% \AtBeginDocument{\counterwithin{equation}{section}}
+% \AtBeginDocument{\counterwithin{table}{section}}
+% \AtBeginDocument{\counterwithin{figure}{section}}
 \AtBeginDocument{\renewcommand*\bibname{References}}
 
 % --- Section ---

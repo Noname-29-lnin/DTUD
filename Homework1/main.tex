@@ -34,7 +34,7 @@
 % =========================
 
 \newcommand{\question}[1]{%
-	{\section*{#1}}%
+	\section*{#1}%
 	\addcontentsline{toc}{section}{#1}%
 }
 \newcommand{\answer}[2]{%
@@ -56,14 +56,15 @@
 \onehalfspacing
 \setlength{\parskip}{6pt} 
 \tableofcontents
-\listoffigures
-\listoftables
-\listoflistings
+%\listoffigures
+%\listoftables
+%\listoflistings
 \newpage
 \pagestyle{fancy}
 \MycountPages{number}
 \fancyfoot[L]{\includegraphics[width=.02\linewidth]{./my-chapters/my-images/logo_DEE.png}\text{ Department of Electronics}}
 
-\include{./my-chapters/Question4.tex}
+%\include{./my-chapters/Question4.tex}
 %\include{./my-chapters/Question6.tex}
+\include{./my-chapters/Question10.tex}
 \end{document}
