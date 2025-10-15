@@ -41,6 +41,13 @@
 	\subsection*{\textbf{#1}\kern0.2em)~#2}%
 	\addcontentsline{toc}{subsection}{#1)}%
 }
+
+\newcommand{\finalresult}[1]{%
+	\begin{tikzpicture}[baseline=(content.base)]
+		\node[draw=red, thick, rounded corners=3pt, inner sep=6pt] (content)
+		{\ensuremath{#1}};
+	\end{tikzpicture}%
+}
 %--- Header and footer
 \fancyhf{}
 \fancyhead[L]{\leftmark}
@@ -64,7 +71,7 @@
 \MycountPages{number}
 \fancyfoot[L]{\includegraphics[width=.02\linewidth]{./my-chapters/my-images/logo_DEE.png}\text{ Department of Electronics}}
 
-%\include{./my-chapters/Question4.tex}
+\include{./my-chapters/Question4.tex}
 %\include{./my-chapters/Question6.tex}
-\include{./my-chapters/Question10.tex}
+%\include{./my-chapters/Question10.tex}
 \end{document}
