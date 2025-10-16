@@ -114,6 +114,18 @@
 		Vậy điểm làm việc Q của tâng 3 là : \finalresult{(I_{CQ3}, V_{CEQ3}) = (2.86mA, 8.708V)}.
 \end{itemize}
 
+Kiểm chứng kết quả
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{.4\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question6/a_machdophancuc.png}
+	\end{minipage}
+	\begin{minipage}{.4\linewidth}
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question6/a_dophancuc.png}
+	\end{minipage}
+\end{figure}
+
 \answer{b}{Tìm $A_{v}$, $G_{v}$, $R_{i}$, $R_{o}$ của mạch.}
 
 \noindent Xét hoạt động chế độ AC cho toàn mạch, ta có mạch tương đương như sau:
@@ -205,8 +217,60 @@
 	
 	$\Rightarrow$ \finalresult{A_{v} = 193.3913\, V/V}
 	\item $G_{v} = \dfrac{R_{in1}}{R_{in1} + R_{s}} A_{v} = 191.0038\, V/V$
+	
+	$\Rightarrow$ \finalresult{G_{v} = 191.0038 \, V/V}
 \end{itemize}
+
+Kiểm tra kết quả
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{./my-chapters/my-images/Question6/b_bode_A_vo.png}
+	\caption{Với $A_{vo} = 47.94db = 249.44595\,\text{V/V}$.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{./my-chapters/my-images/Question6/b_bode_A_v.png}
+	\caption{Với $A_{v} = 46.335db = 207.3719\,\text{V/V}$.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{./my-chapters/my-images/Question6/b_bode_G_v.png}
+	\caption{Với $G_{v} = 46.121db = 202.3252\,\text{V/V}$.}
+\end{figure}
 
 \answer{c}{Vẽ dạng sóng ngõ vs và vo khi đi qua từng tầng (vị trí trước khi đi qua tụ ghép).}
 
 \noindent Cho $V_{s} = 5\sin\left(\,\Omega t\right) (mV)$
+
+\begin{itemize}[label=-]
+	\item Qua tầng đầu tiên, Tầng 1
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.8\linewidth]{./my-chapters/my-images/Question6/c_stage_1.png}
+	\end{figure}
+	
+	Ta thấy với $A_{vo1} = -8.4765\,\text{V/V}$ với tính toán thì sóng bị đảo pha so với sóng ban đầu và được khuếch đại lên $8.4765$ lần.
+	
+	\item Qua tấng tiếp theo, Tầng 2
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.8\linewidth]{./my-chapters/my-images/Question6/c_stage_2.png}
+	\end{figure}
+	
+	Sau khi qua tầng 2 với $A_{vo2} = -238.76 \,\textsf{V/V}$, thì dạng sóng được đưa về đúng pha ban đầu và được khuếch đại lên thêm để có trị rất lớn so với ngõ vào.
+	
+	\item Tầng cuối cùng, Tầng 3
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.8\linewidth]{./my-chapters/my-images/Question6/c_stage_3.png}
+	\end{figure}
+	
+	Sau khi qua tầng 3 thì tín hiệu bị xén phía bên dưới, chứng tỏ điểm phân cực $Q_{3}$ cần được điều chỉnh lại để có thể lấy được trọn tín hiệu.
+	
+\end{itemize}
