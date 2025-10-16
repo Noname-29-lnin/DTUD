@@ -55,3 +55,121 @@ Với $V_{i} = 1.0998\,\text{V}$, ta chọn được hai điểm:
 	\item \finalresult{Q_{2} = (I_{CQ2}, V_{CEQ2}) = (0.7354\,\text{mA}, -2.6943\,\text{V})}
 \end{itemize}
 
+Ta sử dụng một mạch phân cực $R_{1}$ và $R_{2}$ như sau:
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{.4\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/b_phancuc_R1_R2.png}
+	\end{minipage}
+	\begin{minipage}{.1\linewidth}
+		$\Rightarrow$
+	\end{minipage}
+	\begin{minipage}{.4\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/b_phancuc_thevenin.png}
+	\end{minipage}
+\end{figure}
+
+Ta có, $I_{C1} = 1.3706\,\text{mA} \Rightarrow I_{B1} = \dfrac{I_{C1}}{\beta} = \dfrac{1.3706}{100} = 0.013706\,\text{mA}$.
+
+$I_{RE} = I_{E1} - I_{E2} = \dfrac{I_{C1}}{\alpha} - \dfrac{I_{C2}}{\alpha} = \dfrac{1.3706}{\dfrac{100}{100+1}} - \dfrac{0.7354}{\dfrac{100}{100+1}} = 0.64582\,\text{mA}$
+
+Viết KCL cho vòng (1):
+
+\[ V_{th} = R_{th}I_{B1} + V_{BE1} + I_{RE}R_{E} \]
+\[ \Leftrightarrow 9\times \dfrac{R_{2}}{R_{1} + R_{2}} = \dfrac{R_{1}R_{2}}{R_{1} + R_{2}}\times I_{B1} + V_{BE1} + R_{E}I_{RE} \]
+\[ \Leftrightarrow \dfrac{R_{2}}{R_{1} + R_{2}}\left( 9 - R_{1}\times 0.013706 \right) = 1.1097 \]
+
+Với chọn $R_{2} = 22\,\text{k}\Omega \Rightarrow R_{1} = 123.0036\,\text{k}\Omega$.
+
+Kết quả mô phỏng,
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{.4\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/b_ketqua_R1R2.png}
+	\end{minipage}
+	\begin{minipage}{.4\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/b_ketqua.png}
+	\end{minipage}
+\end{figure}
+
+\answer{c}{Lựa chọn tụ $C_{1}$ (ghép tín hiệu) và $C_{2}$ (ghép tải) để mạch có $f_{L}=200Hz$. Giả sử tín hiệu có nội trở $100\Omega$ và tải có điện trở $100\Omega$. Sử dụng phần mềm mô phỏng, vẽ đáp ứng tần số của mạch.}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{./my-chapters/my-images/Question5/c_machtongquan.png}
+\end{figure}
+
+\begin{itemize}[label=-]
+	\item Với tầng 1
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.8\linewidth]{./my-chapters/my-diagrams/Question5/cauc_stage1.png}
+	\end{figure}
+	
+	\begin{itemize}[label=+, leftmargin=2cm]
+		\item $r_{e1} = \dfrac{V_{T}}{I_{E1}} = 18.0560\,\Omega$
+		\item $r_{\pi1} = \beta\dfrac{V_{T}}{I_{C1}} = 1.8240\,\text{k}\Omega$
+		\item $g_{m1} = \dfrac{I_{C1}}{V_{T}} = 54.824\,\text{mS}$
+	\end{itemize}
+	
+	Tính $R_{in1} = \dfrac{v_{i}}{i_{i}}|_{i_{o} = 0} = R_{th} // (\beta + 1)(r_{e1} + R_{E})$
+	
+	$\Rightarrow R_{in1} = 15.7954\,\text{k}\Omega$
+	
+	Tính $R_{out1} = \dfrac{v_{o}}{i_{o}}|_{v_{i} = 0} = r_{e1} // R_{E}$
+	
+	$\Rightarrow R_{out1} = 17.7358\,\Omega$
+	
+	Tín $A_{vo1} = \dfrac{vo}{vi}|_{R_{L} = \infty} = \dfrac{R_{E}}{R_{E} + r_{e1}}$
+	
+	$\Rightarrow A_{vo1} = 0.9823\,\text{V/V}$
+	\item Với tầng 2
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.8\linewidth]{./my-chapters/my-diagrams/Question5/cauc_stagte2.png}
+	\end{figure}
+	
+	\begin{itemize}[label=+, leftmargin=2cm]
+		\item $r_{e2} = \dfrac{V_{T}}{I_{E2}} = 33.6585\,\Omega$
+		\item $r_{\pi2} = \beta\dfrac{V_{T}}{I_{C2}} = 2.7196\,\text{k}\Omega$
+		\item $g_{m2} = \dfrac{I_{C1}}{V_{T}} = 29.416\,\text{mS}$
+	\end{itemize}
+	
+	Tính $R_{in2} = \dfrac{v_{i}}{i_{i}}|_{i_{o} = 0} = r_{e2}$
+	
+	$\Rightarrow R_{in2} = 33.6585\,\Omega$
+	
+	Tính $R_{out2} = \dfrac{v_{o}}{i_{o}}|_{v_{i} = 0} = R_{C}$
+	
+	$\Rightarrow R_{out2} = 4\,\text{k}\Omega$
+	
+	Tín $A_{vo2} = \dfrac{vo}{vi}|_{R_{L} = \infty} = -g_{m2} R_{C}$
+	
+	$\Rightarrow A_{vo2} = 117.664\,\text{V/V}$
+\end{itemize}
+
+Lựa chọn $C_{1}$ và $C_{2}$ để $f_{L} = 200\,\text{Hz}$
+
+\begin{itemize}[label=-]
+	\item $f_{C_{1}} = \dfrac{1}{2\pi \omega_{1} C_{1	} (R_{in1} + R_{s})} = 200\textsf{Hz}$
+	
+	$\Rightarrow C_{1} = $
+\end{itemize}
+
+\answer{d}{ Đặt vào mạch tín hiệu xoay chiều có biên độ $5\,\text{mV}$ và tần số $10$KHz.  Sử dụng phần mềm mô phỏng, cho biết tín hiệu tại $V_{o1}$ và $V_{o2}$. Giải thích}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-diagrams/Question5/cauc_all_stage.png}
+\end{figure}
+
+\begin{itemize}[label=+, leftmargin=2cm]
+	\item $A_{vo} = A_{vo2}\dfrac{R_{in2}}{R_{out1} + R_{in2}} A_{vo1} = 75.6951\,\text{V/V}$
+	\item $A_{v} = A_{vo} \dfrac{R_{L}}{R_{L} + R_{out2}} = 1.8462\,\text{V/V}$
+	\item $G_{v} = \dfrac{R_{s}}{R_{s} + R_{in1}}A_{v} = 1.8346\,\text{V/V} \approx 5.2708dB$
+\end{itemize}
+

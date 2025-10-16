@@ -30,7 +30,7 @@
 	\end{minipage}
 	
 	Thevenin ta có:
-		\[ R_{th} = R_{5}//R_{6} = \dfrac{4M \times 1M}{4M + 1M} = 0.8M \Omega \]
+		\[ R_{th} = R_{5}//R_{6} = \dfrac{4M \times 1M}{4M + 1M} = 0.8M \,\Omega \]
 		\[ V_{th} = \dfrac{R6}{R_{5} + R_{6}}\times V_{cc} = \dfrac{1M}{1M + 4M}\times 15 = 3V\]
 		$\Rightarrow V_{G} = 3V \Rightarrow V_{GS} = V_{G} - V_{S} = 3 - V_{S}$
 		
@@ -51,7 +51,7 @@
 		
 		$ \Rightarrow V_{DS1} = V_{D} - V_{S} = 11.1720V $
 		
-		Vậy điểm làm việc Q của tâng 1 là : $(I_{DS1}, V_{DS1}) = (0.1595mA, 11.1720V)$.
+		Vậy điểm làm việc Q của tâng 1 là : \finalresult{(I_{DS1}, V_{DS1}) = (0.1595mA, 11.1720V)}.
 		
 		\item Tầng 2:
 		
@@ -66,7 +66,7 @@
 		\end{minipage}
 		
 			Thevenin ta có:
-		\[ R_{th} = R_{1}//R_{2} = \dfrac{160k \times 43k}{160k + 43k} \approx 33.8916k \Omega \]
+		\[ R_{th} = R_{1}//R_{2} = \dfrac{160k \times 43k}{160k + 43k} \approx 33.8916k \,\Omega \]
 		\[ V_{th} = \dfrac{R2}{R_{1} + R_{2}}\times V_{cc} = \dfrac{43k}{160k + 43k}\times 15 \approx 3.1773V\]
 		
 		Áp dụng KVL cho vòng (1):
@@ -81,7 +81,7 @@
 		
 		\[ \Rightarrow V_{CE2} = V_{cc} - I_{C2}(R_{C2} + R_{E2}) = 15 - 1.270(4.7 + 1.6) = 6.9990V\]
 		
-		Vậy điểm làm việc Q của tâng 2 là : $(I_{CQ2}, V_{CEQ2}) = (1.270mA, 6.9990V)$.
+		Vậy điểm làm việc Q của tâng 2 là : \finalresult{(I_{CQ2}, V_{CEQ2}) = (1.270mA, 6.9990V)}.
 		
 		\item Tầng 3:
 		
@@ -96,7 +96,7 @@
 		\end{minipage}
 		
 		Thevenin ta có:
-		\[ R_{th} = R_{3}//R_{4} = \dfrac{91k \times 120k}{91k + 120k} \approx 51.7536k \Omega \]
+		\[ R_{th} = R_{3}//R_{4} = \dfrac{91k \times 120k}{91k + 120k} \approx 51.7536k \,\Omega \]
 		\[ V_{th} = \dfrac{R4}{R_{3} + R_{4}}\times V_{cc} = \dfrac{120k}{91k + 120k}\times 15 \approx 8.5308V\]
 		
 		Áp dụng KVL cho vòng (1):
@@ -111,7 +111,7 @@
 		
 		\[ \Rightarrow V_{CE3} = V_{cc} + R_{E2}I_{E3} = 15 - 2.86(2.2) = 8.708V\]
 		
-		Vậy điểm làm việc Q của tâng 3 là : $(I_{CQ3}, V_{CEQ3}) = (2.86mA, 8.708V)$.
+		Vậy điểm làm việc Q của tâng 3 là : \finalresult{(I_{CQ3}, V_{CEQ3}) = (2.86mA, 8.708V)}.
 \end{itemize}
 
 \answer{b}{Tìm $A_{v}$, $G_{v}$, $R_{i}$, $R_{o}$ của mạch.}
@@ -132,8 +132,8 @@
 	\end{figure}
 	
 	\begin{itemize}[label = +]
-		\item $R_{in1} = \dfrac{v_{i}}{i_{i}}|_{v_{o}=0} = R_{5} // R_{6} = \dfrac{4M \times 1M}{4M + 1M} = 0.8M \Omega$
-		\item $R_{out1} = \dfrac{v_{o}}{i_{o}}|_{i_{i} = 0} = R_{D1} = 15k \Omega$
+		\item $R_{in1} = \dfrac{v_{i}}{i_{i}}|_{v_{o}=0} = R_{5} // R_{6} = \dfrac{4M \times 1M}{4M + 1M} = 0.8M \,\Omega$
+		\item $R_{out1} = \dfrac{v_{o}}{i_{o}}|_{i_{i} = 0} = R_{D1} = 15k \,\Omega$
 		\item $A_{vo_{1}} = \dfrac{v_{o_{1}}}{v_{i_{1}}}|_{R_{L} = \infty} = \dfrac{v_{o_{1}}}{V_{gs}} = -g_{m} R_{D1}$
 		
 		Trong đó, $g_{m} = \dfrac{2I_{DQ}}{V_{OV}} = \dfrac{2I_{DQ}}{V_{GS} - V_{tn}} = \dfrac{2\times 0.1595mA}{1.5645V - 1V} \approx 0.5651 mA/V$
@@ -149,12 +149,12 @@
 	\end{figure}
 	
 	\begin{itemize}[label = +]
-		\item $R_{in2} = \dfrac{v_{i}}{i_{i}}|_{v_{o}=0} = R_{1} // R_{2} // r_{\pi}$
+		\item $R_{in2} = \dfrac{v_{i}}{i_{i}}|_{i_{o}=0} = R_{1} // R_{2} // r_{\pi}$
 		
-		Trong đó, $r_{\pi} = \dfrac{\beta}{g_{m}} = \beta \dfrac{V_{T}}{I_{C}} = 100 \dfrac{25mV}{1.270mA} = 1.9685k\Omega$
+		Trong đó, $r_{\pi} = \dfrac{\beta}{g_{m}} = \beta \dfrac{V_{T}}{I_{C}} = 100 \dfrac{25mV}{1.270mA} = 1.9685k\,\Omega$
 		
-		$\Rightarrow R_{in2} = 1.8604k\Omega$
-		\item $R_{out2} = \dfrac{v_{o}}{i_{o}}|_{i_{i} = 0} = R_{C2} = 4.7k \Omega$
+		$\Rightarrow R_{in2} = 1.8604k\,\Omega$
+		\item $R_{out2} = \dfrac{v_{o}}{i_{o}}|_{v_{i} = 0} = R_{C2} = 4.7k \,\Omega$
 		\item $A_{vo_{2}} = \dfrac{v_{o_{2}}}{v_{i_{2}}}|_{R_{L} = \infty} = \dfrac{v_{o_{2}}}{v_{be}} = -g_{m}R_{C2}$
 		
 		Trong đó, $g_{m} = \dfrac{I_{C}}{V_{T}} = \dfrac{1.270mA}{25mV} = 0.0508 A/V$
@@ -170,12 +170,12 @@
 	\end{figure}
 	
 	\begin{itemize}[label = +]
-		\item $R_{in3} = \dfrac{v_{i}}{i_{i}}|_{v_{o}=0} = R_{3} // R_{4} // ((\beta + 1)(r_{e} + R_{E3}))$
+		\item $R_{in3} = \dfrac{v_{i}}{i_{i}}|_{i_{o}=0} = R_{3} // R_{4} // ((\beta + 1)(r_{e} + R_{E3}))$
 		
-		Trong đó, $r_{e} = \alpha\dfrac{V_{T}}{I_{C}} = \dfrac{\beta}{\beta + 1}\dfrac{V_{T}}{I_{C}} = \dfrac{100}{100+1} \dfrac{25mV}{2.86mA} = 8.6547\Omega$
+		Trong đó, $r_{e} = \alpha\dfrac{V_{T}}{I_{C}} = \dfrac{\beta}{\beta + 1}\dfrac{V_{T}}{I_{C}} = \dfrac{100}{100+1} \dfrac{25mV}{2.86mA} = 8.6547\,\Omega$
 		
-		$\Rightarrow R_{in3} = 42.0078k\Omega$
-		\item $R_{out3} = \dfrac{v_{o}}{i_{o}}|_{i_{i} = 0} = R_{E3} // (r_{e} + \dfrac{R_{3}//R_{4}}{\beta + 1}) = 2.7211k\Omega$
+		$\Rightarrow R_{in3} = 42.0078k\,\Omega$
+		\item $R_{out3} = \dfrac{v_{o}}{i_{o}}|_{v_{i} = 0} = (r_{e} // R_{E3}) = 8.6208\,\Omega$
 		\item $A_{vo_{3}} = \dfrac{v_{o_{3}}}{v_{i_{3}}}|_{R_{L} = \infty} = \dfrac{R_{E3}}{r_{e} + R_{E3}} = 0.9961 V/V$
 		
 		$\Rightarrow A_{v_{o_{3}}} = 0.9961 V/V$.
@@ -190,18 +190,23 @@
 \end{figure}
 
 \begin{itemize}[label =-]
-	\item $R_{in} = R_{in1} = 0.8M \Omega$
-	\item $R_{out} = R_{out3} = 2.7211k \Omega$
-	\item 
-	$A_{vo} = \dfrac{v_{o}}{v_{i}}|_{R_{L} = \infty}$
+	\item \finalresult{R_{in} = R_{in1} = 0.8M \,\Omega}
+	\item \finalresult{R_{out} = R_{out3} = 8.6208 \,\Omega}
+	\item $A_{vo} = \dfrac{v_{o}}{v_{i}}|_{R_{L} = \infty}$
 	
 	$\begin{matrix}
 			   & = & A_{vo_{3}} \dfrac{R_{in3}}{R_{in3} + R_{out2}} A_{vo_{2}} \dfrac{R_{in2}}{R_{in2} + R_{out1}}A_{vo_{1}} \hfill\\
-			   & = & 0.9961 \dfrac{42.0078}{42.0078 + 4.7} (-238.76) \dfrac{1.8604}{1.8604 + 15} (-8.4765) \hfill\\
-			   & = & 200.0599 V/V \hfill
+			   & = & 200.0600 \, V/V \hfill
 	\end{matrix}$
+	
+	$\Rightarrow$ \finalresult{A_{vo} = 200.0600 \, V/V}
+
+	\item $A_{v} = A_{vo} \dfrac{R_{L}}{R_{L} + R_{out3}} = 193.3913\, V/V$
+	
+	$\Rightarrow$ \finalresult{A_{v} = 193.3913\, V/V}
+	\item $G_{v} = \dfrac{R_{in1}}{R_{in1} + R_{s}} A_{v} = 191.0038\, V/V$
 \end{itemize}
 
 \answer{c}{Vẽ dạng sóng ngõ vs và vo khi đi qua từng tầng (vị trí trước khi đi qua tụ ghép).}
 
-\noindent Cho $V_{s} = 5\sin\left(\omega t\right) (mV)$
+\noindent Cho $V_{s} = 5\sin\left(\,\Omega t\right) (mV)$
