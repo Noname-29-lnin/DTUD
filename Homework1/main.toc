@@ -12,17 +12,21 @@
 \contentsline {subsection}{a)}{20}{figure.caption.27}%
 \contentsline {subsection}{b)}{23}{figure.caption.28}%
 \contentsline {subsection}{c)}{28}{figure.caption.36}%
-\contentsline {section}{Câu 8}{31}{figure.caption.39}%
-\contentsline {subsection}{a)}{31}{figure.caption.40}%
-\contentsline {subsection}{b)}{32}{figure.caption.40}%
-\contentsline {subsection}{c)}{35}{figure.caption.46}%
-\contentsline {subsection}{d)}{35}{figure.caption.47}%
-\contentsline {section}{Câu 9}{38}{figure.caption.50}%
-\contentsline {subsection}{a)}{38}{figure.caption.51}%
-\contentsline {subsection}{b)}{41}{figure.caption.61}%
-\contentsline {subsection}{c)}{45}{figure.caption.69}%
-\contentsline {subsection}{d)}{47}{figure.caption.72}%
-\contentsline {section}{Câu 10}{50}{figure.caption.74}%
-\contentsline {subsection}{a)}{50}{figure.caption.75}%
-\contentsline {subsection}{b)}{54}{figure.caption.87}%
-\contentsline {subsection}{c)}{59}{figure.caption.95}%
+\contentsline {section}{Câu 7}{31}{figure.caption.39}%
+\contentsline {subsection}{a)}{32}{figure.caption.40}%
+\contentsline {subsection}{b)}{33}{figure.caption.43}%
+\contentsline {section}{Câu 8}{40}{figure.caption.52}%
+\contentsline {subsection}{a)}{40}{figure.caption.53}%
+\contentsline {subsection}{b)}{41}{figure.caption.54}%
+\contentsline {subsection}{c)}{45}{figure.caption.60}%
+\contentsline {subsection}{d)}{45}{figure.caption.61}%
+\contentsline {section}{Câu 9}{48}{figure.caption.64}%
+\contentsline {subsection}{a)}{48}{figure.caption.65}%
+\contentsline {subsection}{b)}{51}{figure.caption.75}%
+\contentsline {subsection}{c)}{55}{figure.caption.83}%
+\contentsline {subsection}{d)}{57}{figure.caption.86}%
+\contentsline {subsection}{c)}{59}{figure.caption.88}%
+\contentsline {section}{Câu 10}{60}{figure.caption.88}%
+\contentsline {subsection}{a)}{60}{figure.caption.89}%
+\contentsline {subsection}{b)}{64}{figure.caption.101}%
+\contentsline {subsection}{c)}{69}{figure.caption.109}%

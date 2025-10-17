@@ -39,7 +39,7 @@ Cho mạch khuếch đại như hình vẽ, mạch có $R_{in} = 400\,\text{k}\O
 
 
 	\( I_{SD2} = \dfrac{1}{2} k_p (V_{SG2} - |V_{thp}|)^2 
-	\Rightarrow 0.5 = \dfrac{1}{2} (1) (V_{SG2} - 0.6)^2 
+	\Rightarrow 0.5 = \dfrac{1}{2}\times 1 \times (V_{SG2} - 0.6)^2 
 	\Rightarrow V_{SG2} = 1.6\,\text{V} \)
 	
 	\( V_{DD} - I_{D2} R_{S2} - (V_{DD} - I_{D1} R_{D1}) = 1.6 
@@ -48,7 +48,17 @@ Cho mạch khuếch đại như hình vẽ, mạch có $R_{in} = 400\,\text{k}\O
 	\( \Rightarrow 0.2 \times 12k - 0.5 R_{S2} = 1.6 \)
 	
 	$\Rightarrow $ \finalresult{R_{S2} = 2.4\,k\Omega}.
+	
+	$V_{cc} - V_{CE2} - R_{S2}I_{D2} = I_{D2}R_{D2} \Rightarrow 5 - 3 - 1.6\times 0.5 = 0.5R_{D2}$
+	
+	$\Rightarrow$ \finalresult{R_{D2} = 2.4\,\text{k}\Omega}
 
+\noindent Kiểm tra kết quả,
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question8/a_dc_phancuc.png}	
+\end{figure}
 \answer{b}{Đặt $v_{s} = 2 \sin \left( \omega t \right) (\text{mV})$ vào mạch. Ngõ ra nối với tải $R_{L} = 1\,\text{k}\Omega$. Tìm $A_{v}$, $G_{v}$, $R_{in}$, $R_{out}$ của mạch.}
 
 Từ câu a ta có mạch tổng quan như sau,
@@ -88,7 +98,7 @@ Ta xét hoạt động AC, với mạch tương đương như sau
 	
 	\item Tầng 2
 	\begin{itemize}[label=+, leftmargin=2cm]
-		\item \( R_{in2} \to \infty \) (cổng)
+		\item \( R_{in2} \to \infty \)
 		\item \( R_{out2} = R_{D2} = 2.4\,k\Omega \)
 		\item \( A_{vo2} = -g_{m2} R_{D2}
 		= -0.001 \times 2400
