@@ -86,7 +86,7 @@ Ta có,
 \begin{itemize}[label=-]
 	\item Tính giá trị $R_{in}$
 	
-	Ta có, $R_{in} = \dfrac{v_{i}}{i_{i}}|_{i_{o} = 0}$, đầu tiên ta xét
+	Ta có, $R_{in} = \dfrac{v_{i}}{i_{i}}\bigg|_{i_{o} = 0}$, đầu tiên ta xét
 	
 	\begin{itemize}[label=+, leftmargin=1cm]
 		\item $i_{i} = i_{3} + i_{e} - \alpha i_{e} $
@@ -105,7 +105,7 @@ Ta có,
 	
 	\item Tính giá trị $R_{out}$
 	
-	Ta có, $R_{out} = \dfrac{v_{o}}{i_{o}}|_{v_{i} = 0}$
+	Ta có, $R_{out} = \dfrac{v_{o}}{i_{o}}\bigg|_{v_{i} = 0}$
 	
 	$\Rightarrow R_{out} = R_{E}^{'} // r_{e} // \dfrac{R_{3}}{\beta + 1} = 12.7272\,\Omega$.
 	
@@ -113,7 +113,7 @@ Ta có,
 	
 	\item Tính giá trị $A_{vo}$
 	
-	Ta có, $A_{vo} = \dfrac{v_{o}}{v_{i}}|_{R_{L} = \infty} = \dfrac{R_{E}^{'} \left( \dfrac{r_{e}}{R_{3}} + 1 \right)}{R_{E}^{'} \left( \dfrac{r_{e}}{R_{3}} + 1 \right) + r_{e}} \approx 0.9913 \,\text{V/V}$.
+	Ta có, $A_{vo} = \dfrac{v_{o}}{v_{i}}\bigg|_{R_{L} = \infty} = \dfrac{R_{E}^{'} \left( \dfrac{r_{e}}{R_{3}} + 1 \right)}{R_{E}^{'} \left( \dfrac{r_{e}}{R_{3}} + 1 \right) + r_{e}} \approx 0.9913 \,\text{V/V}$.
 	
 	$\Rightarrow$ \finalresult{A_{vo} = 0.9913 \,\text{V/V}}.
 	
@@ -168,21 +168,21 @@ Ta có,
 \begin{itemize}[label=-]
 	\item Tính giá trị $R_{in}$
 	
-	Ta có, $R_{in} = \dfrac{v_{i}}{i_{i}}|_{i_{o} = 0}$
+	Ta có, $R_{in} = \dfrac{v_{i}}{i_{i}}\bigg|_{i_{o} = 0}$
 
 	\[ \rightarrow R_{in} = R_{B}^{'} // (\beta + 1)(r_{e} + R_{E}) \approx 18.2102\,\text{k}\Omega \]
 	$\Rightarrow$ \finalresult{R_{in} = 18.2102\,\text{k}\Omega}.
 	
 	\item Tính giá trị $R_{out}$
 	
-	Ta có, $R_{out} = \dfrac{v_{o}}{i_{o}}|_{v_{i} = 0}$ 
+	Ta có, $R_{out} = \dfrac{v_{o}}{i_{o}}\bigg|_{v_{i} = 0}$ 
 	
 	\[\rightarrow R_{out} = R_{E} // r_{e} = 14.6259\,\Omega \]
 	$\Rightarrow$ \finalresult{R_{out} = 14.6259\,\Omega}.
 	
 	\item Tính giá trị $A_{vo}$
 	
-	Ta có, $A_{vo} = \dfrac{v_{o}}{v_{i}}|_{R_{L} = \infty} = \dfrac{R_{E}}{R_{E} + r_{e}} \approx 0.9927\,\text{V/V}$.
+	Ta có, $A_{vo} = \dfrac{v_{o}}{v_{i}}\bigg|_{R_{L} = \infty} = \dfrac{R_{E}}{R_{E} + r_{e}} \approx 0.9927\,\text{V/V}$.
 	
 	$\Rightarrow$ \finalresult{A_{vo} \approx 0.9927\,\text{V/V}}.
 	
@@ -220,4 +220,4 @@ Ta có,
 
 \noindent\textbf{Nhận xét}
 
-Mạch trên giống với mạch Bootstrapped Emitter Follower với có một tự $C_{B}$ hồi tiếp dương qua tụ, mạch giúp tăng điện trở đầu vào giúp tăng độ lợi của mạch mà không cần tăng điện trở lên quá cao. Với một trên chỉ cần hồi tiếp về kết hợp một điện trở $R_{1} = 10 \,\text{k}\Omega$ đã có thể tăng $R_{in}$ từ $18.2102\,\text{k}\Omega \rightarrow 148.0428 \,\text{k}\Omega$ có nghĩa là tăng lên đến tầm $8$, và tăng độ lợi $G_{v}$ từ $0.6408 \rightarrow 0.9287$.
+Mạch trên giống với mạch Bootstrapped Emitter Follower với có một tự $C_{B}$ hồi tiếp dương qua tụ, mạch giúp tăng điện trở đầu vào giúp tăng độ lợi của mạch mà không cần tăng điện trở lên quá cao. Với một trên chỉ cần hồi tiếp về kết hợp một điện trở $R_{1} = 10 \,\text{k}\Omega$ đã có thể tăng $R_{in}$ từ $18.2102\,\text{k}\Omega \rightarrow 148.0428 \,\text{k}\Omega$ có nghĩa là tăng lên đến tầm $8$ lần, và tăng độ lợi $G_{v}$ từ $0.6408 \rightarrow 0.9287$.

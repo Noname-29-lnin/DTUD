@@ -185,3 +185,35 @@ Xét mạch hoạt động chế độ AC, ta có mạch tương đương như s
 	\end{figure}
 \end{itemize}
 
+\answer{c}{Tìm biên độ lớn nhất của Vm để để vs là tín hiệu nhỏ ở cả hai tầng.}
+
+Xét $Q_{2}$
+
+\[ V_{CE} = 2V_{cc} - I_{C2} R_{C2} - (I_{C2} - I_{2})R_{4}\]
+\[\Rightarrow V_{CE2} = 62 - 10.5\,\textsf{k}\times I_{C2}\]
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{./my-chapters/my-images/Question7/c_hinh1.png}
+\end{figure}
+
+\[ \tan(\alpha) = \dfrac{1}{(R_{L}//R_{4}) + R_{C2}} = \dfrac{1}{1.4\,\textsf{k}}\]
+\[\Rightarrow V_{o_{max}} = \dfrac{I_{CQ2}}{\tan(\alpha)} = 7 \,\textsf{V} \Rightarrow V_{sig_{max}} = \dfrac{V_{o_{max}}}{G_{v}\bigg|_{f = 1.09\,\textsf{kHz}}} = \dfrac{7}{0.7} = 10 (V)\]
+$\Rightarrow$ \finalresult{V_{sig_{max}} = 10(V)}.
+
+Dùng mô phỏng để quét từ $V_{sig_{max}}$ trở $x$ đến khi ngõ ra không méo dạng.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{./my-chapters/my-images/Question7/c_hinh2.png}
+	\caption{$V_{sig} = 4.3V$, $V_{pL} = 2.978V$, $G_{v} = 0.7\,\textsf{V/V}$.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{./my-chapters/my-images/Question7/c_hinh3.png}
+	\caption{$V_{sig} = -4.5\,\textsf{V}$, $V_{pL} = -2.865\,\textsf{V}$, $G_{v} = 0.647\,\textsf{V/V}$ (ngõ ra bị xén dưới).}
+\end{figure}
+
+Vậy \finalresult{V_{m_{max}} = 4.5\,\textsf{V}}. 
+

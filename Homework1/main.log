@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  17 OCT 2025 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  18 OCT 2025 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1583,7 +1583,7 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count413
-<./my-chapters/my-images/01_logobachkhoatoi.png, id=129, 471.9231pt x 478.9092p
+<./my-chapters/my-images/01_logobachkhoatoi.png, id=130, 471.9231pt x 478.9092p
 t>
 File: ./my-chapters/my-images/01_logobachkhoatoi.png Graphic file (type png)
 <use ./my-chapters/my-images/01_logobachkhoatoi.png>
@@ -1608,7 +1608,7 @@ Overfull \hbox (2.19716pt too wide) in paragraph at lines 59--59
 
 
 
-<./my-chapters/my-images/bia.jpg, id=131, 301.125pt x 414.95026pt>
+<./my-chapters/my-images/bia.jpg, id=132, 301.125pt x 414.95026pt>
 File: ./my-chapters/my-images/bia.jpg Graphic file (type jpg)
 <use ./my-chapters/my-images/bia.jpg>
 Package pdftex.def Info: ./my-chapters/my-images/bia.jpg  used on input line 60
@@ -1630,14 +1630,14 @@ s/my-images/bia.jpg> <./my-chapters/my-images/01_logobachkhoatoi.png>]
 \openout2 = `./my-chapters/Question4.aux'.
 
  (my-chapters/Question4.tex
-<./my-chapters/my-images/Question4/Debai.png, id=179, 578.91281pt x 564.60938pt
+<./my-chapters/my-images/Question4/Debai.png, id=180, 578.91281pt x 564.60938pt
 >
 File: ./my-chapters/my-images/Question4/Debai.png Graphic file (type png)
 <use ./my-chapters/my-images/Question4/Debai.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question4/Debai.png  used on i
 nput line 7.
 (pdftex.def)             Requested size: 386.95897pt x 377.39894pt.
-<./my-chapters/my-images/Question4/a_doVBE.png, id=180, 788.19469pt x 511.15968
+<./my-chapters/my-images/Question4/a_doVBE.png, id=181, 788.19469pt x 511.15968
 pt>
 File: ./my-chapters/my-images/Question4/a_doVBE.png Graphic file (type png)
 <use ./my-chapters/my-images/Question4/a_doVBE.png>
@@ -1646,7 +1646,7 @@ Package pdftex.def Info: ./my-chapters/my-images/Question4/a_doVBE.png  used on
 (pdftex.def)             Requested size: 386.95897pt x 250.9462pt.
 
 
-<./my-chapters/my-images/logo_DEE.png, id=181, 76.03406pt x 75.28125pt>
+<./my-chapters/my-images/logo_DEE.png, id=182, 76.03406pt x 75.28125pt>
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
@@ -1662,14 +1662,14 @@ l.22
 
  <./my-chapters/my-images/Question4/Debai.png> <./my-chapters/my-images/logo_DE
 E.png>]
-<./my-chapters/my-images/Question4/a_timVBE.png, id=193, 1444.64719pt x 775.396
+<./my-chapters/my-images/Question4/a_timVBE.png, id=194, 1444.64719pt x 775.396
 88pt>
 File: ./my-chapters/my-images/Question4/a_timVBE.png Graphic file (type png)
 <use ./my-chapters/my-images/Question4/a_timVBE.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question4/a_timVBE.png  used o
 n input line 27.
 (pdftex.def)             Requested size: 386.95897pt x 207.6917pt.
-<./my-chapters/my-diagrams/Question4/Debai.png, id=194, 762.85pt x 435.6275pt>
+<./my-chapters/my-diagrams/Question4/Debai.png, id=195, 762.85pt x 435.6275pt>
 File: ./my-chapters/my-diagrams/Question4/Debai.png Graphic file (type png)
 <use ./my-chapters/my-diagrams/Question4/Debai.png>
 Package pdftex.def Info: ./my-chapters/my-diagrams/Question4/Debai.png  used on
@@ -1704,7 +1704,7 @@ been already used, duplicate ignored
 l.59 	\item K
              iểm chứng kết quả: [3 <./my-chapters/my-diagrams/Question4
 /Debai.png>]
-<./my-chapters/my-images/Question4/phancucDC_Q.png, id=210, 639.89063pt x 364.3
+<./my-chapters/my-images/Question4/phancucDC_Q.png, id=211, 639.89063pt x 364.3
 6125pt>
 File: ./my-chapters/my-images/Question4/phancucDC_Q.png Graphic file (type png)
 
@@ -1712,7 +1712,7 @@ File: ./my-chapters/my-images/Question4/phancucDC_Q.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/Question4/phancucDC_Q.png  use
 d on input line 63.
 (pdftex.def)             Requested size: 386.95897pt x 220.34193pt.
-<./my-chapters/my-diagrams/Question4/caub_t.png, id=211, 1510.64375pt x 1138.25
+<./my-chapters/my-diagrams/Question4/caub_t.png, id=212, 1510.64375pt x 1138.25
 25pt>
 File: ./my-chapters/my-diagrams/Question4/caub_t.png Graphic file (type png)
 <use ./my-chapters/my-diagrams/Question4/caub_t.png>
@@ -1734,7 +1734,7 @@ Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 99.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [5 <./my-chapters/my-diagrams/Question4/caub_t.png>]
-<./my-chapters/my-images/Question4/b_GV_test.png, id=229, 788.9475pt x 440.3953
+<./my-chapters/my-images/Question4/b_GV_test.png, id=231, 788.9475pt x 440.3953
 1pt>
 File: ./my-chapters/my-images/Question4/b_GV_test.png Graphic file (type png)
 <use ./my-chapters/my-images/Question4/b_GV_test.png>
@@ -1749,14 +1749,14 @@ Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 132.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [6]
-<./my-chapters/my-images/Question4/b_Avo_wave.png, id=237, 1351.29843pt x 616.5
+<./my-chapters/my-images/Question4/b_Avo_wave.png, id=238, 1351.29843pt x 616.5
 5344pt>
 File: ./my-chapters/my-images/Question4/b_Avo_wave.png Graphic file (type png)
 <use ./my-chapters/my-images/Question4/b_Avo_wave.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question4/b_Avo_wave.png  used
  on input line 135.
 (pdftex.def)             Requested size: 386.95897pt x 176.55684pt.
-<./my-chapters/my-images/Question4/b_Avo_bode.png, id=238, 971.88094pt x 507.39
+<./my-chapters/my-images/Question4/b_Avo_bode.png, id=239, 971.88094pt x 507.39
 563pt>
 File: ./my-chapters/my-images/Question4/b_Avo_bode.png Graphic file (type png)
 <use ./my-chapters/my-images/Question4/b_Avo_bode.png>
@@ -1772,14 +1772,14 @@ ne 144.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [7 <./my-chapters/my-images/Question4/b_GV_test.png> <./my-chapters/my-images/Q
 uestion4/b_Avo_wave.png>]
-<./my-chapters/my-images/Question4/b_GV_bode.png, id=248, 968.11688pt x 506.642
+<./my-chapters/my-images/Question4/b_GV_bode.png, id=249, 968.11688pt x 506.642
 8pt>
 File: ./my-chapters/my-images/Question4/b_GV_bode.png Graphic file (type png)
 <use ./my-chapters/my-images/Question4/b_GV_bode.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question4/b_GV_bode.png  used 
 on input line 147.
 (pdftex.def)             Requested size: 386.95897pt x 202.50664pt.
-<./my-chapters/my-diagrams/Question4/cauc_t.png, id=249, 1510.64375pt x 1138.25
+<./my-chapters/my-diagrams/Question4/cauc_t.png, id=250, 1510.64375pt x 1138.25
 25pt>
 File: ./my-chapters/my-diagrams/Question4/cauc_t.png Graphic file (type png)
 <use ./my-chapters/my-diagrams/Question4/cauc_t.png>
@@ -1802,14 +1802,14 @@ Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 173.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [9 <./my-chapters/my-diagrams/Question4/cauc_t.png>]
-<./my-chapters/my-images/Question4/cauc_test.png, id=265, 774.64406pt x 459.215
+<./my-chapters/my-images/Question4/cauc_test.png, id=266, 774.64406pt x 459.215
 62pt>
 File: ./my-chapters/my-images/Question4/cauc_test.png Graphic file (type png)
 <use ./my-chapters/my-images/Question4/cauc_test.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question4/cauc_test.png  used 
 on input line 199.
 (pdftex.def)             Requested size: 386.95897pt x 229.39703pt.
-<./my-chapters/my-images/Question4/cauc_wave.png, id=266, 1355.0625pt x 621.823
+<./my-chapters/my-images/Question4/cauc_wave.png, id=267, 1355.0625pt x 621.823
 12pt>
 File: ./my-chapters/my-images/Question4/cauc_wave.png Graphic file (type png)
 <use ./my-chapters/my-images/Question4/cauc_wave.png>
@@ -1824,7 +1824,7 @@ Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 207.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [10 <./my-chapters/my-images/Question4/cauc_test.png>]
-<./my-chapters/my-images/Question4/cau_c_bode_avo.png, id=275, 968.11688pt x 50
+<./my-chapters/my-images/Question4/cau_c_bode_avo.png, id=276, 968.11688pt x 50
 8.14844pt>
 File: ./my-chapters/my-images/Question4/cau_c_bode_avo.png Graphic file (type p
 ng)
@@ -1832,7 +1832,7 @@ ng)
 Package pdftex.def Info: ./my-chapters/my-images/Question4/cau_c_bode_avo.png  
 used on input line 210.
 (pdftex.def)             Requested size: 386.95897pt x 203.10844pt.
-<./my-chapters/my-images/Question4/cau_c_bode_gv.png, id=276, 971.12813pt x 505
+<./my-chapters/my-images/Question4/cau_c_bode_gv.png, id=277, 971.12813pt x 505
 .13719pt>
 File: ./my-chapters/my-images/Question4/cau_c_bode_gv.png Graphic file (type pn
 g)
@@ -1853,34 +1853,34 @@ Question4/cau_c_bode_avo.png>])
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 74.
+ne 75.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [12 <./my-chapters/my-images/Question4/cau_c_bode_gv.png>]
 \openout2 = `./my-chapters/Question5.aux'.
 
 
 (my-chapters/Question5.tex
-<./my-chapters/my-images/Question5/debai.png, id=292, 638.385pt x 428.35031pt>
+<./my-chapters/my-images/Question5/debai.png, id=293, 638.385pt x 428.35031pt>
 File: ./my-chapters/my-images/Question5/debai.png Graphic file (type png)
 <use ./my-chapters/my-images/Question5/debai.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question5/debai.png  used on i
 nput line 7.
 (pdftex.def)             Requested size: 386.95897pt x 259.64621pt.
-<./my-chapters/my-images/Question5/a_mach.png, id=293, 759.58781pt x 423.08063p
+<./my-chapters/my-images/Question5/a_mach.png, id=294, 759.58781pt x 423.08063p
 t>
 File: ./my-chapters/my-images/Question5/a_mach.png Graphic file (type png)
 <use ./my-chapters/my-images/Question5/a_mach.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question5/a_mach.png  used on 
 input line 17.
 (pdftex.def)             Requested size: 193.47948pt x 107.7647pt.
-<./my-chapters/my-images/Question5/a_dc_sweep.png, id=294, 590.205pt x 500.6203
+<./my-chapters/my-images/Question5/a_dc_sweep.png, id=295, 590.205pt x 500.6203
 2pt>
 File: ./my-chapters/my-images/Question5/a_dc_sweep.png Graphic file (type png)
 <use ./my-chapters/my-images/Question5/a_dc_sweep.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question5/a_dc_sweep.png  used
  on input line 20.
 (pdftex.def)             Requested size: 154.7812pt x 131.28111pt.
-<./my-chapters/my-images/Question5/a_VTC.png, id=295, 1444.64719pt x 773.89125p
+<./my-chapters/my-images/Question5/a_VTC.png, id=296, 1444.64719pt x 773.89125p
 t>
 File: ./my-chapters/my-images/Question5/a_VTC.png Graphic file (type png)
 <use ./my-chapters/my-images/Question5/a_VTC.png>
@@ -1900,7 +1900,7 @@ ne 29.
 
  <./my-chapters/my-images/Question5/debai.png> <./my-chapters/my-images/Questio
 n5/a_mach.png> <./my-chapters/my-images/Question5/a_dc_sweep.png>]
-<./my-chapters/my-images/Question5/b_Q_tong.png, id=305, 1442.38875pt x 782.172
+<./my-chapters/my-images/Question5/b_Q_tong.png, id=306, 1442.38875pt x 782.172
 18pt>
 File: ./my-chapters/my-images/Question5/b_Q_tong.png Graphic file (type png)
 <use ./my-chapters/my-images/Question5/b_Q_tong.png>
@@ -1915,7 +1915,7 @@ Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 39.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [14 <./my-chapters/my-images/Question5/a_VTC.png>]
-<./my-chapters/my-images/Question5/b_Q_tong_hinh.png, id=312, 748.29562pt x 427
+<./my-chapters/my-images/Question5/b_Q_tong_hinh.png, id=313, 748.29562pt x 427
 .5975pt>
 File: ./my-chapters/my-images/Question5/b_Q_tong_hinh.png Graphic file (type pn
 g)
@@ -1923,7 +1923,7 @@ g)
 Package pdftex.def Info: ./my-chapters/my-images/Question5/b_Q_tong_hinh.png  u
 sed on input line 46.
 (pdftex.def)             Requested size: 193.47578pt x 110.5594pt.
-<./my-chapters/my-images/Question5/b_Q_tong_bang.png, id=313, 370.38374pt x 183
+<./my-chapters/my-images/Question5/b_Q_tong_bang.png, id=314, 370.38374pt x 183
 .68625pt>
 File: ./my-chapters/my-images/Question5/b_Q_tong_bang.png Graphic file (type pn
 g)
@@ -1931,15 +1931,15 @@ g)
 Package pdftex.def Info: ./my-chapters/my-images/Question5/b_Q_tong_bang.png  u
 sed on input line 49.
 (pdftex.def)             Requested size: 241.84843pt x 119.94118pt.
-<./my-chapters/my-images/Question5/b_phancuc_R1_R2.png, id=314, 676.02562pt x 4
-81.8pt>
+<./my-chapters/my-images/Question5/b_phancuc_R1_R2.png, id=315, 403.5075pt x 34
+0.27126pt>
 File: ./my-chapters/my-images/Question5/b_phancuc_R1_R2.png Graphic file (type 
 png)
 <use ./my-chapters/my-images/Question5/b_phancuc_R1_R2.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question5/b_phancuc_R1_R2.png 
  used on input line 63.
-(pdftex.def)             Requested size: 193.47578pt x 137.88785pt.
-<./my-chapters/my-images/Question5/b_phancuc_thevenin.png, id=315, 670.75594pt 
+(pdftex.def)             Requested size: 193.47578pt x 163.157pt.
+<./my-chapters/my-images/Question5/b_phancuc_thevenin.png, id=316, 670.75594pt 
 x 481.8pt>
 File: ./my-chapters/my-images/Question5/b_phancuc_thevenin.png Graphic file (ty
 pe png)
@@ -1957,7 +1957,7 @@ ne 72.
 [15 <./my-chapters/my-images/Question5/b_Q_tong.png> <./my-chapters/my-images/Q
 uestion5/b_Q_tong_hinh.png> <./my-chapters/my-images/Question5/b_Q_tong_bang.pn
 g>]
-<./my-chapters/my-images/Question5/b_ketqua_R1R2.png, id=326, 613.54219pt x 475
+<./my-chapters/my-images/Question5/b_ketqua_R1R2.png, id=327, 613.54219pt x 475
 .7775pt>
 File: ./my-chapters/my-images/Question5/b_ketqua_R1R2.png Graphic file (type pn
 g)
@@ -1965,14 +1965,14 @@ g)
 Package pdftex.def Info: ./my-chapters/my-images/Question5/b_ketqua_R1R2.png  u
 sed on input line 90.
 (pdftex.def)             Requested size: 193.47578pt x 150.03041pt.
-<./my-chapters/my-images/Question5/b_ketqua.png, id=327, 520.19344pt x 350.8106
-2pt>
+<./my-chapters/my-images/Question5/b_ketqua.png, id=328, 520.19344pt x 353.8218
+7pt>
 File: ./my-chapters/my-images/Question5/b_ketqua.png Graphic file (type png)
 <use ./my-chapters/my-images/Question5/b_ketqua.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question5/b_ketqua.png  used o
 n input line 93.
-(pdftex.def)             Requested size: 193.47578pt x 130.4777pt.
-<./my-chapters/my-images/Question5/c_machtongquan.png, id=328, 596.2275pt x 353
+(pdftex.def)             Requested size: 193.47578pt x 131.59769pt.
+<./my-chapters/my-images/Question5/c_machtongquan.png, id=329, 596.2275pt x 353
 .82187pt>
 File: ./my-chapters/my-images/Question5/c_machtongquan.png Graphic file (type p
 ng)
@@ -1990,7 +1990,7 @@ ne 103.
 [16 <./my-chapters/my-images/Question5/b_phancuc_R1_R2.png> <./my-chapters/my-i
 mages/Question5/b_phancuc_thevenin.png> <./my-chapters/my-images/Question5/b_ke
 tqua_R1R2.png> <./my-chapters/my-images/Question5/b_ketqua.png>]
-<./my-chapters/my-diagrams/Question5/cauc_stage1.png, id=340, 888.31876pt x 577
+<./my-chapters/my-diagrams/Question5/cauc_stage1.png, id=341, 888.31876pt x 577
 .15625pt>
 File: ./my-chapters/my-diagrams/Question5/cauc_stage1.png Graphic file (type pn
 g)
@@ -2007,7 +2007,7 @@ ne 115.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [17 <./my-chapters/my-images/Question5/c_machtongquan.png> <./my-chapters/my-di
 agrams/Question5/cauc_stage1.png>]
-<./my-chapters/my-diagrams/Question5/cauc_stagte2.png, id=351, 1249.66875pt x 3
+<./my-chapters/my-diagrams/Question5/cauc_stagte2.png, id=352, 1249.66875pt x 3
 18.18875pt>
 File: ./my-chapters/my-diagrams/Question5/cauc_stagte2.png Graphic file (type p
 ng)
@@ -2015,12 +2015,15 @@ ng)
 Package pdftex.def Info: ./my-chapters/my-diagrams/Question5/cauc_stagte2.png  
 used on input line 133.
 (pdftex.def)             Requested size: 386.95897pt x 98.52582pt.
-LaTeX Font Info:    Trying to load font information for T5+cmss on input line 1
-58.
+<./my-chapters/my-diagrams/Question5/c_tonghopmach.png, id=353, 1254.6875pt x 3
+21.2pt>
+File: ./my-chapters/my-diagrams/Question5/c_tonghopmach.png Graphic file (type 
+png)
+<use ./my-chapters/my-diagrams/Question5/c_tonghopmach.png>
+Package pdftex.def Info: ./my-chapters/my-diagrams/Question5/c_tonghopmach.png 
+ used on input line 159.
+(pdftex.def)             Requested size: 483.69687pt x 123.82657pt.
 
-(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmss.fd
-File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
@@ -2028,41 +2031,186 @@ Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 161.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [18 <./my-chapters/my-diagrams/Question5/cauc_stagte2.png>]
-<./my-chapters/my-diagrams/Question5/cauc_all_stage.png, id=358, 1084.05pt x 72
-5.71124pt>
+LaTeX Font Info:    Trying to load font information for T5+cmss on input line 1
+72.
+
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmss.fd
+File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+<./my-chapters/my-images/Question5/c_do_bode_socap.png, id=361, 1444.64719pt x 
+773.89125pt>
+File: ./my-chapters/my-images/Question5/c_do_bode_socap.png Graphic file (type 
+png)
+<use ./my-chapters/my-images/Question5/c_do_bode_socap.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question5/c_do_bode_socap.png 
+ used on input line 180.
+(pdftex.def)             Requested size: 483.69687pt x 259.11642pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 183.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[19 <./my-chapters/my-diagrams/Question5/c_tonghopmach.png>]
+<./my-chapters/my-images/Question5/c_sweep.png, id=370, 1163.0953pt x 481.8pt>
+File: ./my-chapters/my-images/Question5/c_sweep.png Graphic file (type png)
+<use ./my-chapters/my-images/Question5/c_sweep.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question5/c_sweep.png  used on
+ input line 186.
+(pdftex.def)             Requested size: 483.69687pt x 200.36966pt.
+<./my-chapters/my-images/Question5/c_sweep_c.png, id=371, 1444.64719pt x 555.57
+562pt>
+File: ./my-chapters/my-images/Question5/c_sweep_c.png Graphic file (type png)
+<use ./my-chapters/my-images/Question5/c_sweep_c.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question5/c_sweep_c.png  used 
+on input line 192.
+(pdftex.def)             Requested size: 483.69687pt x 186.01936pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 195.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[20 <./my-chapters/my-images/Question5/c_do_bode_socap.png> <./my-chapters/my-i
+mages/Question5/c_sweep.png>]
+<./my-chapters/my-images/Question5/c_final.png, id=381, 1442.38875pt x 328.9790
+6pt>
+File: ./my-chapters/my-images/Question5/c_final.png Graphic file (type png)
+<use ./my-chapters/my-images/Question5/c_final.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question5/c_final.png  used on
+ input line 202.
+(pdftex.def)             Requested size: 483.69687pt x 110.32036pt.
+<./my-chapters/my-diagrams/Question5/cauc_all_stage.png, id=382, 1084.05pt x 72
+6.715pt>
 File: ./my-chapters/my-diagrams/Question5/cauc_all_stage.png Graphic file (type
  png)
 <use ./my-chapters/my-diagrams/Question5/cauc_all_stage.png>
 Package pdftex.def Info: ./my-chapters/my-diagrams/Question5/cauc_all_stage.png
-  used on input line 167.
-(pdftex.def)             Requested size: 435.32422pt x 291.41992pt.
+  used on input line 210.
+(pdftex.def)             Requested size: 435.32422pt x 291.82298pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 212.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[21 <./my-chapters/my-images/Question5/c_sweep_c.png> <./my-chapters/my-images/
+Question5/c_final.png>]
+<./my-chapters/my-images/Question5/c_vo1.png, id=391, 646.66594pt x 461.47406pt
+>
+File: ./my-chapters/my-images/Question5/c_vo1.png Graphic file (type png)
+<use ./my-chapters/my-images/Question5/c_vo1.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question5/c_vo1.png  used on i
+nput line 224.
+(pdftex.def)             Requested size: 193.47578pt x 138.06303pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 228.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[22 <./my-chapters/my-diagrams/Question5/cauc_all_stage.png>]
+<./my-chapters/my-images/Question5/c_vo2.png, id=400, 706.89093pt x 511.15968pt
+>
+File: ./my-chapters/my-images/Question5/c_vo2.png Graphic file (type png)
+<use ./my-chapters/my-images/Question5/c_vo2.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question5/c_vo2.png  used on i
+nput line 234.
+(pdftex.def)             Requested size: 193.47578pt x 139.90247pt.
+<./my-chapters/my-images/Question5/d_A_Vo.png, id=401, 540.51938pt x 510.40688p
+t>
+File: ./my-chapters/my-images/Question5/d_A_Vo.png Graphic file (type png)
+<use ./my-chapters/my-images/Question5/d_A_Vo.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question5/d_A_Vo.png  used on 
+input line 246.
+(pdftex.def)             Requested size: 193.47578pt x 182.69493pt.
+<./my-chapters/my-images/Question5/d_A_vo_ketqua.png, id=402, 624.08156pt x 391
+.4625pt>
+File: ./my-chapters/my-images/Question5/d_A_vo_ketqua.png Graphic file (type pn
+g)
+<use ./my-chapters/my-images/Question5/d_A_vo_ketqua.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question5/d_A_vo_ketqua.png  u
+sed on input line 249.
+(pdftex.def)             Requested size: 193.47578pt x 121.35808pt.
+<./my-chapters/my-images/Question5/d_A_V.png, id=403, 532.99126pt x 508.90125pt
+>
+File: ./my-chapters/my-images/Question5/d_A_V.png Graphic file (type png)
+<use ./my-chapters/my-images/Question5/d_A_V.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question5/d_A_V.png  used on i
+nput line 256.
+(pdftex.def)             Requested size: 193.47578pt x 184.72629pt.
+<./my-chapters/my-images/Question5/d_a_v_ketqua.png, id=404, 623.32875pt x 394.
+47375pt>
+File: ./my-chapters/my-images/Question5/d_a_v_ketqua.png Graphic file (type png
+)
+<use ./my-chapters/my-images/Question5/d_a_v_ketqua.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question5/d_a_v_ketqua.png  us
+ed on input line 259.
+(pdftex.def)             Requested size: 193.47578pt x 122.4421pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 262.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[23 <./my-chapters/my-images/Question5/c_vo1.png> <./my-chapters/my-images/Ques
+tion5/c_vo2.png>]
+<./my-chapters/my-images/Question5/d_G_V.png, id=414, 538.26094pt x 507.39563pt
+>
+File: ./my-chapters/my-images/Question5/d_G_V.png Graphic file (type png)
+<use ./my-chapters/my-images/Question5/d_G_V.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question5/d_G_V.png  used on i
+nput line 266.
+(pdftex.def)             Requested size: 193.47578pt x 182.38356pt.
+<./my-chapters/my-images/Question5/d_gv_ketqua.png, id=415, 643.6547pt x 395.22
+656pt>
+File: ./my-chapters/my-images/Question5/d_gv_ketqua.png Graphic file (type png)
+
+<use ./my-chapters/my-images/Question5/d_gv_ketqua.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question5/d_gv_ketqua.png  use
+d on input line 269.
+(pdftex.def)             Requested size: 193.47578pt x 118.79803pt.
 )
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 75.
+ne 76.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[19 <./my-chapters/my-diagrams/Question5/cauc_all_stage.png>]
+[24 <./my-chapters/my-images/Question5/d_A_Vo.png> <./my-chapters/my-images/Que
+stion5/d_A_vo_ketqua.png> <./my-chapters/my-images/Question5/d_A_V.png> <./my-c
+hapters/my-images/Question5/d_a_v_ketqua.png>]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 76.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[25 <./my-chapters/my-images/Question5/d_G_V.png> <./my-chapters/my-images/Ques
+tion5/d_gv_ketqua.png>]
 \openout2 = `./my-chapters/Question6.aux'.
 
-
-(my-chapters/Question6.tex
-<./my-chapters/my-images/Question6/DeBai.png, id=367, 1224.07312pt x 445.665pt>
+ (my-chapters/Question6.tex
+<./my-chapters/my-images/Question6/DeBai.png, id=434, 1224.07312pt x 445.665pt>
 
 File: ./my-chapters/my-images/Question6/DeBai.png Graphic file (type png)
 <use ./my-chapters/my-images/Question6/DeBai.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question6/DeBai.png  used on i
 nput line 7.
 (pdftex.def)             Requested size: 435.32422pt x 158.49438pt.
-<./my-chapters/my-images/Question6/DC_tang1.png, id=368, 236.38312pt x 445.665p
+<./my-chapters/my-images/Question6/DC_tang1.png, id=435, 236.38312pt x 445.665p
 t>
 File: ./my-chapters/my-images/Question6/DC_tang1.png Graphic file (type png)
 <use ./my-chapters/my-images/Question6/DC_tang1.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question6/DC_tang1.png  used o
 n input line 23.
 (pdftex.def)             Requested size: 127.2077pt x 239.83267pt.
-<./my-chapters/my-images/Question6/DC_tang1 - Copy.png, id=369, 374.14781pt x 4
+<./my-chapters/my-images/Question6/DC_tang1 - Copy.png, id=436, 374.14781pt x 4
 45.665pt>
 File: ./my-chapters/my-images/Question6/DC_tang1 - Copy.png Graphic file (type 
 png)
@@ -2077,20 +2225,20 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 33.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[20
+[26
 
 
 
  <./my-chapters/my-images/Question6/DeBai.png> <./my-chapters/my-images/Questio
 n6/DC_tang1.png> <./my-chapters/my-images/Question6/DC_tang1 - Copy.png>]
-<./my-chapters/my-images/Question6/DC_tang2.png, id=378, 364.36125pt x 445.665p
+<./my-chapters/my-images/Question6/DC_tang2.png, id=445, 364.36125pt x 445.665p
 t>
 File: ./my-chapters/my-images/Question6/DC_tang2.png Graphic file (type png)
 <use ./my-chapters/my-images/Question6/DC_tang2.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question6/DC_tang2.png  used o
 n input line 59.
 (pdftex.def)             Requested size: 127.2077pt x 155.59067pt.
-<./my-chapters/my-images/Question6/DC_tang2 - Copy.png, id=379, 504.38437pt x 4
+<./my-chapters/my-images/Question6/DC_tang2 - Copy.png, id=446, 504.38437pt x 4
 45.665pt>
 File: ./my-chapters/my-images/Question6/DC_tang2 - Copy.png Graphic file (type 
 png)
@@ -2105,16 +2253,16 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 73.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[21 <./my-chapters/my-images/Question6/DC_tang2.png> <./my-chapters/my-images/Q
+[27 <./my-chapters/my-images/Question6/DC_tang2.png> <./my-chapters/my-images/Q
 uestion6/DC_tang2 - Copy.png>]
-<./my-chapters/my-images/Question6/DC_tang3.png, id=387, 260.47313pt x 445.665p
+<./my-chapters/my-images/Question6/DC_tang3.png, id=454, 260.47313pt x 445.665p
 t>
 File: ./my-chapters/my-images/Question6/DC_tang3.png Graphic file (type png)
 <use ./my-chapters/my-images/Question6/DC_tang3.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question6/DC_tang3.png  used o
 n input line 89.
 (pdftex.def)             Requested size: 127.2077pt x 217.65013pt.
-<./my-chapters/my-images/Question6/DC_tang3 - Copy.png, id=388, 420.82219pt x 4
+<./my-chapters/my-images/Question6/DC_tang3 - Copy.png, id=455, 420.82219pt x 4
 45.665pt>
 File: ./my-chapters/my-images/Question6/DC_tang3 - Copy.png Graphic file (type 
 png)
@@ -2129,9 +2277,9 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 103.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[22 <./my-chapters/my-images/Question6/DC_tang3.png> <./my-chapters/my-images/Q
+[28 <./my-chapters/my-images/Question6/DC_tang3.png> <./my-chapters/my-images/Q
 uestion6/DC_tang3 - Copy.png>]
-<./my-chapters/my-images/Question6/a_machdophancuc.png, id=397, 676.02562pt x 4
+<./my-chapters/my-images/Question6/a_machdophancuc.png, id=464, 676.02562pt x 4
 44.91219pt>
 File: ./my-chapters/my-images/Question6/a_machdophancuc.png Graphic file (type 
 png)
@@ -2139,7 +2287,7 @@ png)
 Package pdftex.def Info: ./my-chapters/my-images/Question6/a_machdophancuc.png 
  used on input line 122.
 (pdftex.def)             Requested size: 193.47578pt x 127.33081pt.
-<./my-chapters/my-images/Question6/a_dophancuc.png, id=398, 522.45187pt x 349.3
+<./my-chapters/my-images/Question6/a_dophancuc.png, id=465, 522.45187pt x 349.3
 05pt>
 File: ./my-chapters/my-images/Question6/a_dophancuc.png Graphic file (type png)
 
@@ -2147,7 +2295,7 @@ File: ./my-chapters/my-images/Question6/a_dophancuc.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/Question6/a_dophancuc.png  use
 d on input line 125.
 (pdftex.def)             Requested size: 193.47578pt x 129.35808pt.
-<./my-chapters/my-diagrams/Question6/caub_tongquat.png, id=399, 1284.8pt x 292.
+<./my-chapters/my-diagrams/Question6/caub_tongquat.png, id=466, 1284.8pt x 292.
 09125pt>
 File: ./my-chapters/my-diagrams/Question6/caub_tongquat.png Graphic file (type 
 png)
@@ -2162,9 +2310,9 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 137.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[23 <./my-chapters/my-images/Question6/a_machdophancuc.png> <./my-chapters/my-i
+[29 <./my-chapters/my-images/Question6/a_machdophancuc.png> <./my-chapters/my-i
 mages/Question6/a_dophancuc.png>]
-<./my-chapters/my-diagrams/Question6/caub_stage1.png, id=407, 1065.9825pt x 385
+<./my-chapters/my-diagrams/Question6/caub_stage1.png, id=474, 1065.9825pt x 385
 .44pt>
 File: ./my-chapters/my-diagrams/Question6/caub_stage1.png Graphic file (type pn
 g)
@@ -2172,7 +2320,7 @@ g)
 Package pdftex.def Info: ./my-chapters/my-diagrams/Question6/caub_stage1.png  u
 sed on input line 143.
 (pdftex.def)             Requested size: 338.58632pt x 122.42583pt.
-<./my-chapters/my-diagrams/Question6/caub_stage2.png, id=408, 1065.9825pt x 385
+<./my-chapters/my-diagrams/Question6/caub_stage2.png, id=475, 1065.9825pt x 385
 .44pt>
 File: ./my-chapters/my-diagrams/Question6/caub_stage2.png Graphic file (type pn
 g)
@@ -2185,12 +2333,12 @@ sed on input line 160.
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 170.
+ne 169.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[24 <./my-chapters/my-diagrams/Question6/caub_tongquat.png> <./my-chapters/my-d
+[30 <./my-chapters/my-diagrams/Question6/caub_tongquat.png> <./my-chapters/my-d
 iagrams/Question6/caub_stage1.png> <./my-chapters/my-diagrams/Question6/caub_st
 age2.png>]
-<./my-chapters/my-diagrams/Question6/caub_stage3.png, id=420, 1005.7575pt x 488
+<./my-chapters/my-diagrams/Question6/caub_stage3.png, id=488, 1005.7575pt x 488
 .82625pt>
 File: ./my-chapters/my-diagrams/Question6/caub_stage3.png Graphic file (type pn
 g)
@@ -2198,7 +2346,7 @@ g)
 Package pdftex.def Info: ./my-chapters/my-diagrams/Question6/caub_stage3.png  u
 sed on input line 181.
 (pdftex.def)             Requested size: 338.58632pt x 164.55777pt.
-<./my-chapters/my-diagrams/Question6/caub_1.png, id=421, 1284.8pt x 369.38pt>
+<./my-chapters/my-diagrams/Question6/caub_1.png, id=489, 1284.8pt x 369.38pt>
 File: ./my-chapters/my-diagrams/Question6/caub_1.png Graphic file (type png)
 <use ./my-chapters/my-diagrams/Question6/caub_1.png>
 Package pdftex.def Info: ./my-chapters/my-diagrams/Question6/caub_1.png  used o
@@ -2209,11 +2357,10 @@ n input line 201.
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 206.
+ne 203.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[25 <./my-chapters/my-diagrams/Question6/caub_stage3.png> <./my-chapters/my-dia
-grams/Question6/caub_1.png>]
-<./my-chapters/my-images/Question6/b_bode_A_vo.png, id=431, 631.60968pt x 400.4
+[31 <./my-chapters/my-diagrams/Question6/caub_stage3.png>]
+<./my-chapters/my-images/Question6/b_bode_A_vo.png, id=497, 631.60968pt x 400.4
 9625pt>
 File: ./my-chapters/my-images/Question6/b_bode_A_vo.png Graphic file (type png)
 
@@ -2221,22 +2368,22 @@ File: ./my-chapters/my-images/Question6/b_bode_A_vo.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/Question6/b_bode_A_vo.png  use
 d on input line 228.
 (pdftex.def)             Requested size: 386.95897pt x 245.36568pt.
-<./my-chapters/my-images/Question6/b_bode_A_v.png, id=432, 629.35126pt x 405.01
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 231.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[32 <./my-chapters/my-diagrams/Question6/caub_1.png>]
+<./my-chapters/my-images/Question6/b_bode_A_v.png, id=505, 629.35126pt x 405.01
 312pt>
 File: ./my-chapters/my-images/Question6/b_bode_A_v.png Graphic file (type png)
 <use ./my-chapters/my-images/Question6/b_bode_A_v.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question6/b_bode_A_v.png  used
  on input line 234.
 (pdftex.def)             Requested size: 386.95897pt x 249.02287pt.
-
-
-File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
-<use ./my-chapters/my-images/logo_DEE.png>
-Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 237.
-(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[26 <./my-chapters/my-images/Question6/b_bode_A_vo.png>]
-<./my-chapters/my-images/Question6/b_bode_G_v.png, id=440, 635.37375pt x 404.26
+<./my-chapters/my-images/Question6/b_bode_G_v.png, id=506, 635.37375pt x 404.26
 031pt>
 File: ./my-chapters/my-images/Question6/b_bode_G_v.png Graphic file (type png)
 <use ./my-chapters/my-images/Question6/b_bode_G_v.png>
@@ -2248,18 +2395,26 @@ Package pdftex.def Info: ./my-chapters/my-images/Question6/b_bode_G_v.png  used
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 249.
+ne 243.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[27 <./my-chapters/my-images/Question6/b_bode_A_v.png> <./my-chapters/my-images
-/Question6/b_bode_G_v.png>]
-<./my-chapters/my-images/Question6/c_stage_1.png, id=449, 607.51968pt x 484.811
+[33 <./my-chapters/my-images/Question6/b_bode_A_vo.png> <./my-chapters/my-image
+s/Question6/b_bode_A_v.png>]
+<./my-chapters/my-images/Question6/c_stage_1.png, id=516, 607.51968pt x 484.811
 25pt>
 File: ./my-chapters/my-images/Question6/c_stage_1.png Graphic file (type png)
 <use ./my-chapters/my-images/Question6/c_stage_1.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question6/c_stage_1.png  used 
 on input line 253.
 (pdftex.def)             Requested size: 386.95897pt x 308.80602pt.
-<./my-chapters/my-images/Question6/c_stage_2.png, id=450, 861.9703pt x 718.9359
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 255.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[34 <./my-chapters/my-images/Question6/b_bode_G_v.png>]
+<./my-chapters/my-images/Question6/c_stage_2.png, id=524, 861.9703pt x 718.9359
 4pt>
 File: ./my-chapters/my-images/Question6/c_stage_2.png Graphic file (type png)
 <use ./my-chapters/my-images/Question6/c_stage_2.png>
@@ -2273,8 +2428,8 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 264.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[28 <./my-chapters/my-images/Question6/c_stage_1.png>]
-<./my-chapters/my-images/Question6/c_stage_3.png, id=459, 852.18375pt x 712.913
+[35 <./my-chapters/my-images/Question6/c_stage_1.png>]
+<./my-chapters/my-images/Question6/c_stage_3.png, id=532, 852.18375pt x 712.913
 44pt>
 File: ./my-chapters/my-images/Question6/c_stage_3.png Graphic file (type png)
 <use ./my-chapters/my-images/Question6/c_stage_3.png>
@@ -2288,26 +2443,51 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 273.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[29 <./my-chapters/my-images/Question6/c_stage_2.png>])
+[36 <./my-chapters/my-images/Question6/c_stage_2.png>]
+<./my-chapters/my-images/Question6/d_phancuctang3_mach.png, id=540, 310.91156pt
+ x 411.03563pt>
+File: ./my-chapters/my-images/Question6/d_phancuctang3_mach.png Graphic file (t
+ype png)
+<use ./my-chapters/my-images/Question6/d_phancuctang3_mach.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question6/d_phancuctang3_mach.
+png  used on input line 279.
+(pdftex.def)             Requested size: 193.47578pt x 255.78023pt.
+<./my-chapters/my-images/Question6/d_phancuctang3.png, id=541, 932.73468pt x 75
+8.835pt>
+File: ./my-chapters/my-images/Question6/d_phancuctang3.png Graphic file (type p
+ng)
+<use ./my-chapters/my-images/Question6/d_phancuctang3.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question6/d_phancuctang3.png  
+used on input line 282.
+(pdftex.def)             Requested size: 174.12701pt x 141.65594pt.
+
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 76.
+ne 287.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[30 <./my-chapters/my-images/Question6/c_stage_3.png>]
+[37 <./my-chapters/my-images/Question6/c_stage_3.png> <./my-chapters/my-images/
+Question6/d_phancuctang3_mach.png> <./my-chapters/my-images/Question6/d_phancuc
+tang3.png>])
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 77.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[38]
 \openout2 = `./my-chapters/Question7.aux'.
 
-
-(my-chapters/Question7.tex
-<./my-chapters/my-images/Question7/debai.png, id=473, 498.36188pt x 507.39563pt
+ (my-chapters/Question7.tex
+<./my-chapters/my-images/Question7/debai.png, id=556, 498.36188pt x 507.39563pt
 >
 File: ./my-chapters/my-images/Question7/debai.png Graphic file (type png)
 <use ./my-chapters/my-images/Question7/debai.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question7/debai.png  used on i
 nput line 7.
 (pdftex.def)             Requested size: 483.69687pt x 492.47513pt.
-<./my-chapters/my-images/Question7/a_quetVbe_q2.png, id=474, 1096.095pt x 462.9
+<./my-chapters/my-images/Question7/a_quetVbe_q2.png, id=557, 1096.095pt x 462.9
 7969pt>
 File: ./my-chapters/my-images/Question7/a_quetVbe_q2.png Graphic file (type png
 )
@@ -2322,12 +2502,12 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 18.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[31
+[39
 
 
 
  <./my-chapters/my-images/Question7/debai.png>]
-<./my-chapters/my-images/Question7/a_quetVbe.png, id=481, 1096.095pt x 415.5525
+<./my-chapters/my-images/Question7/a_quetVbe.png, id=564, 1096.095pt x 415.5525
 pt>
 File: ./my-chapters/my-images/Question7/a_quetVbe.png Graphic file (type png)
 <use ./my-chapters/my-images/Question7/a_quetVbe.png>
@@ -2341,9 +2521,9 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 46.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[32 <./my-chapters/my-images/Question7/a_quetVbe_q2.png> <./my-chapters/my-imag
+[40 <./my-chapters/my-images/Question7/a_quetVbe_q2.png> <./my-chapters/my-imag
 es/Question7/a_quetVbe.png>]
-<./my-chapters/my-images/Question7/a_ketqua_hinh.png, id=491, 1162.3425pt x 556
+<./my-chapters/my-images/Question7/a_ketqua_hinh.png, id=575, 1162.3425pt x 556
 .32843pt>
 File: ./my-chapters/my-images/Question7/a_ketqua_hinh.png Graphic file (type pn
 g)
@@ -2351,7 +2531,7 @@ g)
 Package pdftex.def Info: ./my-chapters/my-images/Question7/a_ketqua_hinh.png  u
 sed on input line 56.
 (pdftex.def)             Requested size: 386.95897pt x 185.21033pt.
-<./my-chapters/my-images/Question7/b_giaiQ.png, id=492, 846.16125pt x 529.22719
+<./my-chapters/my-images/Question7/b_giaiQ.png, id=576, 846.16125pt x 529.22719
 pt>
 File: ./my-chapters/my-images/Question7/b_giaiQ.png Graphic file (type png)
 <use ./my-chapters/my-images/Question7/b_giaiQ.png>
@@ -2365,8 +2545,8 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 67.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[33 <./my-chapters/my-images/Question7/a_ketqua_hinh.png>]
-<./my-chapters/my-images/Question7/b_Qnew.png, id=500, 1102.87032pt x 486.31688
+[41 <./my-chapters/my-images/Question7/a_ketqua_hinh.png>]
+<./my-chapters/my-images/Question7/b_Qnew.png, id=584, 1102.87032pt x 486.31688
 pt>
 File: ./my-chapters/my-images/Question7/b_Qnew.png Graphic file (type png)
 <use ./my-chapters/my-images/Question7/b_Qnew.png>
@@ -2380,8 +2560,8 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 88.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[34 <./my-chapters/my-images/Question7/b_giaiQ.png>]
-<./my-chapters/my-images/Question7/b_machtuongduong.png, id=509, 747.54282pt x 
+[42 <./my-chapters/my-images/Question7/b_giaiQ.png>]
+<./my-chapters/my-images/Question7/b_machtuongduong.png, id=592, 747.54282pt x 
 430.60875pt>
 File: ./my-chapters/my-images/Question7/b_machtuongduong.png Graphic file (type
  png)
@@ -2396,9 +2576,9 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 103.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[35 <./my-chapters/my-images/Question7/b_Qnew.png> <./my-chapters/my-images/Que
+[43 <./my-chapters/my-images/Question7/b_Qnew.png> <./my-chapters/my-images/Que
 stion7/b_machtuongduong.png>]
-<./my-chapters/my-images/Question7/b_avo_tuongduong.png, id=519, 944.02687pt x 
+<./my-chapters/my-images/Question7/b_avo_tuongduong.png, id=602, 944.02687pt x 
 392.21532pt>
 File: ./my-chapters/my-images/Question7/b_avo_tuongduong.png Graphic file (type
  png)
@@ -2406,7 +2586,7 @@ File: ./my-chapters/my-images/Question7/b_avo_tuongduong.png Graphic file (type
 Package pdftex.def Info: ./my-chapters/my-images/Question7/b_avo_tuongduong.png
   used on input line 158.
 (pdftex.def)             Requested size: 435.32422pt x 180.8641pt.
-<./my-chapters/my-images/Question7/b_av_tuongduong.png, id=520, 975.645pt x 402
+<./my-chapters/my-images/Question7/b_av_tuongduong.png, id=603, 975.645pt x 402
 .00188pt>
 File: ./my-chapters/my-images/Question7/b_av_tuongduong.png Graphic file (type 
 png)
@@ -2421,8 +2601,8 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 165.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[36]
-<./my-chapters/my-images/Question7/b_gv_tuongduong.png, id=526, 976.39781pt x 4
+[44]
+<./my-chapters/my-images/Question7/b_gv_tuongduong.png, id=609, 976.39781pt x 4
 00.49625pt>
 File: ./my-chapters/my-images/Question7/b_gv_tuongduong.png Graphic file (type 
 png)
@@ -2430,7 +2610,7 @@ png)
 Package pdftex.def Info: ./my-chapters/my-images/Question7/b_gv_tuongduong.png 
  used on input line 168.
 (pdftex.def)             Requested size: 435.32422pt x 178.55943pt.
-<./my-chapters/my-images/Question7/b_avo_toanmach.png, id=527, 949.29657pt x 39
+<./my-chapters/my-images/Question7/b_avo_toanmach.png, id=610, 949.29657pt x 39
 4.47375pt>
 File: ./my-chapters/my-images/Question7/b_avo_toanmach.png Graphic file (type p
 ng)
@@ -2445,9 +2625,9 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 175.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[37 <./my-chapters/my-images/Question7/b_avo_tuongduong.png> <./my-chapters/my-
+[45 <./my-chapters/my-images/Question7/b_avo_tuongduong.png> <./my-chapters/my-
 images/Question7/b_av_tuongduong.png>]
-<./my-chapters/my-images/Question7/b_av_toanmach.png, id=537, 971.88094pt x 369
+<./my-chapters/my-images/Question7/b_av_toanmach.png, id=620, 971.88094pt x 369
 .63094pt>
 File: ./my-chapters/my-images/Question7/b_av_toanmach.png Graphic file (type pn
 g)
@@ -2455,7 +2635,7 @@ g)
 Package pdftex.def Info: ./my-chapters/my-images/Question7/b_av_toanmach.png  u
 sed on input line 178.
 (pdftex.def)             Requested size: 435.32422pt x 165.56532pt.
-<./my-chapters/my-images/Question7/b_gv_toanmach.png, id=538, 900.36375pt x 337
+<./my-chapters/my-images/Question7/b_gv_toanmach.png, id=621, 900.36375pt x 337
 .26pt>
 File: ./my-chapters/my-images/Question7/b_gv_toanmach.png Graphic file (type pn
 g)
@@ -2470,21 +2650,52 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 186.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[38 <./my-chapters/my-images/Question7/b_gv_tuongduong.png> <./my-chapters/my-i
+[46 <./my-chapters/my-images/Question7/b_gv_tuongduong.png> <./my-chapters/my-i
 mages/Question7/b_avo_toanmach.png> <./my-chapters/my-images/Question7/b_av_toa
-nmach.png>])
+nmach.png>]
+<./my-chapters/my-images/Question7/c_hinh1.png, id=634, 784.43062pt x 429.10312
+pt>
+File: ./my-chapters/my-images/Question7/c_hinh1.png Graphic file (type png)
+<use ./my-chapters/my-images/Question7/c_hinh1.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question7/c_hinh1.png  used on
+ input line 197.
+(pdftex.def)             Requested size: 386.95897pt x 211.67664pt.
+
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 77.
+ne 201.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[39 <./my-chapters/my-images/Question7/b_gv_toanmach.png>]
+[47 <./my-chapters/my-images/Question7/b_gv_toanmach.png> <./my-chapters/my-ima
+ges/Question7/c_hinh1.png>]
+<./my-chapters/my-images/Question7/c_hinh2.png, id=643, 942.52126pt x 421.575pt
+>
+File: ./my-chapters/my-images/Question7/c_hinh2.png Graphic file (type png)
+<use ./my-chapters/my-images/Question7/c_hinh2.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question7/c_hinh2.png  used on
+ input line 208.
+(pdftex.def)             Requested size: 386.95897pt x 173.07843pt.
+<./my-chapters/my-images/Question7/c_hinh3.png, id=644, 950.80219pt x 410.2828p
+t>
+File: ./my-chapters/my-images/Question7/c_hinh3.png Graphic file (type png)
+<use ./my-chapters/my-images/Question7/c_hinh3.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question7/c_hinh3.png  used on
+ input line 214.
+(pdftex.def)             Requested size: 386.95897pt x 166.97748pt.
+)
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 78.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[48 <./my-chapters/my-images/Question7/c_hinh2.png> <./my-chapters/my-images/Qu
+estion7/c_hinh3.png>]
 \openout2 = `./my-chapters/Question8.aux'.
 
-
-(my-chapters/Question8.tex
-<./my-chapters/my-images/Question8/debai.png, id=556, 676.02562pt x 592.46344pt
+ (my-chapters/Question8.tex
+<./my-chapters/my-images/Question8/debai.png, id=654, 676.02562pt x 592.46344pt
 >
 File: ./my-chapters/my-images/Question8/debai.png Graphic file (type png)
 <use ./my-chapters/my-images/Question8/debai.png>
@@ -2498,12 +2709,12 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 27.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[40
+[49
 
 
 
  <./my-chapters/my-images/Question8/debai.png>]
-<./my-chapters/my-images/Question8/a_dc_phancuc.png, id=564, 1083.29718pt x 486
+<./my-chapters/my-images/Question8/a_dc_phancuc.png, id=661, 1083.29718pt x 486
 .31688pt>
 File: ./my-chapters/my-images/Question8/a_dc_phancuc.png Graphic file (type png
 )
@@ -2511,7 +2722,7 @@ File: ./my-chapters/my-images/Question8/a_dc_phancuc.png Graphic file (type png
 Package pdftex.def Info: ./my-chapters/my-images/Question8/a_dc_phancuc.png  us
 ed on input line 60.
 (pdftex.def)             Requested size: 435.32422pt x 195.4286pt.
-<./my-chapters/my-images/Question8/b_tongquan.png, id=565, 853.68938pt x 424.58
+<./my-chapters/my-images/Question8/b_tongquan.png, id=662, 853.68938pt x 424.58
 624pt>
 File: ./my-chapters/my-images/Question8/b_tongquan.png Graphic file (type png)
 <use ./my-chapters/my-images/Question8/b_tongquan.png>
@@ -2525,8 +2736,8 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 70.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[41 <./my-chapters/my-images/Question8/a_dc_phancuc.png>]
-<./my-chapters/my-images/Question8/b_mohinhtuongduong.png, id=572, 1328.71407pt
+[50 <./my-chapters/my-images/Question8/a_dc_phancuc.png>]
+<./my-chapters/my-images/Question8/b_mohinhtuongduong.png, id=669, 1328.71407pt
  x 408.77719pt>
 File: ./my-chapters/my-images/Question8/b_mohinhtuongduong.png Graphic file (ty
 pe png)
@@ -2541,9 +2752,9 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 112.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[42 <./my-chapters/my-images/Question8/b_tongquan.png> <./my-chapters/my-images
+[51 <./my-chapters/my-images/Question8/b_tongquan.png> <./my-chapters/my-images
 /Question8/b_mohinhtuongduong.png>]
-<./my-chapters/my-images/Question8/b_av_tuongduong.png, id=582, 1166.85938pt x 
+<./my-chapters/my-images/Question8/b_av_tuongduong.png, id=679, 1166.85938pt x 
 423.08063pt>
 File: ./my-chapters/my-images/Question8/b_av_tuongduong.png Graphic file (type 
 png)
@@ -2551,7 +2762,7 @@ png)
 Package pdftex.def Info: ./my-chapters/my-images/Question8/b_av_tuongduong.png 
  used on input line 131.
 (pdftex.def)             Requested size: 435.32422pt x 157.84142pt.
-<./my-chapters/my-images/Question8/b_gv_tuongduong.png, id=583, 1169.87062pt x 
+<./my-chapters/my-images/Question8/b_gv_tuongduong.png, id=680, 1169.87062pt x 
 397.485pt>
 File: ./my-chapters/my-images/Question8/b_gv_tuongduong.png Graphic file (type 
 png)
@@ -2559,7 +2770,7 @@ png)
 Package pdftex.def Info: ./my-chapters/my-images/Question8/b_gv_tuongduong.png 
  used on input line 136.
 (pdftex.def)             Requested size: 435.32422pt x 147.91019pt.
-<./my-chapters/my-images/Question8/b_av_toanmach.png, id=584, 1173.63469pt x 46
+<./my-chapters/my-images/Question8/b_av_toanmach.png, id=681, 1173.63469pt x 46
 5.99094pt>
 File: ./my-chapters/my-images/Question8/b_av_toanmach.png Graphic file (type pn
 g)
@@ -2580,9 +2791,9 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 148.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[43 <./my-chapters/my-images/Question8/b_av_tuongduong.png> <./my-chapters/my-i
+[52 <./my-chapters/my-images/Question8/b_av_tuongduong.png> <./my-chapters/my-i
 mages/Question8/b_gv_tuongduong.png>]
-<./my-chapters/my-images/Question8/c_test.png, id=594, 1211.27531pt x 414.04688
+<./my-chapters/my-images/Question8/c_test.png, id=692, 1211.27531pt x 414.04688
 pt>
 File: ./my-chapters/my-images/Question8/c_test.png Graphic file (type png)
 <use ./my-chapters/my-images/Question8/c_test.png>
@@ -2596,8 +2807,8 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 158.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[44 <./my-chapters/my-images/Question8/b_av_toanmach.png>]
-<./my-chapters/my-images/Question8/d_ketqua1.png, id=602, 1170.62344pt x 569.12
+[53 <./my-chapters/my-images/Question8/b_av_toanmach.png>]
+<./my-chapters/my-images/Question8/d_ketqua1.png, id=700, 1170.62344pt x 569.12
 625pt>
 File: ./my-chapters/my-images/Question8/d_ketqua1.png Graphic file (type png)
 <use ./my-chapters/my-images/Question8/d_ketqua1.png>
@@ -2611,15 +2822,15 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 216.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[45 <./my-chapters/my-images/Question8/c_test.png>]
-<./my-chapters/my-images/Question8/d_ketqua2.png, id=609, 1166.10657pt x 478.03
+[54 <./my-chapters/my-images/Question8/c_test.png>]
+<./my-chapters/my-images/Question8/d_ketqua2.png, id=707, 1166.10657pt x 478.03
 593pt>
 File: ./my-chapters/my-images/Question8/d_ketqua2.png Graphic file (type png)
 <use ./my-chapters/my-images/Question8/d_ketqua2.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question8/d_ketqua2.png  used 
 on input line 222.
 (pdftex.def)             Requested size: 435.32422pt x 178.45337pt.
-<./my-chapters/my-images/Question8/d_ketqua3.png, id=610, 1154.06157pt x 560.84
+<./my-chapters/my-images/Question8/d_ketqua3.png, id=708, 1154.06157pt x 560.84
 53pt>
 File: ./my-chapters/my-images/Question8/d_ketqua3.png Graphic file (type png)
 <use ./my-chapters/my-images/Question8/d_ketqua3.png>
@@ -2631,28 +2842,28 @@ on input line 228.
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 78.
+ne 79.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[46 <./my-chapters/my-images/Question8/d_ketqua1.png> <./my-chapters/my-images/
+[55 <./my-chapters/my-images/Question8/d_ketqua1.png> <./my-chapters/my-images/
 Question8/d_ketqua2.png>]
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 78.
+ne 79.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[47 <./my-chapters/my-images/Question8/d_ketqua3.png>]
+[56 <./my-chapters/my-images/Question8/d_ketqua3.png>]
 \openout2 = `./my-chapters/Question9.aux'.
 
 
 (my-chapters/Question9.tex
-<./my-chapters/my-images/Question9/debai.png, id=627, 794.97pt x 584.1825pt>
+<./my-chapters/my-images/Question9/debai.png, id=724, 794.97pt x 584.1825pt>
 File: ./my-chapters/my-images/Question9/debai.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/debai.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question9/debai.png  used on i
 nput line 7.
 (pdftex.def)             Requested size: 338.58632pt x 248.81355pt.
-<./my-chapters/my-images/Question9/a_sweep_timq.png, id=628, 960.58875pt x 426.
+<./my-chapters/my-images/Question9/a_sweep_timq.png, id=725, 960.58875pt x 426.
 84468pt>
 File: ./my-chapters/my-images/Question9/a_sweep_timq.png Graphic file (type png
 )
@@ -2660,7 +2871,7 @@ File: ./my-chapters/my-images/Question9/a_sweep_timq.png Graphic file (type png
 Package pdftex.def Info: ./my-chapters/my-images/Question9/a_sweep_timq.png  us
 ed on input line 16.
 (pdftex.def)             Requested size: 386.95897pt x 171.94629pt.
-<./my-chapters/my-images/Question9/a_sweep_timq_2.png, id=629, 1042.64531pt x 4
+<./my-chapters/my-images/Question9/a_sweep_timq_2.png, id=726, 1042.64531pt x 4
 29.85594pt>
 File: ./my-chapters/my-images/Question9/a_sweep_timq_2.png Graphic file (type p
 ng)
@@ -2675,7 +2886,7 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 25.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[48
+[57
 
 
 
@@ -2687,8 +2898,8 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 60.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[49 <./my-chapters/my-images/Question9/a_sweep_timq_2.png>]
-<./my-chapters/my-images/Question9/a_diem_q.png, id=651, 1190.94937pt x 467.496
+[58 <./my-chapters/my-images/Question9/a_sweep_timq_2.png>]
+<./my-chapters/my-images/Question9/a_diem_q.png, id=749, 1190.94937pt x 467.496
 57pt>
 File: ./my-chapters/my-images/Question9/a_diem_q.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/a_diem_q.png>
@@ -2702,15 +2913,15 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 104.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[50]
-<./my-chapters/my-images/Question9/b_debai.png, id=658, 843.90282pt x 446.41782
+[59]
+<./my-chapters/my-images/Question9/b_debai.png, id=756, 843.90282pt x 446.41782
 pt>
 File: ./my-chapters/my-images/Question9/b_debai.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/b_debai.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question9/b_debai.png  used on
  input line 111.
 (pdftex.def)             Requested size: 386.95897pt x 204.70074pt.
-<./my-chapters/my-images/Question9/b_sotang.png, id=659, 828.84656pt x 353.0690
+<./my-chapters/my-images/Question9/b_sotang.png, id=757, 828.84656pt x 353.0690
 6pt>
 File: ./my-chapters/my-images/Question9/b_sotang.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/b_sotang.png>
@@ -2724,7 +2935,7 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 119.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[51 <./my-chapters/my-images/Question9/a_diem_q.png> <./my-chapters/my-images/Q
+[60 <./my-chapters/my-images/Question9/a_diem_q.png> <./my-chapters/my-images/Q
 uestion9/b_debai.png>]
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
@@ -2732,21 +2943,21 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 170.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[52 <./my-chapters/my-images/Question9/b_sotang.png>]
-<./my-chapters/my-images/Question9/b_avo.png, id=676, 1095.3422pt x 335.00156pt
+[61 <./my-chapters/my-images/Question9/b_sotang.png>]
+<./my-chapters/my-images/Question9/b_avo.png, id=773, 1095.3422pt x 335.00156pt
 >
 File: ./my-chapters/my-images/Question9/b_avo.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/b_avo.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question9/b_avo.png  used on i
 nput line 186.
 (pdftex.def)             Requested size: 386.95897pt x 118.34619pt.
-<./my-chapters/my-images/Question9/b_av.png, id=677, 1078.0275pt x 355.3275pt>
+<./my-chapters/my-images/Question9/b_av.png, id=774, 1078.0275pt x 355.3275pt>
 File: ./my-chapters/my-images/Question9/b_av.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/b_av.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question9/b_av.png  used on in
 put line 192.
 (pdftex.def)             Requested size: 386.95897pt x 127.54369pt.
-<./my-chapters/my-images/Question9/b_gv.png, id=678, 1001.24063pt x 317.68687pt
+<./my-chapters/my-images/Question9/b_gv.png, id=775, 1001.24063pt x 317.68687pt
 >
 File: ./my-chapters/my-images/Question9/b_gv.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/b_gv.png>
@@ -2760,23 +2971,23 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 201.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[53 <./my-chapters/my-images/Question9/b_avo.png> <./my-chapters/my-images/Ques
+[62 <./my-chapters/my-images/Question9/b_avo.png> <./my-chapters/my-images/Ques
 tion9/b_av.png>]
-<./my-chapters/my-images/Question9/b_avo_toan.png, id=688, 963.6pt x 344.78813p
+<./my-chapters/my-images/Question9/b_avo_toan.png, id=785, 963.6pt x 344.78813p
 t>
 File: ./my-chapters/my-images/Question9/b_avo_toan.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/b_avo_toan.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question9/b_avo_toan.png  used
  on input line 204.
 (pdftex.def)             Requested size: 386.95897pt x 138.45468pt.
-<./my-chapters/my-images/Question9/b_av_toan.png, id=689, 1016.29688pt x 395.22
+<./my-chapters/my-images/Question9/b_av_toan.png, id=786, 1016.29688pt x 395.22
 656pt>
 File: ./my-chapters/my-images/Question9/b_av_toan.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/b_av_toan.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question9/b_av_toan.png  used 
 on input line 210.
 (pdftex.def)             Requested size: 386.95897pt x 150.48315pt.
-<./my-chapters/my-images/Question9/b_gv_toan.png, id=690, 1002.74625pt x 347.04
+<./my-chapters/my-images/Question9/b_gv_toan.png, id=787, 1002.74625pt x 347.04
 657pt>
 File: ./my-chapters/my-images/Question9/b_gv_toan.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/b_gv_toan.png>
@@ -2790,9 +3001,9 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 219.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[54 <./my-chapters/my-images/Question9/b_gv.png> <./my-chapters/my-images/Quest
+[63 <./my-chapters/my-images/Question9/b_gv.png> <./my-chapters/my-images/Quest
 ion9/b_avo_toan.png> <./my-chapters/my-images/Question9/b_av_toan.png>]
-<./my-chapters/my-images/Question9/c_dcloadline.png, id=702, 925.20656pt x 532.
+<./my-chapters/my-images/Question9/c_dcloadline.png, id=799, 925.20656pt x 532.
 23843pt>
 File: ./my-chapters/my-images/Question9/c_dcloadline.png Graphic file (type png
 )
@@ -2800,7 +3011,7 @@ File: ./my-chapters/my-images/Question9/c_dcloadline.png Graphic file (type png
 Package pdftex.def Info: ./my-chapters/my-images/Question9/c_dcloadline.png  us
 ed on input line 225.
 (pdftex.def)             Requested size: 386.95897pt x 222.60466pt.
-<./my-chapters/my-images/Question9/c_1.png, id=703, 986.18437pt x 386.19281pt>
+<./my-chapters/my-images/Question9/c_1.png, id=800, 986.18437pt x 386.19281pt>
 File: ./my-chapters/my-images/Question9/c_1.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/c_1.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question9/c_1.png  used on inp
@@ -2813,15 +3024,15 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 252.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[55 <./my-chapters/my-images/Question9/b_gv_toan.png> <./my-chapters/my-images/
+[64 <./my-chapters/my-images/Question9/b_gv_toan.png> <./my-chapters/my-images/
 Question9/c_dcloadline.png>]
-<./my-chapters/my-images/Question9/c_2.png, id=713, 1102.1175pt x 429.10312pt>
+<./my-chapters/my-images/Question9/c_2.png, id=811, 1102.1175pt x 429.10312pt>
 File: ./my-chapters/my-images/Question9/c_2.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/c_2.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question9/c_2.png  used on inp
 ut line 255.
 (pdftex.def)             Requested size: 386.95897pt x 150.65976pt.
-<./my-chapters/my-images/Question9/d_de.png, id=714, 560.0925pt x 554.07pt>
+<./my-chapters/my-images/Question9/d_de.png, id=812, 560.0925pt x 554.07pt>
 File: ./my-chapters/my-images/Question9/d_de.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/d_de.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question9/d_de.png  used on in
@@ -2834,7 +3045,7 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 269.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[56 <./my-chapters/my-images/Question9/c_1.png> <./my-chapters/my-images/Questi
+[65 <./my-chapters/my-images/Question9/c_1.png> <./my-chapters/my-images/Questi
 on9/c_2.png>]
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
@@ -2842,8 +3053,8 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 289.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[57 <./my-chapters/my-images/Question9/d_de.png>]
-<./my-chapters/my-images/Question9/d_result.png, id=730, 1215.03937pt x 434.372
+[66 <./my-chapters/my-images/Question9/d_de.png>]
+<./my-chapters/my-images/Question9/d_result.png, id=828, 1215.03937pt x 434.372
 82pt>
 File: ./my-chapters/my-images/Question9/d_result.png Graphic file (type png)
 <use ./my-chapters/my-images/Question9/d_result.png>
@@ -2857,26 +3068,26 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 343.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[58])
+[67])
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 79.
+ne 80.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[59 <./my-chapters/my-images/Question9/d_result.png>]
+[68 <./my-chapters/my-images/Question9/d_result.png>]
 \openout2 = `./my-chapters/Question10.aux'.
 
 
 (my-chapters/Question10.tex
-<./my-chapters/my-images/Question10/Debai.png, id=743, 1041.1397pt x 532.99126p
+<./my-chapters/my-images/Question10/Debai.png, id=840, 1041.1397pt x 532.99126p
 t>
 File: ./my-chapters/my-images/Question10/Debai.png Graphic file (type png)
 <use ./my-chapters/my-images/Question10/Debai.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question10/Debai.png  used on 
 input line 7.
 (pdftex.def)             Requested size: 386.95897pt x 198.09828pt.
-<./my-chapters/my-images/Question10/a_tang1.png, id=744, 1119.43219pt x 471.260
+<./my-chapters/my-images/Question10/a_tang1.png, id=841, 1119.43219pt x 471.260
 62pt>
 File: ./my-chapters/my-images/Question10/a_tang1.png Graphic file (type png)
 <use ./my-chapters/my-images/Question10/a_tang1.png>
@@ -2890,13 +3101,13 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 23.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[60
+[69
 
 
 
  <./my-chapters/my-images/Question10/Debai.png> <./my-chapters/my-images/Questi
 on10/a_tang1.png>]
-<./my-chapters/my-images/Question10/a_tang2.png, id=753, 1075.01625pt x 401.249
+<./my-chapters/my-images/Question10/a_tang2.png, id=850, 1075.01625pt x 401.249
 07pt>
 File: ./my-chapters/my-images/Question10/a_tang2.png Graphic file (type png)
 <use ./my-chapters/my-images/Question10/a_tang2.png>
@@ -2910,8 +3121,8 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 81.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[61]
-<./my-chapters/my-images/Question10/a_tang3.png, id=763, 1163.84813pt x 479.541
+[70]
+<./my-chapters/my-images/Question10/a_tang3.png, id=861, 1163.84813pt x 479.541
 56pt>
 File: ./my-chapters/my-images/Question10/a_tang3.png Graphic file (type png)
 <use ./my-chapters/my-images/Question10/a_tang3.png>
@@ -2925,16 +3136,16 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 114.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[62 <./my-chapters/my-images/Question10/a_tang2.png> <./my-chapters/my-images/Q
+[71 <./my-chapters/my-images/Question10/a_tang2.png> <./my-chapters/my-images/Q
 uestion10/a_tang3.png>]
-<./my-chapters/my-images/Question10/a_tang4.png, id=776, 1077.27469pt x 424.586
+<./my-chapters/my-images/Question10/a_tang4.png, id=874, 1077.27469pt x 424.586
 24pt>
 File: ./my-chapters/my-images/Question10/a_tang4.png Graphic file (type png)
 <use ./my-chapters/my-images/Question10/a_tang4.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question10/a_tang4.png  used o
 n input line 145.
 (pdftex.def)             Requested size: 386.95897pt x 152.51404pt.
-<./my-chapters/my-images/Question10/b_de.png, id=777, 946.28531pt x 373.395pt>
+<./my-chapters/my-images/Question10/b_de.png, id=875, 946.28531pt x 373.395pt>
 File: ./my-chapters/my-images/Question10/b_de.png Graphic file (type png)
 <use ./my-chapters/my-images/Question10/b_de.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question10/b_de.png  used on i
@@ -2947,8 +3158,8 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 157.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[63 <./my-chapters/my-images/Question10/a_tang4.png>]
-<./my-chapters/my-images/Question10/b_tang.png, id=785, 1254.18562pt x 264.99pt
+[72 <./my-chapters/my-images/Question10/a_tang4.png>]
+<./my-chapters/my-images/Question10/b_tang.png, id=883, 1254.18562pt x 264.99pt
 >
 File: ./my-chapters/my-images/Question10/b_tang.png Graphic file (type png)
 <use ./my-chapters/my-images/Question10/b_tang.png>
@@ -2962,9 +3173,9 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 189.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[64 <./my-chapters/my-images/Question10/b_de.png> <./my-chapters/my-images/Ques
+[73 <./my-chapters/my-images/Question10/b_de.png> <./my-chapters/my-images/Ques
 tion10/b_tang.png>]
-<./my-chapters/my-images/Question10/b_ketqua_0.png, id=796, 1016.29688pt x 490.
+<./my-chapters/my-images/Question10/b_ketqua_0.png, id=893, 1016.29688pt x 490.
 08093pt>
 File: ./my-chapters/my-images/Question10/b_ketqua_0.png Graphic file (type png)
 
@@ -2972,7 +3183,7 @@ File: ./my-chapters/my-images/Question10/b_ketqua_0.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/Question10/b_ketqua_0.png  use
 d on input line 243.
 (pdftex.def)             Requested size: 386.95897pt x 186.5991pt.
-<./my-chapters/my-images/Question10/b_ketqua_1.png, id=797, 1002.74625pt x 520.
+<./my-chapters/my-images/Question10/b_ketqua_1.png, id=894, 1002.74625pt x 520.
 94624pt>
 File: ./my-chapters/my-images/Question10/b_ketqua_1.png Graphic file (type png)
 
@@ -2987,8 +3198,8 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 250.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[65]
-<./my-chapters/my-images/Question10/b_ketqua_2.png, id=803, 1029.8475pt x 546.5
+[74]
+<./my-chapters/my-images/Question10/b_ketqua_2.png, id=900, 1029.8475pt x 546.5
 4187pt>
 File: ./my-chapters/my-images/Question10/b_ketqua_2.png Graphic file (type png)
 
@@ -2996,7 +3207,7 @@ File: ./my-chapters/my-images/Question10/b_ketqua_2.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/Question10/b_ketqua_2.png  use
 d on input line 253.
 (pdftex.def)             Requested size: 386.95897pt x 205.35298pt.
-<./my-chapters/my-images/Question10/b_ketqua_3.png, id=804, 715.17188pt x 572.1
+<./my-chapters/my-images/Question10/b_ketqua_3.png, id=901, 715.17188pt x 572.1
 375pt>
 File: ./my-chapters/my-images/Question10/b_ketqua_3.png Graphic file (type png)
 
@@ -3011,9 +3222,9 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 260.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[66 <./my-chapters/my-images/Question10/b_ketqua_0.png> <./my-chapters/my-image
+[75 <./my-chapters/my-images/Question10/b_ketqua_0.png> <./my-chapters/my-image
 s/Question10/b_ketqua_1.png>]
-<./my-chapters/my-images/Question10/b_ketqua_4.png, id=814, 810.77907pt x 560.0
+<./my-chapters/my-images/Question10/b_ketqua_4.png, id=911, 810.77907pt x 560.0
 925pt>
 File: ./my-chapters/my-images/Question10/b_ketqua_4.png Graphic file (type png)
 
@@ -3021,7 +3232,7 @@ File: ./my-chapters/my-images/Question10/b_ketqua_4.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/Question10/b_ketqua_4.png  use
 d on input line 263.
 (pdftex.def)             Requested size: 386.95897pt x 267.3201pt.
-<./my-chapters/my-images/Question10/b_ketqua_5.png, id=815, 895.84688pt x 557.0
+<./my-chapters/my-images/Question10/b_ketqua_5.png, id=912, 895.84688pt x 557.0
 8125pt>
 File: ./my-chapters/my-images/Question10/b_ketqua_5.png Graphic file (type png)
 
@@ -3036,7 +3247,7 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 270.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[67 <./my-chapters/my-images/Question10/b_ketqua_2.png> <./my-chapters/my-image
+[76 <./my-chapters/my-images/Question10/b_ketqua_2.png> <./my-chapters/my-image
 s/Question10/b_ketqua_3.png>]
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
@@ -3044,7 +3255,7 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 277.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[68 <./my-chapters/my-images/Question10/b_ketqua_4.png> <./my-chapters/my-image
+[77 <./my-chapters/my-images/Question10/b_ketqua_4.png> <./my-chapters/my-image
 s/Question10/b_ketqua_5.png>]
 
 LaTeX Warning: Command \textrightarrow invalid in math mode on input line 278.
@@ -3052,14 +3263,14 @@ LaTeX Warning: Command \textrightarrow invalid in math mode on input line 278.
 
 LaTeX Warning: Command \textrightarrow invalid in math mode on input line 278.
 
-<./my-chapters/my-images/Question10/c_hinh.png, id=833, 755.82375pt x 472.01344
+<./my-chapters/my-images/Question10/c_hinh.png, id=931, 755.82375pt x 472.01344
 pt>
 File: ./my-chapters/my-images/Question10/c_hinh.png Graphic file (type png)
 <use ./my-chapters/my-images/Question10/c_hinh.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question10/c_hinh.png  used on
  input line 283.
 (pdftex.def)             Requested size: 386.95897pt x 241.65277pt.
-<./my-chapters/my-images/Question10/c_ketqua_0.png, id=834, 1391.95032pt x 551.
+<./my-chapters/my-images/Question10/c_ketqua_0.png, id=932, 1391.95032pt x 551.
 05875pt>
 File: ./my-chapters/my-images/Question10/c_ketqua_0.png Graphic file (type png)
 
@@ -3067,7 +3278,7 @@ File: ./my-chapters/my-images/Question10/c_ketqua_0.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/Question10/c_ketqua_0.png  use
 d on input line 308.
 (pdftex.def)             Requested size: 386.95897pt x 153.19388pt.
-<./my-chapters/my-images/Question10/c_ketqua_1.png, id=835, 1391.95032pt x 546.
+<./my-chapters/my-images/Question10/c_ketqua_1.png, id=933, 1391.95032pt x 546.
 54187pt>
 File: ./my-chapters/my-images/Question10/c_ketqua_1.png Graphic file (type png)
 
@@ -3082,18 +3293,18 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 315.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[69 <./my-chapters/my-images/Question10/c_hinh.png>])
+[78 <./my-chapters/my-images/Question10/c_hinh.png>])
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 80.
+ne 81.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[70 <./my-chapters/my-images/Question10/c_ketqua_0.png> <./my-chapters/my-image
+[79 <./my-chapters/my-images/Question10/c_ketqua_0.png> <./my-chapters/my-image
 s/Question10/c_ketqua_1.png>]
 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20251017151656 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20251018151042 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
 (main.aux (my-chapters/Question4.aux) (my-chapters/Question5.aux)
@@ -3105,13 +3316,13 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 88B1B027A9FE68CE9393136F33A0A773;2482.
+(rerunfilecheck)             Checksum: 4B713820ACD29418517C42A2E6F4C4EA;2488.
  ) 
 Here is how much of TeX's memory you used:
- 33504 strings out of 468134
- 684157 string characters out of 5430740
- 1159718 words of memory out of 5000000
- 61339 multiletter control sequences out of 15000+600000
+ 33654 strings out of 468134
+ 691329 string characters out of 5430740
+ 1159736 words of memory out of 5000000
+ 61466 multiletter control sequences out of 15000+600000
  657858 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,15n,101p,1065b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3135,10 +3346,11 @@ ntex/vnr/vnr17.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vn
 tex/vnr/vnr6.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vnte
 x/vnr/vnr8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
 vnr/vnss12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
-vnr/vnssbx10.pfb>
-Output written on main.pdf (73 pages, 11411293 bytes).
+vnr/vnss8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/v
+nr/vnssbx10.pfb>
+Output written on main.pdf (82 pages, 12404599 bytes).
 PDF statistics:
- 974 PDF objects out of 1000 (max. 8388607)
- 183 named destinations out of 1000 (max. 500000)
- 811 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1079 PDF objects out of 1200 (max. 8388607)
+ 206 named destinations out of 1000 (max. 500000)
+ 901 words of extra memory for PDF output out of 10000 (max. 10000000)
 

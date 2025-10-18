@@ -115,15 +115,15 @@ Kết quả mô phỏng,
 		\item $g_{m1} = \dfrac{I_{C1}}{V_{T}} = 54.824\,\text{mS}$
 	\end{itemize}
 	
-	Tính $R_{in1} = \dfrac{v_{i}}{i_{i}}|_{i_{o} = 0} = R_{th} // (\beta + 1)(r_{e1} + R_{E})$
+	Tính $R_{in1} = \dfrac{v_{i}}{i_{i}}\bigg|_{i_{o} = 0} = R_{th} // (\beta + 1)(r_{e1} + R_{E})$
 	
 	$\Rightarrow R_{in1} = 15.7954\,\text{k}\Omega$
 	
-	Tính $R_{out1} = \dfrac{v_{o}}{i_{o}}|_{v_{i} = 0} = r_{e1} // R_{E}$
+	Tính $R_{out1} = \dfrac{v_{o}}{i_{o}}\bigg|_{v_{i} = 0} = r_{e1} // R_{E}$
 	
 	$\Rightarrow R_{out1} = 17.7358\,\Omega$
 	
-	Tín $A_{vo1} = \dfrac{vo}{vi}|_{R_{L} = \infty} = \dfrac{R_{E}}{R_{E} + r_{e1}}$
+	Tín $A_{vo1} = \dfrac{vo}{vi}\bigg|_{R_{L} = \infty} = \dfrac{R_{E}}{R_{E} + r_{e1}}$
 	
 	$\Rightarrow A_{vo1} = 0.9823\,\text{V/V}$
 	\item Với tầng 2
@@ -139,26 +139,69 @@ Kết quả mô phỏng,
 		\item $g_{m2} = \dfrac{I_{C1}}{V_{T}} = 29.416\,\text{mS}$
 	\end{itemize}
 	
-	Tính $R_{in2} = \dfrac{v_{i}}{i_{i}}|_{i_{o} = 0} = r_{e2}$
+	Tính $R_{in2} = \dfrac{v_{i}}{i_{i}}\bigg|_{i_{o} = 0} = r_{e2}$
 	
 	$\Rightarrow R_{in2} = 33.6585\,\Omega$
 	
-	Tính $R_{out2} = \dfrac{v_{o}}{i_{o}}|_{v_{i} = 0} = R_{C}$
+	Tính $R_{out2} = \dfrac{v_{o}}{i_{o}}\bigg|_{v_{i} = 0} = R_{C}$
 	
 	$\Rightarrow R_{out2} = 4\,\text{k}\Omega$
 	
-	Tín $A_{vo2} = \dfrac{vo}{vi}|_{R_{L} = \infty} = -g_{m2} R_{C}$
+	Tín $A_{vo2} = \dfrac{vo}{vi}\bigg|_{R_{L} = \infty} = g_{m2} R_{C}$
 	
 	$\Rightarrow A_{vo2} = 117.664\,\text{V/V}$
 \end{itemize}
 
-Lựa chọn $C_{1}$ và $C_{2}$ để $f_{L} = 200\,\text{Hz}$
+Sau khi tính các giá trị của các tầng, ta có mô hình tổng quát như sau
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-diagrams/Question5/c_tonghopmach.png}
+\end{figure}
 
 \begin{itemize}[label=-]
-	\item $f_{C_{1}} = \dfrac{1}{2\pi \omega_{1} C_{1	} (R_{in1} + R_{s})} = 200\textsf{Hz}$
+	\item Xét tụ $C_{1}$:
+	\[ \tau_1 = C_{1} \left( R_{s} + R_{in1} \right) \Rightarrow f_{1} = \dfrac{1}{2\pi \tau_1} \]
+	\[ \Rightarrow C_{1} = \dfrac{1}{2\pi f_{1} \left( R_{s} + R_{in1} \right)} \]
 	
-	$\Rightarrow C_{1} = $
+	\item Xét tụ $C_{2}$:
+	\[ \tau_{2} = C_{2} \left( R_{out2} + R_{L}\right) \Rightarrow f_{2} = \dfrac{1}{2\pi \tau_{2}}\]
+	\[ \Rightarrow C_{2} = \dfrac{1}{2\pi f_{2} \left( R_{out2} + R_{L}\right)}\]
 \end{itemize}
+
+Chọn $f_{1} = 200\,\textsf{Hz} = f_{L}$, và cho $f_{2} = \dfrac{f_{1}}{10} = 20\,\textsf{Hz}$
+
+$\Rightarrow$ \finalresult{C_{1} \approx 50.0632 n\,\textsf{F}}.
+
+$\Rightarrow$ \finalresult{C_{2} \approx 1.9409 \,\mu\textsf{F}}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/c_do_bode_socap.png}
+	\caption{Ta thấy tại điểm cắt $-3dB$ ta có $f_{L} \approx 624.212\,\textsf{Hz}$.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/c_sweep.png}
+	\caption{Tiến hành sweep giá trị $C1$ để tìm điểm hợp lý.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/c_sweep_c.png}
+	\caption{Chọn điểm $-3dB$ so với giá trị $G_{v}$ của mạch.}
+\end{figure}
+
+Từ ảnh trên ta chọn được \finalresult{C_{1} \approx 162.46 \,\textsf{nF}}.
+
+Tiến hành chạy lại để kiểm tra kết quả cuối cùng
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/c_final.png}
+	\caption{Sau khi thay đổi $C_{1}$ ta có $f_{L} = 200\,\textsf{Hz}$.}
+\end{figure}
 
 \answer{d}{ Đặt vào mạch tín hiệu xoay chiều có biên độ $5\,\text{mV}$ và tần số $10$KHz.  Sử dụng phần mềm mô phỏng, cho biết tín hiệu tại $V_{o1}$ và $V_{o2}$. Giải thích}
 
@@ -173,3 +216,57 @@ Lựa chọn $C_{1}$ và $C_{2}$ để $f_{L} = 200\,\text{Hz}$
 	\item $G_{v} = \dfrac{R_{s}}{R_{s} + R_{in1}}A_{v} = 1.8346\,\text{V/V} \approx 5.2708dB$
 \end{itemize}
 
+\begin{itemize}[label=-]
+	\item Tầng 1
+	\begin{figure}[H]
+		\centering
+		\begin{minipage}{.4\linewidth}
+			\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/c_vo1.png}
+		\end{minipage}
+		\caption{Kết quả khi đo dạng sóng ngỡ ra ở $v_{o1}$.}
+	\end{figure}
+	
+	Vì với $A_{vo1} = 0.9823\,\text{V/V}$ nên tín hiệu ngõ ra có suy giảm một lượng nhỏ so với tín hiệu ngõ vào.
+	\item Tầng 2
+	\begin{figure}[H]
+		\centering
+		\begin{minipage}{.4\linewidth}
+			\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/c_vo2.png}
+		\end{minipage}
+		\caption{Kết quả khi đo dạng sóng ngỡ ra ở $v_{o2}$.}
+	\end{figure}
+	
+	Vì tới $A_{vo2} = 117.664\,\text{V/V}$ nên tín hiệu ngõ ra ở $v_{o2}$ rất lớn hơn so với tín hiệu ngõ vào.
+\end{itemize}
+
+Toàn mạch
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{.4\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/d_A_Vo.png}
+	\end{minipage}
+	\begin{minipage}{.4\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/d_A_vo_ketqua.png}
+	\end{minipage}
+	\caption{Kết quả khi đo $A_{vo}$ cho toàn mạch.}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{.4\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/d_A_V.png}
+	\end{minipage}
+	\begin{minipage}{.4\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/d_a_v_ketqua.png}
+	\end{minipage}
+	\caption{Kết quả khi đo $A_{v}$ cho toàn mạch.}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{.4\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/d_G_V.png}
+	\end{minipage}
+	\begin{minipage}{.4\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/d_gv_ketqua.png}
+	\end{minipage}
+	\caption{Kết quả khi đo $G_{v}$ cho toàn mạch.}
+\end{figure}
