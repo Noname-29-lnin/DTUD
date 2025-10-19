@@ -27,6 +27,25 @@ Sử dụng chế độ DC Sweep trong Multisim để khảo sát VTC,
 	\caption{VTC của mạch với ngõ vào $V_{i}$ và ngõ ra là $V_{o}$.}
 \end{figure}
 
+\begin{minipage}{0.4\linewidth}
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/a_cutoff.png}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+	\begin{itemize}[label=-]
+		\item Với $V_{i} < 0.9775\,\textsf{V}$ thì mạch bị rơi vào miền cut off, lúc này ngõ ra của mạch luôn bằng $V_{EE} = -5\,\textsf{V}$.
+		
+		\item Với $0.9775 < V_{i} < 1.1675\,\textsf{V}$ thì mạch trong miền khuếch đại, với độ dốc lớn.
+	\end{itemize}
+\end{minipage}
+
+\begin{minipage}{0.4\linewidth}
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question5/a_linear.png}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+	\begin{itemize}[label=-]
+		\item Với $V_{i} > 1.1675\,\textsf{V}$ thì mạch trong miền bão hòa.
+	\end{itemize}
+\end{minipage}
 \answer{b}{Lựa chọn điểm phân cực của cả mạch trên VTC và thiết kế mạch ghép vào phía trước VTC để có được điểm phân cực đó.}
 
 Quan sát VTC của mạch, để tín hiệu ngõ ra không bị méo dạng thì ta chọn điểm $Q$ với $V_{i} = 1.0998\,\text{V}$.

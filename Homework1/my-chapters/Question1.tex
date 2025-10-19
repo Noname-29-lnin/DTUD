@@ -18,6 +18,8 @@ Cho mạch khuếch đại tín hiệu như hình vẽ. Các tụ $C_{1}$, $C_{2
 
 \answer{a1}{Vẽ VTC của mạch và tìm hiểu điểm hoạt động $Q$ của FET.}
 
+\noindent Vẽ VTC của mạch
+
 \begin{itemize}[label=-]
 	\item $v_{GS}<V_{TN}=1.2\,\textsf{V}$: MOSFET hoạt động ở trạng thái \textbf{cut-off}  
 	\[
@@ -51,25 +53,76 @@ Cho mạch khuếch đại tín hiệu như hình vẽ. Các tụ $C_{1}$, $C_{2
 	\[
 	\Rightarrow v_{GS}=2.22\,\textsf{V}
 	\]
+	\[
+	\Rightarrow i_{D}=0.13\,\textsf{mA}
+	\]
+	
+	\item \textbf{Điểm chuyển:}  
+	\[
+	V_{i}=V_{GS}+V_{S}=V_{GS}+I_{D}R_{S}=6.51\,\textsf{V}
+	\]
 \end{itemize}
 
-Tìm điểm hoạt động Q:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/a1_VTC.png}
+	\caption{VTC của mạch ở hình 1.}
+\end{figure}
+
+\noindent Tìm điểm hoạt động Q:
+
+%\[
+%V_{G}=V_{DD} \frac{R_{1}}{R_{1}+R_{2}}=16\times\frac{500}{500+1400}=4.21\,\textsf{V}
+%\]
+%\[
+%V_{DS}=V_{DD}-\left(R_{D}+R_{S}\right)\times\frac{1}{2}\times K_{n}\left(V_{GS}-V_{TN}\right)^{2}
+%\]
+%\[
+%V_{S}=I_{D}  R_{S}
+%\]
+%\[
+%\begin{aligned}
+%	\Rightarrow\; V_{GS} &= V_{DD}\,\frac{R_{1}}{R_{1}+R_{2}}
+%	- \frac{1}{2} K_{n} (V_{GS}-V_{TN})^{2} R_{S} \\[6pt]
+%	&= 16\,\frac{500}{500+1400}
+%	- \frac{1}{2}\times 0.25 \times 33 \times (V_{GS}-1.2)^{2} \\[6pt]
+%	&= 1.94\,\textsf{V}
+%\end{aligned}
+%\]
+%
+%\[
+%V_{DS}=V_{DD}-\left(R_{D}+R_{S}\right)\times\frac{1}{2}\times K_{n}\left(V_{GS}-V_{TN}\right)^{2}
+%\]
+%\[
+%\Rightarrow V_{DS}=16-115\times0.5\times0.25\times\left(1.94-1.2\right)=8.13\,\textsf{V}
+%\]
+%\[
+%I_{DQ}=\frac{1}{2}K_{n}\left(V_{GS}-V_{TN}\right)^{2}
+%\]
+%\[
+%\Rightarrow I_{DQ}=\frac{1}{2}\times0.25\times\left(1.94-1.2\right)^{2}=0.068\,\textsf{mA}
+%\]
+%
+%Vậy điểm làm việc $Q$ là: \finalresult{\left(I_{DQ},V_{DS}\right)=\left(0.068\,\textsf{mA},\,8.13\,\textsf{V}\right)}.
 
 \[
-V_{G}=V_{DD} \frac{R_{1}}{R_{1}+R_{2}}=16\times\frac{500}{500+1400}=4.21\,\textsf{V}
+V_{G}=V_{DD}\,\frac{R_{1}}{R_{1}+R_{2}}=16\times\frac{500}{500+1400}=4.21\,\textsf{V}
 \]
+
 \[
 V_{DS}=V_{DD}-\left(R_{D}+R_{S}\right)\times\frac{1}{2}\times K_{n}\left(V_{GS}-V_{TN}\right)^{2}
 \]
+
 \[
-V_{S}=I_{D}  R_{S}
+V_{S}=I_{D}R_{S}
 \]
+
 \[
 \begin{aligned}
 	\Rightarrow\; V_{GS} &= V_{DD}\,\frac{R_{1}}{R_{1}+R_{2}}
-	- \frac{1}{2} K_{n} (V_{GS}-V_{TN})^{2} R_{S} \\[6pt]
+	- \frac{1}{2}K_{n}(V_{GS}-V_{TN})^{2}R_{S} \\[6pt]
 	&= 16\,\frac{500}{500+1400}
-	- \frac{1}{2}\times 0.25 \times 33 \times (V_{GS}-1.2)^{2} \\[6pt]
+	- \frac{1}{2}\times0.25\times33\times(V_{GS}-1.2)^{2} \\[6pt]
 	&= 1.94\,\textsf{V}
 \end{aligned}
 \]
@@ -78,17 +131,24 @@ V_{S}=I_{D}  R_{S}
 V_{DS}=V_{DD}-\left(R_{D}+R_{S}\right)\times\frac{1}{2}\times K_{n}\left(V_{GS}-V_{TN}\right)^{2}
 \]
 \[
-\Rightarrow V_{DS}=16-115\times0.5\times0.25\times\left(1.94-1.2\right)=8.13\,\textsf{V}
+\Rightarrow V_{DS}=16-115\times0.5\times0.25\times(1.94-1.2)^{2}=8.13\,\textsf{V}
 \]
+
 \[
 I_{DQ}=\frac{1}{2}K_{n}\left(V_{GS}-V_{TN}\right)^{2}
 \]
 \[
-\Rightarrow I_{DQ}=\frac{1}{2}\times0.25\times\left(1.94-1.2\right)^{2}=0.068\,\textsf{mA}
+\Rightarrow I_{DQ}=\frac{1}{2}\times0.25\times(1.94-1.2)^{2}=0.068\,\textsf{mA}
 \]
 
 Vậy điểm làm việc $Q$ là: \finalresult{\left(I_{DQ},V_{DS}\right)=\left(0.068\,\textsf{mA},\,8.13\,\textsf{V}\right)}.
 
+Kiểm chứng kết quả
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/Câu 1 Hình 1 a - Điểm Q.png}
+\end{figure}
 
 \answer{b1}{Đặt $v_{1} = V_{m} \sin \left( \omega t\right)$ vào mạch. Tìm $A_{vo}$, $G_v$, $R_i$, $R_o$ của mạch.}
 
@@ -117,6 +177,25 @@ G_{v}=A_{vo}\times\frac{R_{L}}{R_{o}+R_{L}}\times\frac{R_{i}}{R_{o}+R_{i}}=-15.0
 \]
 $\Rightarrow$ \finalresult{G_{v}= -12.81\,\textsf{V/V}}.
 
+Kiểm tra kết quả
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/Câu 1 Hình 1 b - Sóng.png}
+	\caption{Dạng sóng ngõ vào và ngõ ra của mạch.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/Câu 1 Hình 1 b - Av.png}
+	\caption{Đo $A_{v} = 22.242\,dB \approx 12.9449$.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/Câu 1 Hình 1 b - Gv.png}
+	\caption{Đo $G_{v} = 22.219\, dB \approx 12.9107$.}
+\end{figure}
 \answer{c1}{Tìm biên độ lớn nhất của $V_{m}$ để sóng ngõ ra không méo dạng.}
 Từ VTC, ta nhận thấy:
 \[
@@ -166,11 +245,23 @@ C_{3}=\frac{1}{2\pi\times10\times\left(33\,\textsf{k}\,||\,\frac{1}{0.184\,\text
 
 $\Rightarrow$ \finalresult{C_{1} = 4.31\,\textsf{nF}} and \finalresult{C_{2} = 28.8\,\textsf{nF}} and \finalresult{C_{3} = 3.41\,\mu\textsf{F}}.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/Câu 1 Hình 1 d.jpg}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/Câu 1 Hình 1 d - AC sweep.jpg}
+\end{figure}
+
 \begin{center}
 	\textbf{Ở hình 2}
 \end{center}
 
 \answer{a2}{Vẽ VTC của mạch và tìm điểm hoạt động $Q$ của FET.}
+
+\noindent Vẽ VTC của mạch
 
 \begin{itemize}[label=-]
 	\item $v_{GS}<V_{TP}$: MOSFET hoạt động ở trạng thái \textbf{cut-off}
@@ -207,7 +298,13 @@ $\Rightarrow$ \finalresult{C_{1} = 4.31\,\textsf{nF}} and \finalresult{C_{2} = 2
 	\]
 \end{itemize}
 
-\textbf{Tìm điểm hoạt động Q:}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/Câu 1 Hình 2 a - VTC.png}
+	\caption{VTC của mạch ở hình 2.}
+\end{figure}
+
+\noindent{Tìm điểm hoạt động Q:}
 \[
 V_{G}=V_{DD}\times\frac{R_{1}}{R_{1}+R_{2}}=20\times\frac{2.2\,\textsf{M}}{2.2\,\textsf{M}+2.2\,\textsf{M}}=10\,\textsf{V}
 \]
@@ -241,6 +338,13 @@ I_{DQ}=\frac{1}{2}K_{p}\left(V_{GS}-V_{TP}\right)^{2}
 
 $\Rightarrow$ \finalresult{\left(I_{DQ},V_{DS}\right)=\left(0.328\,\textsf{mA},\,-6.87\,\textsf{V}\right)}.
 
+Kiểm tra kết quả
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/Câu 1 Hình 2 a - Điểm Q.png}
+\end{figure}
+
 \answer{b2}{Tính $A_{vo}$, $G_{v}$, $R_{i}$, $R_{o}$ của mạch.}
 
 \[
@@ -267,6 +371,26 @@ G_{v}=A_{vo}\times\frac{R_{L}}{R_{o}+R_{L}}\times\frac{R_{i}}{R_{sig}+R_{i}}=-9.
 \]
 $\Rightarrow$ \finalresult{G_{v}=-8.87\,\textsf{V/V}}.
 
+Kiểm tra kết quả
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/Câu 1 Hình 2 b - Sóng.png}
+	\caption{Dạng sóng ngõ vào và ngõ ra của mạch.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/Câu 1 Hình 2 b - Av.png}
+	\caption{Đo $A_{v} = 18.971\, dB \approx 8.8828$.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/Câu 1 Hình 2 b - Gv.png}
+	\caption{Đo $G_{v} = 18.963\,dB \approx 8.8746$.}
+\end{figure}
+
 \answer{c2}{Tìm biên độ lớn nhất của $V_{m}$ để sóng ngõ ra không méo dạng.}
 
 Từ VTC, ta nhận thấy:
@@ -275,8 +399,6 @@ Từ VTC, ta nhận thấy:
 \Rightarrow {a_{v_{gs}}}_{\text{Max}}=\frac{{a_{v_{ds}}}_{\text{Max}}}{\left|A_{v}\right|}=\frac{5.36}{8.88}=0.603\,\textsf{V}
 \]
 $\Rightarrow$ \finalresult{{a_{v_{gs}}}_{\text{Max}}=0.603\,\textsf{V}}.
-
----
 
 \answer{d2}{Lựa chọn các tụ $C_{1}$, $C_{2}$, $C_{3}$ để mạch có $f_{L}=100\,\textsf{Hz}$.}
 
@@ -319,3 +441,10 @@ C_{3}=\frac{1}{2\pi\times10\times\left(22\,\textsf{k}\,//\,\frac{1}{0.512\,\text
 \]
 
 $\Rightarrow$ \finalresult{C_{1}=1.44\,\textsf{nF}}, \finalresult{C_{2}=32.6\,\textsf{nF}}, \finalresult{C_{3}=8.87\,\mu\textsf{F}}.
+
+Kiểm tra kết quả
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/Câu 1 Hình 2 d.png}
+\end{figure}

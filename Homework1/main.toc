@@ -1,14 +1,50 @@
 \babel@toc {vietnamese}{}\relax 
 \contentsline {section}{Câu 1}{1}{Doc-Start}%
 \contentsline {subsection}{a1)}{1}{figure.caption.1}%
-\contentsline {subsection}{b1)}{3}{figure.caption.1}%
-\contentsline {subsection}{c1)}{3}{figure.caption.1}%
-\contentsline {subsection}{d1)}{4}{figure.caption.1}%
-\contentsline {subsection}{a2)}{5}{figure.caption.1}%
-\contentsline {subsection}{b2)}{6}{figure.caption.1}%
-\contentsline {subsection}{c2)}{7}{figure.caption.1}%
-\contentsline {subsection}{d2)}{7}{figure.caption.1}%
-\contentsline {section}{Câu 2}{9}{figure.caption.1}%
-\contentsline {subsection}{a)}{9}{figure.caption.2}%
-\contentsline {subsection}{b)}{10}{figure.caption.2}%
-\contentsline {subsection}{c)}{11}{figure.caption.2}%
+\contentsline {subsection}{b1)}{4}{figure.caption.3}%
+\contentsline {subsection}{c1)}{6}{figure.caption.6}%
+\contentsline {subsection}{d1)}{7}{figure.caption.6}%
+\contentsline {subsection}{a2)}{8}{figure.caption.8}%
+\contentsline {subsection}{b2)}{11}{figure.caption.10}%
+\contentsline {subsection}{c2)}{13}{figure.caption.13}%
+\contentsline {subsection}{d2)}{13}{figure.caption.13}%
+\contentsline {section}{Câu 2}{15}{figure.caption.14}%
+\contentsline {subsection}{a)}{15}{figure.caption.15}%
+\contentsline {subsection}{b)}{17}{figure.caption.16}%
+\contentsline {subsection}{c)}{20}{figure.caption.19}%
+\contentsline {section}{Câu 3}{22}{figure.caption.20}%
+\contentsline {subsection}{a)}{22}{figure.caption.21}%
+\contentsline {subsection}{b)}{25}{figure.caption.25}%
+\contentsline {subsection}{c)}{28}{figure.caption.28}%
+\contentsline {subsection}{d)}{29}{figure.caption.29}%
+\contentsline {section}{Câu 4}{31}{figure.caption.30}%
+\contentsline {subsection}{a)}{31}{figure.caption.31}%
+\contentsline {subsection}{b)}{34}{figure.caption.35}%
+\contentsline {subsection}{c)}{39}{figure.caption.40}%
+\contentsline {section}{Câu 5}{43}{figure.caption.45}%
+\contentsline {subsection}{a)}{43}{figure.caption.46}%
+\contentsline {subsection}{b)}{44}{figure.caption.48}%
+\contentsline {subsection}{c)}{47}{figure.caption.52}%
+\contentsline {subsection}{d)}{52}{figure.caption.60}%
+\contentsline {section}{Câu 6}{56}{figure.caption.66}%
+\contentsline {subsection}{a)}{56}{figure.caption.67}%
+\contentsline {subsection}{b)}{59}{figure.caption.68}%
+\contentsline {subsection}{c)}{64}{figure.caption.76}%
+\contentsline {section}{Câu 7}{69}{figure.caption.80}%
+\contentsline {subsection}{a)}{70}{figure.caption.81}%
+\contentsline {subsection}{b)}{71}{figure.caption.84}%
+\contentsline {subsection}{c)}{77}{figure.caption.93}%
+\contentsline {section}{Câu 8}{79}{figure.caption.96}%
+\contentsline {subsection}{a)}{79}{figure.caption.97}%
+\contentsline {subsection}{b)}{80}{figure.caption.98}%
+\contentsline {subsection}{c)}{84}{figure.caption.104}%
+\contentsline {subsection}{d)}{84}{figure.caption.105}%
+\contentsline {section}{Câu 9}{87}{figure.caption.108}%
+\contentsline {subsection}{a)}{87}{figure.caption.109}%
+\contentsline {subsection}{b)}{90}{figure.caption.119}%
+\contentsline {subsection}{c)}{94}{figure.caption.127}%
+\contentsline {subsection}{d)}{96}{figure.caption.130}%
+\contentsline {section}{Câu 10}{99}{figure.caption.132}%
+\contentsline {subsection}{a)}{99}{figure.caption.133}%
+\contentsline {subsection}{b)}{103}{figure.caption.145}%
+\contentsline {subsection}{c)}{108}{figure.caption.153}%

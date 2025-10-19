@@ -103,10 +103,10 @@ R_o = R_E // r_e // r_o
 $\Rightarrow$ \finalresult{R_{o} = 1.65\,\Omega}.
 
 \[
-G_v = \frac{R_{in}}{R_{in} + R_{sig}} \bullet 
-\frac{R_L}{R_L + R_o} \bullet A_{vo} 
-= \frac{4.52}{4.52 + 1} \bullet 
-\frac{300}{300 + 1.65} \bullet 0.997 
+G_v = \frac{R_{in}}{R_{in} + R_{sig}} \times 
+\frac{R_L}{R_L + R_o} \times A_{vo} 
+= \frac{4.52}{4.52 + 1} \times 
+\frac{300}{300 + 1.65} \times 0.997 
 = 0.81\ V/V
 \]
 $\Rightarrow$ \finalresult{G_{v} = 0.81\,\textsf{V/V}}.
@@ -132,4 +132,73 @@ Kiểm tra kết quả
 	\caption{Tiến hành đo $G_{vo}\ =\ -2.035dB\ \approx\ 0.81\,\textsf{V/V}$.}
 \end{figure}
 
+\answer{c}{Tìm biên độ lớn nhất của $V_{m}$ để vs là tín hiệu nhỏ.}
+
+Giả sử $V_{BE(on)}=0.7\,\textsf{V}$ và $V_{CE(sat)}=0.2\,\textsf{V}$. 
+
+\textbf{Điểm chuyển từ Cut-off $\rightarrow$ Active của BJT:}
+\[
+V_{E}=V_{-}=-9\,\textsf{V} \;\Rightarrow\; V_{BE}=V_{BE(on)}=0.7\,\textsf{V}
+\]
+\[
+\Rightarrow\; V_{i}=V_{E}+V_{BE(on)}=-9+0.7=-8.3\,\textsf{V}
+\]
+
+\textbf{Điểm chuyển từ Active $\rightarrow$ Saturation của BJT:}
+
+$\text{BJT hoạt động trong vùng khuếch đại (active): } V_{BE}\approx0.7\,\textsf{V},\; V_{CE}>V_{CE(sat)}$
+
+$\text{BJT đi vào vùng bão hòa khi: } V_{CE}=V_{CE(sat)}=0.2\,\textsf{V}$
+\[
+\Rightarrow\; V_{E}=V_{C}+V_{CE(sat)}=9-\left(-9\right)+0.2=18.2\,\textsf{V}
+\]
+\[
+V_{i}=V_{E}+V_{BE(on)}=18.2+0.7=18.9\,\textsf{V}
+\]
+
+Kiểm tra kết quả
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question3/c_ketqua.png}
+\end{figure}
+
+\answer{d}{Lựa chọn các tụ $C_{C1}$, $C_{C2}$ để mạch có $f_{L}=100Hz$.}
+
+\begin{itemize}[label=-, leftmargin=2cm]
+	\item \textbf{Xét ảnh hưởng của tụ \( C_1 \):}
+	\[
+	R_{C_1} = R_{in}
+	\quad \Longrightarrow \quad
+	\omega_{p_1} = \frac{1}{C_1 R_{in}}
+	\]
+	
+	\item \textbf{Xét ảnh hưởng của tụ \( C_2 \):}
+	\[
+	R_{C_2} = R_E // R_L
+	\quad \Longrightarrow \quad
+	\omega_{p_2} = \frac{1}{C_2 (R_E // R_L)}
+	\]
+	
+	\item Theo phương pháp cực tần số trội (\emph{dominant pole}), chọn \( C_1 \) tạo cực trội ở 
+	\( f_{C_1} = 100\,\text{Hz} \), 
+	và \( C_2 \) tạo cực ở \( f_{C_2} = 10\,\text{Hz} \).  
+	Tần số cắt của mạch:
+	\[
+	f_L = \sqrt{f_{C_1}^2 + f_{C_2}^2}
+	\]
+	
+	\item \textbf{Lựa chọn các tụ \( C_1, C_2 \):}
+	
+	$\Rightarrow$ \finalresult{C_1 = \frac{1}{2\pi \times 100 \times (4.52k)} = 0.35\,\mu F}.
+	
+	$\Rightarrow$ \finalresult{C_2 = \frac{1}{2\pi \times 10 \times (500 // 300)} = 84.88\,\mu F}.
+\end{itemize}
+
+Kiểm tra kết quả
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question3/d_ketqua.png}
+\end{figure}
 
