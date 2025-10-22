@@ -197,11 +197,18 @@ Kiểm tra kết quả
 	\caption{Đo $G_{v} = 22.219\, dB \approx 12.9107$.}
 \end{figure}
 \answer{c1}{Tìm biên độ lớn nhất của $V_{m}$ để sóng ngõ ra không méo dạng.}
-Từ VTC, ta nhận thấy:
-\[
-{a_{v_{ds}}}_{\text{Max}}=8.13-1.02=7.11\,\textsf{V}
-\Rightarrow {a_{v_{gs}}}_{\text{Max}}=\frac{{a_{v_{ds}}}_{\text{Max}}}{\left|A_{v}\right|}=\frac{7.11}{12.85}=0.55\,\textsf{V}
-\]
+%Từ VTC, ta nhận thấy:
+%\[
+%{a_{v_{ds}}}_{\text{Max}}=8.13-1.02=7.11\,\textsf{V}
+%\Rightarrow {a_{v_{gs}}}_{\text{Max}}=\frac{{a_{v_{ds}}}_{\text{Max}}}{\left|A_{v}\right|}=\frac{7.11}{12.85}=0.55\,\textsf{V}
+%\]
+
+Xét điểm $Q$ là: $\left( I_{DQ}\textsf{, } V_{DS}\right) = \left( 0.068\,\textsf{A, } 8.13\,\textsf{V}\right)$
+\[ V_{DS} = V_{DD} - \left( R_{D} + R_{S} \right) I_{DQ}\]
+\[ \Rightarrow V_{DS} = 16 - 115\,\textsf{k}\times I_{DQ}\]
+\[ \tan (\alpha) = \dfrac{1}{R_{D} // R_{3}} = \dfrac{1}{70\,\textsf{k}}\]
+\[ \Rightarrow V_{o_{max}} = \dfrac{I_{DQ}}{\tan(\alpha)} = 4.76\,\textsf{V}\]
+$\Rightarrow$ \finalresult{V_{sig_{max}} = \dfrac{V_{o_{max}}}{G_{v}\bigg|_{f=776\,\textsf{Hz}} = 0.37\,\textsf{V}}}.
 
 \begin{figure}[H]
 	\centering
@@ -213,7 +220,6 @@ Từ VTC, ta nhận thấy:
 	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/c_2.jpg}
 	\caption{Ngõ ra bị méo dạng.}
 \end{figure}
-
 
 \answer{d1}{Lựa chọn các tụ $C_{1}$, $C_{2}$ và $C_{3}$ để mạch có $f_{L}=100\,\textsf{Hz}$.}
 
@@ -368,7 +374,7 @@ R_{o}=R_{D}=18\,\textsf{k}\Omega
 \]
 $\Rightarrow$ \finalresult{R_{o}=18\,\textsf{k}\Omega}.
 \[
-g_{m}=\frac{2I_{DQ}}{\left|V_{GSQ}-V_{TP}\right|}=0.512\,\textsf{mS}
+g_{m}=\frac{2I_{DQ}}{\left|V_{GSQ}-V_{TP}\right|}=0.512\,\textsf{S}
 \]
 \[
 A_{vo}=-g_{m}R_{D}=-9.22\,\textsf{V/V}
@@ -405,12 +411,19 @@ Kiểm tra kết quả
 
 \answer{c2}{Tìm biên độ lớn nhất của $V_{m}$ để sóng ngõ ra không méo dạng.}
 
-Từ VTC, ta nhận thấy:
-\[
-{a_{v_{ds}}}_{\text{Max}}=5.36\,\textsf{V}
-\Rightarrow {a_{v_{gs}}}_{\text{Max}}=\frac{{a_{v_{ds}}}_{\text{Max}}}{\left|A_{v}\right|}=\frac{5.36}{8.88}=0.603\,\textsf{V}
-\]
-$\Rightarrow$ \finalresult{{a_{v_{gs}}}_{\text{Max}}=0.603\,\textsf{V}}.
+%Từ VTC, ta nhận thấy:
+%\[
+%{a_{v_{ds}}}_{\text{Max}}=5.36\,\textsf{V}
+%\Rightarrow {a_{v_{gs}}}_{\text{Max}}=\frac{{a_{v_{ds}}}_{\text{Max}}}{\left|A_{v}\right|}=\frac{5.36}{8.88}=0.603\,\textsf{V}
+%\]
+%$\Rightarrow$ \finalresult{{a_{v_{gs}}}_{\text{Max}}=0.603\,\textsf{V}}.
+Xét điểm $Q$ là: $\left( I_{DQ}\textsf{, } V_{DS}\right) = \left( 0.328\,\textsf{mA, } -6.87\,\textsf{V}\right)$
+\[ V_{DS} = V_{DD} - \left( R_{D} + R_{S} \right) I_{DQ}\]
+\[ \Rightarrow V_{DS} = 20 - 40\,\textsf{k}\times I_{DQ}\]
+\[ \tan (\alpha) = \dfrac{1}{R_{D} // R_{3}} = \dfrac{1}{17\,\textsf{k}}\]
+\[ \Rightarrow V_{o_{max}} = \dfrac{I_{DQ}}{\tan(\alpha)} = 5.576\,\textsf{V}\]
+$\Rightarrow$ \finalresult{V_{sig_{max}} = \dfrac{V_{o_{max}}}{G_{v}\bigg|_{f=500\,\textsf{Hz}}} = 0.63\,\textsf{V}}.
+
 
 \begin{figure}[H]
 	\centering
