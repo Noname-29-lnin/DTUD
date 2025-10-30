@@ -64,11 +64,67 @@ Ta xét,
 %	\item \textbf{Slew rate (SR):} thể hiện đáp ứng thay đổi của ngõ ra có thể thay đổi 
 \end{itemize}
 
-Từ đó, nhóm em chọn OPAMP: \href{https://www.ti.com/lit/ds/symlink/opa277.pdf?ts=1761750470596&ref_url=https%253A%252F%252Fwww.mouser.com%252F}{\textbf{OPA277U}}.
+Từ đó, nhóm em chọn OPAMP: \href{https://www.alldatasheet.com/datasheet-pdf/view/49035/AD/OP177AZ.html}{\textbf{OP177}}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question6/V_os_opa277u.pdf}
-	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question6/I_os_I_ib_opa277u.pdf}
-	\caption{Electrical Characteristics for OPA227U.}
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question6/OP177_characteric.pdf}
+%	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question6/I_os_I_ib_opa277u.pdf}
+	\caption{Electrical Characteristics for OP177.}
 \end{figure}
+
+\begin{itemize}[label=-]
+	\item Ta có: $V_{os} = 10\,\mu\textsf{V} \Rightarrow \left( 1+ \dfrac{R_{2}}{R_{1}}\right) V_{os} = 1.01\,\textsf{mV}$.
+	
+	\item Ta có: $I_{os} = 0.5\,\textsf{nA}$ và $I_{ib} = 2.4\,\textsf{nA}$
+	$\Rightarrow I_{-} = \left\{ \begin{matrix}
+		\dfrac{1}{2}I_{os} - I_{ib} = -2.15\,\textsf{nA} \\[4pt]
+		\dfrac{1}{2}I_{os} + I_{ib} =  2.65\,\textsf{nA}
+	\end{matrix} \right.$ 
+	
+	$\Rightarrow I_{-}R_{2} = \left[ -709.5, 874.5\right]\,\mu \textsf{V}$
+\end{itemize}
+
+\[ \Rightarrow V_{out} = 101V_{in} + \left[ 0.3005\,\textsf{mV}, 1.8845\,\textsf{mV}\right]\]
+
+\answer{c}{Mô phỏng mạch dùng Multisim (hoặc các chương trình tương tự).}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{my-chapters/my-images/Question6/c_schematic.png}
+	\caption{Sơ đồ mạch của mạch khuếch đại không đảo.}
+	\label{fig:cschematic}
+\end{figure}
+
+Tiến hành DC sweep để đo điện áp ngõ ra khi điện áp ngõ vào thay đổi từ $10\,\textsf{mV} \rightarrow 30\,\textsf{mV}$,
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{my-chapters/my-images/Question6/c_dcsweep.png}
+	\caption{Tiến hành chạy DC swepp.}
+	\label{fig:cdcsweep}
+\end{figure}
+
+Kết quả,
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{my-chapters/my-images/Question6/c_waveform_for_dcsweep.png}
+	\caption{Kết quả của ngõ ra sau khi chạy DC sweep.}
+\end{figure}
+
+Kiểm tra sai số,
+
+\begin{minipage}{.5\linewidth}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question6/c_kiemtrasaiso.png}
+	\end{figure}
+\end{minipage}
+\begin{minipage}{.5\linewidth}
+	\begin{itemize}[label=-]
+		\item Giá trị $V_{ideal}$ được tính bằng cách lấy $V_{i}\times 100$
+		\item Giá trị $\Delta V = V_{o} - V_{ideal}$
+		\item Giá trị $\Delta V _{max} = 0.030654 = 30.654\,\textsf{mV}$ và $\Delta V _{min} = 0.010672 = 10.672\,\textsf{mV}$
+	\end{itemize}
+\end{minipage}
