@@ -1,1 +1,4 @@
 \babel@toc {vietnamese}{}\relax 
+\contentsline {section}{Câu 6}{1}{Doc-Start}%
+\contentsline {subsection}{a)}{1}{section*.1}%
+\contentsline {subsection}{b)}{3}{figure.caption.3}%
