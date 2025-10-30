@@ -1,6 +1,6 @@
 \question{Câu 6}
 
-Cho một tín hiệu cần xử lý dưới dạng điện áp, có tầm thay đổi từ $10\,\textsf{mV} - 30 \,\textsf{mV}$.  
+Cho một tín hiệu cần xử lý dưới dạng điện áp, có tầm thay đổi từ $10\,\textsf{mV} - 30\,\textsf{mV}$.  
 
 \answer{a}{Thiết kế mạch khuếch đại tín hiệu lên 100 lần.}
 
@@ -21,7 +21,7 @@ Nhóm em quyết định sử dụng mạch Khuếch đại không đảo (The N
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.7\linewidth]{./my-chapters/my-diagrams/Question5/a_non-ideal-module.png}
+	\includegraphics[width=.7\linewidth]{./my-chapters/my-diagrams/Question6/a_non-ideal-module.png}
 	\caption{Sơ đồ mạch tương đương.}
 \end{figure}
 
@@ -33,7 +33,8 @@ Nhóm em quyết định sử dụng mạch Khuếch đại không đảo (The N
 	\item Xét $I_{+}$ và $I_{-}$, $V_{in} = 0$, $V_{os} = 0$:
 	\[ V_{out} = I_{-}R_{2} \]
 \end{itemize}
-$\Rightarrow V_{out} = \left( 1+ \dfrac{R_{2}}{R_{1}}\right) V_{in} + \left( 1+ \dfrac{R_{2}}{R_{1}}\right) V_{os} + I_{-}R_{2}$
+
+$\Rightarrow$ \finalresult{V_{out} = \left( 1+ \dfrac{R_{2}}{R_{1}}\right) V_{in} + \left( 1+ \dfrac{R_{2}}{R_{1}}\right) V_{os} + I_{-}R_{2}}.
 
 \answer{b}{Lựa chọn OPAMP và các linh kiện cần thiết để thực hiện mạch hoạt động.}
 
@@ -85,7 +86,7 @@ Từ đó, nhóm em chọn OPAMP: \href{https://www.alldatasheet.com/datasheet-p
 	$\Rightarrow I_{-}R_{2} = \left[ -709.5, 874.5\right]\,\mu \textsf{V}$
 \end{itemize}
 
-\[ \Rightarrow V_{out} = 101V_{in} + \left[ 0.3005\,\textsf{mV}, 1.8845\,\textsf{mV}\right]\]
+$\Rightarrow$ \finalresult{V_{out} = 101V_{in} + \left[ 0.3005\,\textsf{mV}, 1.8845\,\textsf{mV}\right]}.
 
 \answer{c}{Mô phỏng mạch dùng Multisim (hoặc các chương trình tương tự).}
 
@@ -125,6 +126,6 @@ Kiểm tra sai số,
 	\begin{itemize}[label=-]
 		\item Giá trị $V_{ideal}$ được tính bằng cách lấy $V_{i}\times 100$
 		\item Giá trị $\Delta V = V_{o} - V_{ideal}$
-		\item Giá trị $\Delta V _{max} = 0.030654 = 30.654\,\textsf{mV}$ và $\Delta V _{min} = 0.010672 = 10.672\,\textsf{mV}$
+		\item Giá trị \finalresult{\Delta V _{max} = 0.030654 = 30.654\,\textsf{mV}} và \finalresult{\Delta V _{min} = 0.010672 = 10.672\,\textsf{mV}}
 	\end{itemize}
 \end{minipage}
