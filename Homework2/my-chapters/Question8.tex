@@ -4,9 +4,19 @@ Cho một tín hiệu cần xử lý dưới dạng dòng điện, có tầm tha
 
 \answer{a}{Thiết kế mạch cho ngõ ra tầm 0\textsf{V} - 5\textsf{V}.}
 
-Ở đây dựa vào thiết kế của câu 7 ở trên, với tầm đo là $\Delta I_{in} = 10 - 1 = 9 \,\textsf{mA}$ và $\Delta V_{out} = 5 - 0 = 5\,\textsf{V}$
-\[ \Rightarrow A_{v} = \dfrac{\Delta V_{out}}{\Delta I_{in}} = \dfrac{5}{9\,\textsf{m}} \approx 555.5556 \,\textsf{V/V}\]
-$\Rightarrow Chọn R_{F} = 560\,\Omega$
+\begin{minipage}{.5\linewidth}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question8/debai.png}
+	\end{figure}
+\end{minipage}
+\begin{minipage}{.5\linewidth}
+	Thiết lập phương trình quan hệ giữa ngõ vào và ngõ ra:
+	\[V_{out} = \dfrac{5000}{9}I_{in} - \dfrac{5}{9}\]
+\end{minipage}
+
+Ở đây dựa vào thiết kế của câu 7 ở trên
+$\Rightarrow \text{Chọn } R_{F} = \dfrac{5000}{9} \approx 560\,\Omega$
 
 Tuy nhiên với ngõ vào $I_{in} = 1\,\textsf{mA}$ thì ở ngõ ra theo công thức của câu 7 sẽ là: $V_{out} = R_{F}I_{in} - V_{os} + I_{-}R_{F} = 560\times 1\,\textsf{mA} - 85\,\mu\textsf{V} + 560\times 3.1\,\textsf{nA} \approx 0.5599 \,\textsf{V}$. Vậy nên cần phải trừ đi một khoảng là $0.5599\,\textsf{V}$ tức là cộng thêm một lượng $V_{ref} \approx -0.5599\,\textsf{V}$.
 
@@ -78,6 +88,6 @@ Kiểm tra sai số,
 	\begin{itemize}[label=-]
 		\item Giá trị $V_{ideal}$ được tính bằng cách lấy $I_{in}\times \dfrac{5000}{9} - \dfrac{5}{9}$
 		\item Giá trị $\Delta V = V_{o} - V_{ideal}$
-		\item Giá trị \finalresult{\Delta V _{max} =0.038801\,\mu\textsf{V}} và \finalresult{\Delta V _{min} = -0.00074\,\mu\textsf{V}}
+		\item Giá trị \finalresult{\Delta V _{max} =38.801\,\textsf{mV}} và \finalresult{\Delta V _{min} = -0.74\,\textsf{mV}}
 	\end{itemize}
 \end{minipage}
