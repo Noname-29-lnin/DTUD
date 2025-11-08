@@ -19,9 +19,96 @@ Tìm công thức liên hệ giữa $I_{L}$ và $V_{i}$ (Hình 2a) và giữa $I
 \end{figure}
 \end{minipage}
 
-\answer{a}{Giả sử OPAMP đang dùng là lý tưởng.}
+\answer{a1}{Giả sử OPAMP ở hình 2a đang dùng là lý tưởng.}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.7\linewidth]{./my-chapters/my-images/Question2/câu 2 hình a.png}
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question2/câu 2 hình a.png}
 \end{figure}
+
+\begin{itemize}[label=-]
+	\item OPAMP 1:
+	\[ \dfrac{V_{o1} - V_{-}}{R_{1}} = \dfrac{V_{-} - V_{i}}{R_{1}} \Rightarrow V_{i} = 2V_{-} - V_{o1} \]
+	\[ \Rightarrow V_{i} = 2V_{+} - V_{o1} \]
+	\[ \dfrac{V_{o} - V_{+}}{R_{2}} = \dfrac{V_{+}}{R_{2}} \Rightarrow V_{o} = 2V_{+} \]
+	\[ \Rightarrow V_{i} = V_{o} - V_{o1} \Rightarrow V_{o1} = V_{o} - V_{i} \]
+	
+	\item OPAMP 2:
+	\[ V^{+} = V^{-} \Rightarrow \dfrac{V_{o} - V_{o2}}{R_{3}} = \dfrac{V_{o2}}{R_{L}} = I_{L} \]
+	\[ \Rightarrow V_{o} = I_{L}R_{3} + V_{o2} \]
+	Ta có:
+	\[ V_{o1} = V_{o2} \Rightarrow V_{o} = I_{L}R_{3} + V_{o} - V_{i} \]
+	\[ \Rightarrow V_{i} = I_{L}R_{3} \]
+	
+	$\Rightarrow$ \finalresult{I_{L} = \dfrac{V_{i}}{R_{3}}}
+\end{itemize}
+
+\answer{b1}{Giả sử cả 2 OPAMP ở hình 2a có $V_{io} = 100\,\mu\textsf{V}$, $I_{io} = 4\,\textsf{nA}$, $I_{ib} = 18\,\textsf{nA}$. Tìm ảnh hưởng của điều kiện không lý tưởng của OPAMP lên ngõ ra $I_{L}$.}
+
+\begin{itemize}[label=-]
+	\item Xét ảnh hưởng của $V_{io}$:
+	\[ \text{Khi } V_{i} = 0,\ V_{io} \neq 0\ \text{và } I_{+} = I_{-} = 0 \]
+	Phương trình KCL tại nút (1):
+	\[ \dfrac{V_{io}}{R_{1}} + \dfrac{V_{io} - V_{o1}}{R_{1}} = 0 \Rightarrow V_{o1} = 2V_{io} \]
+	Phương trình KCL tại nút (2):
+	\[ \dfrac{V_{io}}{R_{2}} + \dfrac{V_{io} - V_{o}}{R_{2}} = 0 \Rightarrow V_{o} = 2V_{io} \]
+	Phương trình KCL tại nút (3):
+	\[ \dfrac{V_{o1} - V_{io} - V_{o}}{R_{3}} + I_{L} = 0 \Rightarrow I_{L} = \dfrac{V_{io}}{R_{3}} \]
+	
+	\item Xét ảnh hưởng của $I_{io},\ I_{ib}$:
+	\[ I_{+} - I_{-} = I_{io},\quad I_{+} + I_{-} = 2I_{ib} \Rightarrow I_{+} = 16nA,\ I_{-} = 20nA \]
+	\[ \text{Khi } V_{i} = 0,\ V_{io} = 0\ \text{và } I_{+} \neq I_{-} \neq 0 \]
+	Phương trình KCL tại nút (1):
+	\[ I_{-} + \dfrac{0 - V_{o1}}{R_{1}} = 0 \Rightarrow V_{o1} = I_{-}R_{1} \]
+	Phương trình KCL tại nút (2):
+	\[ I_{+} + \dfrac{0 - V_{o}}{R_{2}} = 0 \Rightarrow V_{o} = I_{+}R_{2} \]
+	Phương trình KCL tại nút (3):
+	\[ I_{-} + \dfrac{V_{o1} - V_{o}}{R_{3}} + I_{L} = 0 \Rightarrow I_{L} = -I_{-}\left(1 + \dfrac{R_{1}}{R_{3}}\right) + I_{+}\dfrac{R_{2}}{R_{3}} \]
+\end{itemize}
+
+\answer{a2}{Giả sử OPAMP ở hình 2b đang dùng là lý tưởng.}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question2/Câu 2 hình b.png}
+\end{figure}
+
+\begin{itemize}[label=-]
+	\item Opamp 1:\newline
+	Ta có:\newline
+	\[ V_{+} = V_{-} \]
+	\[ \dfrac{V_{o1} - V_{-}}{R_{2}} = \dfrac{V_{-} - V_{1}}{R_{1}} \Longrightarrow V_{1} = \left(\dfrac{R_{1}}{R_{2}} + 1\right)V_{-} - \dfrac{R_{1}}{R_{2}}V_{o1} \]
+	
+	\item Opamp 2:\newline
+	\[ \dfrac{V_{o2} - V_{+}}{R_{2}} = \dfrac{V_{+} - V_{2}}{R_{1}} \Longrightarrow V_{2} = \left(\dfrac{R_{1}}{R_{2}} + 1\right)V_{+} - \dfrac{R_{1}}{R_{2}}V_{o2} \]
+	
+	\item Ta có:\newline
+	\[ \dfrac{V_{o1} - V_{o2}}{R_{x}} = \dfrac{V_{o2}}{Z_{L}} = I_{L} \Longrightarrow V_{o1} - V_{o2} = R_{x}I_{L} \]
+	\[ V_{1} - V_{2} = -\dfrac{R_{1}}{R_{2}}\left(V_{o1} - V_{o2}\right) = -\dfrac{R_{1}}{R_{2}}R_{x}I_{L} \]
+	\[ \Longrightarrow I_{L} = -\dfrac{R_{2}}{R_{1}R_{x}}\left(V_{1} - V_{2}\right) \]
+\end{itemize}
+
+\answer{b2}{Giả sử cả 2 OPAMP ở hình 2b có $V_{io} = 100\,\mu\textsf{V}$, $I_{io} = 4\,\textsf{nA}$, $I_{ib} = 18\,\textsf{nA}$. Tìm ảnh hưởng của điều kiện không lý tưởng của OPAMP lên ngõ ra $I_{L}$.}
+
+\begin{itemize}[label=-]
+	\item Xét ảnh hưởng của $V_{io}$:\newline
+	\[ \text{Khi } V_{1} = V_{2} = 0,\ V_{io} \neq 0\ \text{và } I_{+} = I_{-} = 0 \]
+	Phương trình KCL tại nút (1):
+	\[ \dfrac{V_{io}}{R_{1}} + \dfrac{V_{io} - V_{o1}}{R_{2}} = 0 \Longrightarrow V_{o1} = \left(1 + \dfrac{R_{2}}{R_{1}}\right)V_{io} \]
+	Phương trình KCL tại nút (2):
+	\[ \dfrac{V_{io}}{R_{1}} + \dfrac{V_{io} - V_{o2}}{R_{2}} = 0 \Longrightarrow V_{o2} = \left(1 + \dfrac{R_{2}}{R_{1}}\right)V_{io} \]
+	Phương trình KCL tại nút (3):
+	\[ \dfrac{V_{io} - V_{o2} - V_{o1}}{R_{x}} + I_{L} = 0 \]
+	\[ \Longrightarrow I_{L} = \dfrac{-V_{io} + \left(1 + \dfrac{R_{2}}{R_{1}}\right)V_{io} + \left(1 + \dfrac{R_{2}}{R_{1}}\right)V_{io}}{R_{x}} \]
+	\[ \Longrightarrow I_{L} = \dfrac{\left(1 + \dfrac{2R_{2}}{R_{1}}\right)V_{io}}{R_{x}} = \dfrac{R_{1} + 2R_{2}}{R_{x}R_{1}}{\bullet V}_{io} \]
+	
+	\item Xét ảnh hưởng của $I_{io},\ I_{ib}$:\newline
+	\[ I_{+} - I_{-} = I_{io},\quad I_{+} + I_{-} = 2I_{ib} \Rightarrow I_{+} = 16\ \text{nA},\ I_{-} = 20\ \text{nA} \]
+	\[ \text{Khi } V_{1} = V_{2} = 0,\ V_{io} = 0\ \text{và } I_{+} \neq I_{-} \neq 0 \]
+	Phương trình KCL tại nút (1):
+	\[ I_{+} + \dfrac{0 - V_{o}}{R_{2}} = 0 \Longrightarrow V_{o} = I_{+}R_{2} \]
+	Phương trình KCL tại nút (2):
+	\[ I_{-} + \dfrac{0 - V_{o1}}{R_{1}} = 0 \Longrightarrow V_{o1} = I_{-}R_{1} \]
+	Phương trình KCL tại nút (3):
+	\[ I_{-} + \dfrac{V_{o1} - V_{o}}{R_{3}} + I_{L} = 0 \Longrightarrow I_{L} = -I_{-}\left(1 + \dfrac{R_{1}}{R_{3}}\right) + I_{+}\dfrac{R_{2}}{R_{3}} \]
+\end{itemize}

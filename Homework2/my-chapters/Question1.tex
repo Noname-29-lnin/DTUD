@@ -37,9 +37,34 @@ Ta có: $V_{o}= 2V_1 + 3V_2 - 6V_3$
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question1/Câu 1 a.png}
+		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question1/a_mach_hoan_chinh.png}
+		\caption{Mạch hoàn chỉnh thực hiện $V_{o} = 2V_{1} + 3V_{2} - 6V_{3}$.}
+	\end{figure}
+	
+	\item Thưc hiện mô phỏng trên Multisim:
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question1/a_mach_mo_phong.png}
 		\caption{Thiết kế mạch $V_{o} = 2V_{1} + 3V_{2} - 6V_{3}$ với OPAMP lý tưởng.}
 	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question1/a_ketqua_lytuong.png}
+		\caption{Kế quả của mạch $V_{o} = 2V_{1} + 3V_{2} - 6V_{3}$ với OPAMP lý tưởng.}
+	\end{figure}
+	
+	\begin{minipage}{.7\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/a_saiso_lytuong.png}
+	\end{minipage}
+	\begin{minipage}{.3\linewidth}
+		\begin{itemize}[label=-]
+			\item \finalresult{\Delta V_{o_{max}} = 0.000337358 \,\textsf{V}}
+			\item \finalresult{\Delta V_{o_{min}} = -0.000117373 \,\textsf{V}}
+		\end{itemize}
+	\end{minipage}
+	
 \end{itemize}
 
 \answer{b}{Giả sử cả 2 OPAMP có $V_{io} = 100\,\mu\textsf{V}$, $I_{io} = 4\,\textsf{nA}$, $I_{ib} = 18\,\textsf{nA}$. Tìm điều kiện ảnh hưởng của điều kiện không lý tưởng của OPAMP lên ngõ ra $V_{o}$.}
@@ -96,16 +121,33 @@ Ta có: $V_{o}= 2V_1 + 3V_2 - 6V_3$
 	\begin{center}
 		\finalresult{{{\Delta V}}_o=\pm800\,\mu\textsf{V}\pm1.2\,\textsf{mV}\mp600\,\mu\textsf{V}\mp600\,\mu\textsf{V}}
 	\end{center}
+%	$\Rightarrow \Delta V = [-1.6\,\textsf{m}, 0.8\,\textsf{m}, 2\,\textsf{m}, 3.2\,\textsf{m}, ]$
 	
 	\begin{center}
 		$\Rightarrow$ \finalresult{V_o={2V}_1+{3V}_2-{6V}_3\pm800\,\mu\textsf{V}\pm1.2\,\textsf{mV}\mp600\,\mu\textsf{V}\mp600\,\mu\textsf{V}}.
 	\end{center}
 	
-	\item Mạch hoàn chỉnh:
+	\item Thưc hiện mô phỏng trên Multisim:
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question1/Câu 1 b.png}
+		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question1/b_machmophong_nonideal.png}
 		\caption{Thiết kế mạch $V_{o} = 2V_{1} + 3V_{2} - 6V_{3}$ với OPAMP không lý tưởng.}
 	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question1/b_ketqua_nonideal.png}
+		\caption{Kế quả của mạch $V_{o} = 2V_{1} + 3V_{2} - 6V_{3}$ với OPAMP không lý tưởng.}
+	\end{figure}
+	
+	\begin{minipage}{.7\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question1/a_saiso_nonideal.png}
+	\end{minipage}
+	\begin{minipage}{.3\linewidth}
+		\begin{itemize}[label=-]
+			\item \finalresult{\Delta V_{o_{max}} = 0.000617343 \,\textsf{V}}
+			\item \finalresult{\Delta V_{o_{min}} = 0.000162612 \,\textsf{V}}
+		\end{itemize}
+	\end{minipage}
 \end{itemize}

@@ -10,5 +10,18 @@ Cho mạch điện như ở Hình 4.
 
 \answer{a}{Giả sử OPAMP lí tưởng. Tìm hệ số khuếch đại $\dfrac{V_{o1}}{V_{in}}$, $\dfrac{V_{o2}}{V_{o1}}$ và $\dfrac{V_{o2}}{V_{in}}$.}
 
+\begin{itemize}[label=-]
+	\item Xét Op-Amp 1:
+	\[ \frac{v_{o1}}{10R} + \frac{v_{o2}}{10R} = \frac{-V_{in}}{R} \quad (1) \]
+	
+	\item Xét Op-Amp 2:
+	\[ \frac{v_{o2}}{2R} = \frac{v_{o1}}{R} \Rightarrow \frac{v_{o2}}{v_{o1}} = 2 \quad (2) \]
+	
+	\item Từ (1) và (2), ta có:
+	\[ \frac{v_{o1}}{10R} + \frac{v_{o2}}{10R} = \frac{-V_{in}}{R} \Rightarrow 3v_{o1} = -10V_{in} \]
+	\[ \Rightarrow \left[ \frac{v_{o1}}{V_{in}} = -\frac{10}{3},\ \frac{v_{o2}}{V_{in}} = -\frac{20}{3} \right] \]
+\end{itemize}
+
+
 \answer{b}{Giả sử cả 2 OPAMP có $V_{io} = 12\,\mu\textsf{V}$, $I_{io} = 12\,\textsf{nA}$, $I_{ib} = 20\,\textsf{nA}$. Tìm ảnh hưởng của $V_{io}$ lên ngõ ra $V_{o2}$. Tìm giá trị của $R$ để có thể giảm thiếu tối đa ảnh hưởng của dòng $I_{ib}$ và $I_{io}$.}
 
