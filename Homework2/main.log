@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  8 NOV 2025 23:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  9 NOV 2025 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1486,7 +1486,8 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 (main.aux
 Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
 (babel)             Reported on input line 9.
- (my-chapters/Question1.aux) (my-chapters/Question2.aux))
+ (my-chapters/Question1.aux) (my-chapters/Question2.aux)
+(my-chapters/Question3.aux) (my-chapters/Question4.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -1580,7 +1581,7 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count413
-<./my-chapters/my-images/01_logobachkhoatoi.png, id=37, 471.9231pt x 478.9092pt
+<./my-chapters/my-images/01_logobachkhoatoi.png, id=60, 471.9231pt x 478.9092pt
 >
 File: ./my-chapters/my-images/01_logobachkhoatoi.png Graphic file (type png)
 <use ./my-chapters/my-images/01_logobachkhoatoi.png>
@@ -1605,7 +1606,7 @@ Overfull \hbox (2.19716pt too wide) in paragraph at lines 59--59
 
 
 
-<./my-chapters/my-images/bia.jpg, id=39, 301.125pt x 414.95026pt>
+<./my-chapters/my-images/bia.jpg, id=62, 301.125pt x 414.95026pt>
 File: ./my-chapters/my-images/bia.jpg Graphic file (type jpg)
 <use ./my-chapters/my-images/bia.jpg>
 Package pdftex.def Info: ./my-chapters/my-images/bia.jpg  used on input line 60
@@ -1634,7 +1635,7 @@ LaTeX Font Info:    Trying to load font information for T5+cmss on input line 1
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmss.fd
 File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<./my-chapters/my-images/Question1/câu 1 a tầng 1.png, id=60, 372.64218pt x 
+<./my-chapters/my-images/Question1/câu 1 a tầng 1.png, id=89, 372.64218pt x 
 199.49532pt>
 File: ./my-chapters/my-images/Question1/câu 1 a tầng 1.png Graphic file (typ
 e png)
@@ -1642,7 +1643,7 @@ e png)
 Package pdftex.def Info: ./my-chapters/my-images/Question1/câu 1 a tầng 1.pn
 g  used on input line 19.
 (pdftex.def)             Requested size: 386.95897pt x 207.16885pt.
-<./my-chapters/my-images/Question1/Câu 1 a tầng 2.png, id=61, 416.30531pt x 
+<./my-chapters/my-images/Question1/Câu 1 a tầng 2.png, id=90, 416.30531pt x 
 243.91125pt>
 File: ./my-chapters/my-images/Question1/Câu 1 a tầng 2.png Graphic file (typ
 e png)
@@ -1652,7 +1653,7 @@ g  used on input line 32.
 (pdftex.def)             Requested size: 386.95897pt x 226.72717pt.
 
 
-<./my-chapters/my-images/logo_DEE.png, id=62, 76.03406pt x 75.28125pt>
+<./my-chapters/my-images/logo_DEE.png, id=91, 76.03406pt x 75.28125pt>
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
@@ -1668,16 +1669,16 @@ l.34 	\end{figure}
 
  <./my-chapters/my-images/Question1/câu 1 a tầng 1.png> <./my-chapters/my-im
 ages/logo_DEE.png>]
-<./my-chapters/my-images/Question1/a_mach_hoan_chinh.png, id=78, 1224.07312pt x
- 357.58594pt>
+<./my-chapters/my-images/Question1/a_mach_hoan_chinh.png, id=107, 1224.07312pt 
+x 357.58594pt>
 File: ./my-chapters/my-images/Question1/a_mach_hoan_chinh.png Graphic file (typ
 e png)
 <use ./my-chapters/my-images/Question1/a_mach_hoan_chinh.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question1/a_mach_hoan_chinh.pn
 g  used on input line 40.
 (pdftex.def)             Requested size: 435.32422pt x 127.17032pt.
-<./my-chapters/my-images/Question1/a_mach_mo_phong.png, id=79, 1124.70187pt x 4
-52.4403pt>
+<./my-chapters/my-images/Question1/a_mach_mo_phong.png, id=108, 1124.70187pt x 
+452.4403pt>
 File: ./my-chapters/my-images/Question1/a_mach_mo_phong.png Graphic file (type 
 png)
 <use ./my-chapters/my-images/Question1/a_mach_mo_phong.png>
@@ -1699,16 +1700,16 @@ been already used, duplicate ignored
 l.51 	
        [2 <./my-chapters/my-images/Question1/Câu 1 a tầng 2.png> <./my-chapt
 ers/my-images/Question1/a_mach_hoan_chinh.png>]
-<./my-chapters/my-images/Question1/a_ketqua_lytuong.png, id=88, 1444.64719pt x 
-697.8572pt>
+<./my-chapters/my-images/Question1/a_ketqua_lytuong.png, id=117, 1444.64719pt x
+ 697.8572pt>
 File: ./my-chapters/my-images/Question1/a_ketqua_lytuong.png Graphic file (type
  png)
 <use ./my-chapters/my-images/Question1/a_ketqua_lytuong.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question1/a_ketqua_lytuong.png
   used on input line 54.
 (pdftex.def)             Requested size: 435.32422pt x 210.28519pt.
-<./my-chapters/my-images/Question1/a_saiso_lytuong.png, id=89, 1093.83656pt x 4
-41.90094pt>
+<./my-chapters/my-images/Question1/a_saiso_lytuong.png, id=118, 1093.83656pt x 
+441.90094pt>
 File: ./my-chapters/my-images/Question1/a_saiso_lytuong.png Graphic file (type 
 png)
 <use ./my-chapters/my-images/Question1/a_saiso_lytuong.png>
@@ -1757,7 +1758,7 @@ Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 123.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [4]
-<./my-chapters/my-images/Question1/b_machmophong_nonideal.png, id=108, 1116.420
+<./my-chapters/my-images/Question1/b_machmophong_nonideal.png, id=137, 1116.420
 94pt x 441.14813pt>
 File: ./my-chapters/my-images/Question1/b_machmophong_nonideal.png Graphic file
  (type png)
@@ -1765,7 +1766,7 @@ File: ./my-chapters/my-images/Question1/b_machmophong_nonideal.png Graphic file
 Package pdftex.def Info: ./my-chapters/my-images/Question1/b_machmophong_nonide
 al.png  used on input line 134.
 (pdftex.def)             Requested size: 435.32422pt x 172.01341pt.
-<./my-chapters/my-images/Question1/b_ketqua_nonideal.png, id=109, 1444.64719pt 
+<./my-chapters/my-images/Question1/b_ketqua_nonideal.png, id=138, 1444.64719pt 
 x 695.59875pt>
 File: ./my-chapters/my-images/Question1/b_ketqua_nonideal.png Graphic file (typ
 e png)
@@ -1773,7 +1774,7 @@ e png)
 Package pdftex.def Info: ./my-chapters/my-images/Question1/b_ketqua_nonideal.pn
 g  used on input line 140.
 (pdftex.def)             Requested size: 435.32422pt x 209.60464pt.
-<./my-chapters/my-images/Question1/a_saiso_nonideal.png, id=110, 1089.31969pt x
+<./my-chapters/my-images/Question1/a_saiso_nonideal.png, id=139, 1089.31969pt x
  437.38406pt>
 File: ./my-chapters/my-images/Question1/a_saiso_nonideal.png Graphic file (type
  png)
@@ -1826,14 +1827,14 @@ ne 75.
 
 
 (my-chapters/Question2.tex
-<./my-chapters/my-images/Question2/debai_a.png, id=126, 583.42969pt x 377.91188
+<./my-chapters/my-images/Question2/debai_a.png, id=155, 583.42969pt x 377.91188
 pt>
 File: ./my-chapters/my-images/Question2/debai_a.png Graphic file (type png)
 <use ./my-chapters/my-images/Question2/debai_a.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question2/debai_a.png  used on
  input line 8.
 (pdftex.def)             Requested size: 241.84843pt x 156.65173pt.
-<./my-chapters/my-images/Question2/debai_b.png, id=127, 494.59781pt x 377.91188
+<./my-chapters/my-images/Question2/debai_b.png, id=156, 494.59781pt x 377.91188
 pt>
 File: ./my-chapters/my-images/Question2/debai_b.png Graphic file (type png)
 <use ./my-chapters/my-images/Question2/debai_b.png>
@@ -1845,7 +1846,7 @@ Overfull \hbox (31.06323pt too wide) in paragraph at lines 5--21
 []$[]$ $[]$ 
  []
 
-<./my-chapters/my-images/Question2/câu 2 hình a.png, id=128, 689.57625pt x 39
+<./my-chapters/my-images/Question2/câu 2 hình a.png, id=157, 689.57625pt x 39
 2.96812pt>
 File: ./my-chapters/my-images/Question2/câu 2 hình a.png Graphic file (type p
 ng)
@@ -1870,62 +1871,37 @@ ion2/debai_b.png> <./my-chapters/my-images/Question2/câu 2 hình a.png>]
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 56.
+ne 62.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [8]
-<./my-chapters/my-images/Question2/Câu 2 hình b.png, id=143, 584.1825pt x 426
+<./my-chapters/my-images/Question2/Câu 2 hình b.png, id=172, 584.1825pt x 426
 .84468pt>
 File: ./my-chapters/my-images/Question2/Câu 2 hình b.png Graphic file (type p
 ng)
 <use ./my-chapters/my-images/Question2/Câu 2 hình b.png>
 Package pdftex.def Info: ./my-chapters/my-images/Question2/Câu 2 hình b.png  
-used on input line 73.
+used on input line 100.
 (pdftex.def)             Requested size: 435.32422pt x 318.0876pt.
 
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 75.
+ne 102.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 87.
+ne 118.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [10 <./my-chapters/my-images/Question2/Câu 2 hình b.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-
- []
-
-
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 109.
+ne 159.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [11])
 
@@ -1934,45 +1910,401 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 76.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[12] 
+[12]
+\openout2 = `./my-chapters/Question3.aux'.
+
+ (my-chapters/Question3.tex
+<./my-chapters/my-images/Question3/debai.png, id=195, 681.29532pt x 334.24875pt
+>
+File: ./my-chapters/my-images/Question3/debai.png Graphic file (type png)
+<use ./my-chapters/my-images/Question3/debai.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question3/debai.png  used on i
+nput line 7.
+(pdftex.def)             Requested size: 290.22107pt x 142.3828pt.
+<./my-chapters/my-images/Question3/a_machmophong_ideal.png, id=196, 923.70094pt
+ x 414.04688pt>
+File: ./my-chapters/my-images/Question3/a_machmophong_ideal.png Graphic file (t
+ype png)
+<use ./my-chapters/my-images/Question3/a_machmophong_ideal.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question3/a_machmophong_ideal.
+png  used on input line 30.
+(pdftex.def)             Requested size: 435.32422pt x 195.13275pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 33.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[13
+
+
+
+ <./my-chapters/my-images/Question3/debai.png>]
+<./my-chapters/my-images/Question3/a_songmophong_ideal.png, id=204, 1444.64719p
+t x 703.12688pt>
+File: ./my-chapters/my-images/Question3/a_songmophong_ideal.png Graphic file (t
+ype png)
+<use ./my-chapters/my-images/Question3/a_songmophong_ideal.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question3/a_songmophong_ideal.
+png  used on input line 36.
+(pdftex.def)             Requested size: 435.32422pt x 211.8731pt.
+<./my-chapters/my-images/Question3/a_thongso.png, id=205, 921.4425pt x 454.6987
+5pt>
+File: ./my-chapters/my-images/Question3/a_thongso.png Graphic file (type png)
+<use ./my-chapters/my-images/Question3/a_thongso.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question3/a_thongso.png  used 
+on input line 41.
+(pdftex.def)             Requested size: 318.02412pt x 156.93367pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]
+ []
+
+
+Overfull \hbox (30.00635pt too wide) in paragraph at lines 45--46
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+[]
+ []
+
+
+Overfull \hbox (38.39456pt too wide) in paragraph at lines 46--47
+[] 
+ []
+
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 40--49
+[]$[]$ $[]$ 
+ []
+
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 57.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[14 <./my-chapters/my-images/Question3/a_machmophong_ideal.png> <./my-chapters/
+my-images/Question3/a_songmophong_ideal.png> <./my-chapters/my-images/Question3
+/a_thongso.png>]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 109.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[15]
+<./my-chapters/my-images/Question3/b_mophong1_nonideal.png, id=220, 906.38625pt
+ x 413.29407pt>
+File: ./my-chapters/my-images/Question3/b_mophong1_nonideal.png Graphic file (t
+ype png)
+<use ./my-chapters/my-images/Question3/b_mophong1_nonideal.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question3/b_mophong1_nonideal.
+png  used on input line 125.
+(pdftex.def)             Requested size: 435.32422pt x 198.4987pt.
+<./my-chapters/my-images/Question3/b_songmophong1_nonideal.png, id=221, 1444.64
+719pt x 697.8572pt>
+File: ./my-chapters/my-images/Question3/b_songmophong1_nonideal.png Graphic fil
+e (type png)
+<use ./my-chapters/my-images/Question3/b_songmophong1_nonideal.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question3/b_songmophong1_nonid
+eal.png  used on input line 131.
+(pdftex.def)             Requested size: 435.32422pt x 210.28519pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 134.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[16 <./my-chapters/my-images/Question3/b_mophong1_nonideal.png>]
+<./my-chapters/my-images/Question3/b_saiso_nonideal_1.png, id=229, 880.79062pt 
+x 453.19313pt>
+File: ./my-chapters/my-images/Question3/b_saiso_nonideal_1.png Graphic file (ty
+pe png)
+<use ./my-chapters/my-images/Question3/b_saiso_nonideal_1.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question3/b_saiso_nonideal_1.p
+ng  used on input line 136.
+(pdftex.def)             Requested size: 318.02412pt x 163.63345pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+[]
+ []
+
+
+Overfull \hbox (30.00635pt too wide) in paragraph at lines 140--141
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+[]
+ []
+
+
+Overfull \hbox (29.06119pt too wide) in paragraph at lines 141--142
+[] 
+ []
+
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 135--144
+[]$[]$ $[]$ 
+ []
+
+<./my-chapters/my-images/Question3/b_mophong2_nonideal.png, id=230, 1081.03876p
+t x 445.665pt>
+File: ./my-chapters/my-images/Question3/b_mophong2_nonideal.png Graphic file (t
+ype png)
+<use ./my-chapters/my-images/Question3/b_mophong2_nonideal.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question3/b_mophong2_nonideal.
+png  used on input line 156.
+(pdftex.def)             Requested size: 435.32422pt x 179.45969pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 159.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[17 <./my-chapters/my-images/Question3/b_songmophong1_nonideal.png> <./my-chapt
+ers/my-images/Question3/b_saiso_nonideal_1.png>]
+<./my-chapters/my-images/Question3/b_songmophong2_nonideal.png, id=240, 1444.64
+719pt x 698.61pt>
+File: ./my-chapters/my-images/Question3/b_songmophong2_nonideal.png Graphic fil
+e (type png)
+<use ./my-chapters/my-images/Question3/b_songmophong2_nonideal.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question3/b_songmophong2_nonid
+eal.png  used on input line 162.
+(pdftex.def)             Requested size: 435.32422pt x 210.51202pt.
+<./my-chapters/my-images/Question3/b_saiso_nonideal_2.png, id=241, 884.55469pt 
+x 455.45157pt>
+File: ./my-chapters/my-images/Question3/b_saiso_nonideal_2.png Graphic file (ty
+pe png)
+<use ./my-chapters/my-images/Question3/b_saiso_nonideal_2.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question3/b_saiso_nonideal_2.p
+ng  used on input line 167.
+(pdftex.def)             Requested size: 318.02412pt x 163.747pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+[]
+ []
+
+
+Overfull \hbox (30.00635pt too wide) in paragraph at lines 171--172
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+[]
+ []
+
+
+Overfull \hbox (38.39456pt too wide) in paragraph at lines 172--173
+[] 
+ []
+
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 166--175
+[]$[]$ $[]$ 
+ []
+
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 175.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[18 <./my-chapters/my-images/Question3/b_mophong2_nonideal.png> <./my-chapters/
+my-images/Question3/b_songmophong2_nonideal.png>])
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 77.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[19 <./my-chapters/my-images/Question3/b_saiso_nonideal_2.png>]
+\openout2 = `./my-chapters/Question4.aux'.
+
+
+(my-chapters/Question4.tex
+<./my-chapters/my-images/Question4/debai.png, id=256, 496.10344pt x 328.22626pt
+>
+File: ./my-chapters/my-images/Question4/debai.png Graphic file (type png)
+<use ./my-chapters/my-images/Question4/debai.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question4/debai.png  used on i
+nput line 7.
+(pdftex.def)             Requested size: 290.22107pt x 192.01408pt.
+<./my-chapters/my-images/Question4/a_machmophong.png, id=257, 871.00406pt x 427
+.5975pt>
+File: ./my-chapters/my-images/Question4/a_machmophong.png Graphic file (type pn
+g)
+<use ./my-chapters/my-images/Question4/a_machmophong.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question4/a_machmophong.png  u
+sed on input line 29.
+(pdftex.def)             Requested size: 435.32422pt x 213.70688pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 32.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[20
+
+
+
+ <./my-chapters/my-images/Question4/debai.png>]
+<./my-chapters/my-images/Question4/a_songmophong.png, id=264, 1443.89438pt x 70
+3.87968pt>
+File: ./my-chapters/my-images/Question4/a_songmophong.png Graphic file (type pn
+g)
+<use ./my-chapters/my-images/Question4/a_songmophong.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question4/a_songmophong.png  u
+sed on input line 35.
+(pdftex.def)             Requested size: 435.32422pt x 212.20734pt.
+<./my-chapters/my-images/Question4/a_mophongthongso.png, id=265, 761.84625pt x 
+469.00218pt>
+File: ./my-chapters/my-images/Question4/a_mophongthongso.png Graphic file (type
+ png)
+<use ./my-chapters/my-images/Question4/a_mophongthongso.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question4/a_mophongthongso.png
+  used on input line 40.
+(pdftex.def)             Requested size: 241.84843pt x 148.88148pt.
+
+Overfull \hbox (31.06323pt too wide) in paragraph at lines 39--49
+[]$[]$ $[]$ 
+ []
+
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 50.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[21 <./my-chapters/my-images/Question4/a_machmophong.png> <./my-chapters/my-ima
+ges/Question4/a_songmophong.png>]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 105.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[22 <./my-chapters/my-images/Question4/a_mophongthongso.png>]
+<./my-chapters/my-images/Question4/b_machmophong_1.png, id=280, 753.5653pt x 37
+3.395pt>
+File: ./my-chapters/my-images/Question4/b_machmophong_1.png Graphic file (type 
+png)
+<use ./my-chapters/my-images/Question4/b_machmophong_1.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question4/b_machmophong_1.png 
+ used on input line 123.
+(pdftex.def)             Requested size: 435.32422pt x 215.70322pt.
+<./my-chapters/my-images/Question4/b_songmophong_nonideal_1.png, id=281, 1444.6
+4719pt x 700.86844pt>
+File: ./my-chapters/my-images/Question4/b_songmophong_nonideal_1.png Graphic fi
+le (type png)
+<use ./my-chapters/my-images/Question4/b_songmophong_nonideal_1.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question4/b_songmophong_nonide
+al_1.png  used on input line 129.
+(pdftex.def)             Requested size: 435.32422pt x 211.19257pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 132.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[23 <./my-chapters/my-images/Question4/b_machmophong_1.png>]
+<./my-chapters/my-images/Question4/b_saiso_nonideal_1.png, id=290, 746.79pt x 4
+40.39531pt>
+File: ./my-chapters/my-images/Question4/b_saiso_nonideal_1.png Graphic file (ty
+pe png)
+<use ./my-chapters/my-images/Question4/b_saiso_nonideal_1.png>
+Package pdftex.def Info: ./my-chapters/my-images/Question4/b_saiso_nonideal_1.p
+ng  used on input line 134.
+(pdftex.def)             Requested size: 318.02412pt x 187.5452pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+[]
+ []
+
+
+Overfull \hbox (34.25641pt too wide) in paragraph at lines 138--139
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+[]
+ []
+
+
+Overfull \hbox (33.31125pt too wide) in paragraph at lines 139--140
+[] 
+ []
+
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 133--142
+[]$[]$ $[]$ 
+ []
+
+)
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 78.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[24 <./my-chapters/my-images/Question4/b_songmophong_nonideal_1.png> <./my-chap
+ters/my-images/Question4/b_saiso_nonideal_1.png>]
+
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20251108231257 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20251109104719 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
-(main.aux (my-chapters/Question1.aux) (my-chapters/Question2.aux))
+(main.aux (my-chapters/Question1.aux) (my-chapters/Question2.aux)
+(my-chapters/Question3.aux) (my-chapters/Question4.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 811063D046A2A67D9D010F703A26C296;625.
+(rerunfilecheck)             Checksum: EADD3DC9DFB46A323CF509ECBA2E08AE;1112.
  ) 
 Here is how much of TeX's memory you used:
- 32532 strings out of 468134
- 640388 string characters out of 5430740
- 1150289 words of memory out of 5000000
- 60561 multiletter control sequences out of 15000+600000
+ 32734 strings out of 468134
+ 650335 string characters out of 5430740
+ 1153112 words of memory out of 5000000
+ 60725 multiletter control sequences out of 15000+600000
  657521 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,15n,101p,1065b,922s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,15n,101p,1065b,923s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmex10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmmi12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nguye/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nguye/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nguye/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nguye/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
-nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C
-:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C
-:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:
-/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/
-Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss12.pfb><C:/
-Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnssbx10.pfb>
-Output written on main.pdf (14 pages, 1111269 bytes).
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nguye/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nguye/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/n
+guye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx1
+2.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12
+.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.
+pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss12.
+pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnssbx1
+0.pfb>
+Output written on main.pdf (26 pages, 2305860 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 374 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 

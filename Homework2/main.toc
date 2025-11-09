@@ -7,3 +7,9 @@
 \contentsline {subsection}{b1)}{8}{figure.caption.11}%
 \contentsline {subsection}{a2)}{10}{figure.caption.11}%
 \contentsline {subsection}{b2)}{11}{figure.caption.12}%
+\contentsline {section}{Câu 3}{13}{figure.caption.12}%
+\contentsline {subsection}{a)}{13}{figure.caption.13}%
+\contentsline {subsection}{b)}{15}{figure.caption.15}%
+\contentsline {section}{Câu 4}{20}{figure.caption.19}%
+\contentsline {subsection}{a)}{20}{figure.caption.20}%
+\contentsline {subsection}{b)}{22}{figure.caption.22}%
