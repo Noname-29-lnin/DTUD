@@ -50,13 +50,18 @@ Mô phỏng mạch
 \answer{b}{Giả sử cả 2 OPAMP có $V_{io} = 12\,\mu\textsf{V}$, $I_{io} = 12\,\textsf{nA}$, $I_{ib} = 20\,\textsf{nA}$. Tìm ảnh hưởng của $V_{io}$ lên ngõ ra $V_{o2}$. Tìm giá trị của $R$ để có thể giảm thiếu tối đa ảnh hưởng của dòng $I_{ib}$ và $I_{io}$.}
 
 \begin{itemize}[label=-]
-	\item Xét ảnh hưởng của $V_{io}$:  
-	Khi $V_{IN}=0,\ V_{io}\neq0$ và $I_{+}=I_{-}=0$  
+	\item Xét ảnh hưởng của $V_{io}$: Khi $V_{IN}=0,\ V_{io}\neq0$ và $I_{+}=I_{-}=0$  
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question4/câu 4 b Vio.jpg}
+		\caption{Ảnh hưởng của $V_{io}$ lên mạch hình 4.}
+	\end{figure}
 	
 	\begin{itemize}[label=+]
 		\item Phương trình KCL tại nút (1):
 		\[
-		\frac{V_{io}}{R}+\frac{V_{io}-V_{o1}}{10R}+\frac{V_{io}-V_{o2}}{10R}=0
+		-\frac{V_{io}}{R} = \frac{V_{io}-V_{o1}}{10R}+\frac{V_{io}-V_{o2}}{10R}
 		\]
 		\[
 		\Rightarrow 12V_{io}=V_{o1}+V_{o2}
@@ -65,19 +70,27 @@ Mô phỏng mạch
 		
 		\item Phương trình KCL tại nút (2):
 		\[
-		\frac{(V_{o1}-V_{io})-V_{o2}}{R}+\frac{V_{o1}-V_{io}}{R}=0
+		\frac{V_{o2} - (V_{o1}-V_{io})}{R} = \frac{V_{o1}-V_{io}}{R}
 		\]
 		\[
-		\Rightarrow 2V_{o1}-2V_{io}-V_{o2}=0
-		\Rightarrow V_{o2}-2(12V_{io}-V_{o2})=2V_{io}
+		\Rightarrow V_{o2} = 2V_{o1}-2V_{io}
+		\Rightarrow V_{o2} = 2(12V_{io}-V_{o2})
 		\]
 		\[
 		\Rightarrow V_{o2}=\frac{22}{3}V_{io}
-		\Rightarrow \Delta V_{o2}=\frac{22}{3}V_{io}
 		\]
 	\end{itemize}
+	\[
+	\Rightarrow \Delta V_{o2}=\frac{22}{3}V_{io}
+	\]
 	
 	\item Xét ảnh hưởng của $I_{io}$ và $I_{ib}$: Khi $V_{IN}=0,\ V_{io}=0$ và $I_{+}\neq I_{-}\neq0$ 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question4/câu 4 b Iio.jpg}
+		\caption{Ảnh hưởng của $I_{io}$ và $I_{ib}$ lên mạch hình 4.}
+	\end{figure}
 	
 	\[
 	\left\{
@@ -112,56 +125,66 @@ Mô phỏng mạch
 		\[
 		\Rightarrow I_{-} 10R=\frac{V_{o2}-I_{-}R}{2}+V_{o2}
 		\Rightarrow V_{o2}=7I_{-}R
-		\Rightarrow \Delta V_{o2}=7I_{-}R
 		\]
 	\end{itemize}
+	\[
+	\Rightarrow \Delta V_{o2}=7I_{-}R
+	\]
 	
-	\item Mô phỏng mạch:
+	\item Xét toàn mạch:
+	
+	$\Rightarrow$ \finalresult{V_{o2} = -\dfrac{20}{3} V_{in} \pm \dfrac{22}{3} V_{io} \pm 7I_{-}R}
+	
+	\item Để loại bỏ ảnh hưởng của $I_{ib}$ và $I_{io}$: Ta có 
+	\[ \Rightarrow 10\times 7I_{-}R \ll \dfrac{22}{3}V_{os} \Rightarrow 7\times 26\,\textsf{nA} R \ll 100\dfrac{22}{3}\times 12\,\mu\textsf{V} \]
+	
+	$\Rightarrow R < 43.9560\,\textsf{k}\Omega \Rightarrow$ Chọn \finalresult{R = 47\,\textsf{k}\Omega}
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question4/b_machmophong_1.png}
-		\caption{Mô phỏng mạch với OPAMP không lý tưởng.}
+		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question4/b_timR_tailytuong.png}
+		\caption{Mô phỏng mạch với OPAMP không có ảnh hưởng của $I_{ib}$ và $I_{io}$.}
 	\end{figure}
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question4/b_songmophong_nonideal_1.png}
-		\caption{Kết quả mô phỏng mạch với OPAMP không lý tưởng.}
+		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question4/b_timR_song_tailytuong.png}
+		\caption{Kết quả mô phỏng mạch với OPAMP với không có ảnh hưởng của $I_{ib}$ và $I_{io}$.}
 	\end{figure}
 	
 	\begin{minipage}{.7\linewidth}
-		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question4/b_saiso_nonideal_1.png}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question4/b_timR_saiso_lytuong.png}
 	\end{minipage}
 	\begin{minipage}{.3\linewidth}
 		\begin{itemize}[label=-]
-			\item \finalresult{\Delta V_{o2_{max}} = 0.001000174 \,\textsf{V}}
-			\item \finalresult{\Delta V_{o2_{min}} = 0.000528156 \,\textsf{V}}
+			\item \finalresult{\Delta V_{o2_{max}} = 0.000466787 \,\textsf{V}}
+			\item \finalresult{\Delta V_{o2_{min}} = 17.5381\,\mu\textsf{V}}
 		\end{itemize}
 	\end{minipage}
 	
-	\item Để loại bỏ ảnh hưởng của $I_{ib}$ và $I_{io}$: Ta có $-\dfrac{20}{3}V_{in} + 7I_{-}R \ll \dfrac{1}{100} \left( -\dfrac{20}{3} V_{in} \right)$
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question4/b_timR_taikhonglytuong.png}
+		\caption{Mô phỏng mạch với OPAMP có ảnh hưởng của $I_{ib}$ và $I_{io}$.}
+	\end{figure}
 	
-%	\begin{figure}[H]
-%		\centering
-%		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question4/}
-%		\caption{Mô phỏng mạch với OPAMP không lý tưởng với hạn chế ảnh hưởng của $I_{ib}$ và $I_{io}$.}
-%	\end{figure}
-%	
-%	\begin{figure}[H]
-%		\centering
-%		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question4/}
-%		\caption{Kết quả mô phỏng mạch với OPAMP không lý tưởng với hạn chế ảnh hưởng của $I_{ib}$ và $I_{io}$.}
-%	\end{figure}
-%	
-%	\begin{minipage}{.7\linewidth}
-%		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question4/}
-%	\end{minipage}
-%	\begin{minipage}{.3\linewidth}
-%		\begin{itemize}[label=-]
-%			\item \finalresult{\Delta V_{o_{max}} =  \,\textsf{V}}
-%			\item \finalresult{\Delta V_{o_{min}} =  \,\textsf{V}}
-%		\end{itemize}
-%	\end{minipage}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question4/b_timR_song_taikhonglytuong.png}
+		\caption{Kết quả mô phỏng mạch với OPAMP với có ảnh hưởng của $I_{ib}$ và $I_{io}$.}
+	\end{figure}
+	
+	\begin{minipage}{.7\linewidth}
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question4/b_timR_saiso_kolytuong.png}
+	\end{minipage}
+	\begin{minipage}{.3\linewidth}
+		\begin{itemize}[label=-]
+			\item \finalresult{\Delta V_{o2_{max}} = 0.000462965 \,\textsf{V}}
+			\item \finalresult{\Delta V_{o2_{min}} = 13.7162\,\mu\textsf{V}}
+		\end{itemize}
+	\end{minipage}
+	
+	Như vậy với $R = 39\,\Omega$ thì sai số lớn nhất và sai số nhỏ nhất ko ảnh hưởng nhiều vào $I_{io}$ và $I_{ib}$ và chủ yếu ảnh hưởng bởi $V_{io}$
+	
 \end{itemize}
 
