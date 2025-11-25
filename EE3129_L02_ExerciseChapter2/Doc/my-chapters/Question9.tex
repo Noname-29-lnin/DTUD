@@ -1,0 +1,149 @@
+\question{Câu 9}
+
+Cho một tín hiệu cần xử lý ở dạng điện áp, có tầm thay đổi từ $40\,\textsf{mV} - 200\,\textsf{mV}$.
+
+\answer{a}{Thiết kế mạch cho ngõ ra tầm $4\,\textsf{mA} - 20\,\textsf{mA}$.}
+
+\begin{minipage}{.5\linewidth}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question9/debai.png}
+	\end{figure}
+\end{minipage}
+\begin{minipage}{.5\linewidth}
+	Thiết lập phương trình quan hệ giữa ngõ vào và ngõ ra:
+	\begin{equation}
+		I_{\text{out}} = 0.1 V_{\text{in}}
+		\label{eq:9_phuongtrinh}
+	\end{equation}
+\end{minipage}
+
+Sử dụng mạch chuyển đổi từ áp sang dòng điện ở dạng Floating load Type như sau\footnote{Sử dụng được tham khảo ở \href{https://www.ti.com/seclit/eb/slyy137d/slyy137d.pdf}{TI Document} (Texas Instruments).}
+:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{./my-chapters/my-diagrams/Question9/v_i_converter.png}
+	\caption{Voltage-to-current (V-I) converter circuit with MOSFET.}
+\end{figure}
+
+Các điều cần chú ý của mạch trên là:
+
+\begin{enumerate}[label=\arabic*.]
+	\item Cần sử dụng một bộ khuếch đại thuật toán (op-amp) có \textit{rail-to-rail input (RRI)} hoặc có điện áp chế độ chung (\textit{common-mode voltage}) mở rộng đến mức GND.
+	
+	\item Điện trở $R_1$ giúp cách ly bộ khuếch đại với tải có điện dung ở cổng MOSFET.
+	
+	\item Các phần tử phản hồi $R_3$ và $C$ cung cấp bù tần số để đảm bảo độ ổn định trong quá trình biến thiên của tín hiệu đầu vào hoặc tải, đồng thời giúp giảm nhiễu. 
+	$R_{shunt}$ cung cấp đường phản hồi DC trực tiếp tại điện trở thiết lập dòng $R_{shunt}$, còn $C$ cung cấp đường phản hồi tần số cao để bỏ qua MOSFET.
+	
+	\item Dòng phân cực đầu vào (\textit{input bias current}) sẽ chạy qua $R_3$, gây ra sai số DC. 
+	Do đó, cần đảm bảo rằng sai số này nhỏ hơn nhiều so với điện áp lệch đầu vào (\textit{offset voltage}) của op-amp.
+	
+	\item Sử dụng op-amp trong vùng làm việc tuyến tính. 
+	Biên độ điện áp ra tuyến tính (\textit{linear output swing}) thường được chỉ định trong điều kiện kiểm tra hệ số khuếch đại vòng hở (\textit{AOL test conditions}) được cung cấp trong datasheet của op-amp.
+\end{enumerate}
+
+\begin{itemize}[label=-]
+	\item Xét $V_{os} = 0$ và $I_{ib} = I_{os} = 0$
+	
+	\begin{itemize}[label=+]
+		\item Tìm điện trở Shunt:
+		\[I_{out} = \dfrac{V_{in}}{R_{shunt}}\]
+		Từ phương trình \eqref{eq:9_phuongtrinh}, ta có:
+		\[
+		R_{shunt} = \frac{V_{\text{in}}}{I_{\text{out}}} = \frac{V_{\text{in}}}{0.1 V_{\text{in}}} 
+		\]
+		$\Rightarrow$ \finalresult{R_{shunt} = 10\,\Omega} \\
+		Xem xét công suất của $R_{shunt}$:
+		\[p_{R_{shunt}} = \dfrac{V_{in_{max}}^{2}}{R_{shunt}} = \dfrac{(200\,\textsf{mV})^{2}}{10\,\Omega} = 4\,\textsf{mW}\]
+		%	$\Rightarrow R_{shunt} = \dfrac{V_{in_{max}} - V_{in_{min}}}{I_{out_{max}} - I_{out_{min}}} = \dfrac{200\,\textsf{mV} - 40\,\textsf{mV}}{20\,\textsf{mA} - 4\,\textsf{mA}}$
+		\item Chọn giá trị $V_{DS_{sat}}$ cho MOSFET:
+		\[V_{DS} \geq V_{GS} - V_{TH}\]
+		Ta chọn MOSFET \href{https://assets.nexperia.com/documents/data-sheet/SI2304DS.pdf}{SI2304DS}:
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=.7\linewidth]{./my-chapters/my-images/Question9/MOSFET_quick_datasheet.png}
+			\includegraphics[width=.7\linewidth]{./my-chapters/my-images/Question9/MOSFET_V_th.png}
+			\includegraphics[width=.7\linewidth]{./my-chapters/my-images/Question9/MOSFET_sododactinh.png}
+			\caption{Characteristics của SI2304DS.}
+		\end{figure}
+		
+		Từ đó, chọn $V_{TH} = 2\,\textsf{V}$, do điện áp cung cấp cho với $V_{cc} = 5\,\textsf{V}$
+		\[\Rightarrow V_{DS_{sat}} = 3\,\textsf{V}\] 
+		
+		\item Chọn điện trở ngõ ra: Bởi vì là một mạch tạo dòng điện ngõ ra không phụ thuộc vào giá trị của $R_{L}$.
+		\[V_{L} = I_{out}R_{L} \leq V_{cc} - V_{DS_{sat}} - V_{in_{max}}\]
+		\[R_{L} = \dfrac{V_{cc} - V_{DS_{sat}} - V_{in_{max}}}{I_{out}} = 90\,\Omega\]
+		$\Rightarrow$ \finalresult{R_{L} = 82\,\Omega}.
+	\end{itemize}
+	
+	\item Xét $V_{in} = 0$ và $I_{ib} = I_{os} = 0$
+	\[I_{out} = \dfrac{V_{os}}{R_{shunt}}\]
+	\item Xét $V_{in} = 0$ và $V_{os} = 0$
+	\[I_{out} = -I_{-}\]
+	
+	$\Rightarrow$ \finalresult{I_{out} = \dfrac{V_{in}}{R_{shunt}} \pm \dfrac{V_{os}}{R_{shunt}} \mp I_{-}}
+\end{itemize}
+
+Chọn OPAMP \href{https://www.ti.com/lit/ds/symlink/opa2333.pdf?ts=1761996649221&ref_url=https%253A%252F%252Fwww.mouser.tw%252F}{OPA2333}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-diagrams/Question9/opa2333_noise_V_I.pdf}
+	\caption{Electrical Characteristics for OPA2333.}
+\end{figure}
+
+\begin{itemize}[label=-]
+	\item Vì OPAMP được thiết kế để chuyển từ áp nhỏ sang dòng nên opamp cần có Rail-to-Rail.
+	\item Chọn $V_{os}$ nhỏ để, với OPA2333 $\Rightarrow V_{os} = 2\,\mu\textsf{V} \Rightarrow I_{out} = 20\,\mu\textsf{A}$ 
+	\item Chọn $I_{ib}$ và $I_{os}$ đủ nhỏ để không can thệp nhiều vào dòng ngõ ra với OPA2333 ta có: $I_{ib} = 70\,\textsf{pA}$ và $I_{os} = 140\,\textsf{pA}$ \\
+	$I_{-} = \left\{ \begin{matrix}
+		\dfrac{1}{2}I_{os} - I_{ib} \\[4pt]
+		\dfrac{1}{2}I_{os} + I_{ib}
+	\end{matrix} \right.$ 
+	
+	$\Rightarrow I_{-} = [0\text{, }140]\,\textsf{pA}$
+\end{itemize}
+
+\answer{b}{Mô phỏng mạch dùng Multisim (hoặc các chương trình tương tự).}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{my-chapters/my-images/Question9/b_mach_mo_phong.png}
+	\caption{Sơ đồ mạch của mạch chuyển đổi từ áp sang dòng điện ở dạng Floating load Type.}
+\end{figure}
+
+Tiến hành DC sweep để đo điện áp ngõ ra khi điện áp ngõ vào thay đổi từ $40\,\textsf{mV} \rightarrow 200\,\textsf{mV}$,
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{my-chapters/my-images/Question9/b_dcsweep.png}
+	\caption{Tiến hành chạy DC sweep.}
+\end{figure}
+
+Kết quả,
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{my-chapters/my-images/Question9/c_ketqua.png}
+	\caption{Kết quả của ngõ ra sau khi chạy DC sweep.}
+\end{figure}
+
+Kiểm tra sai số,
+
+\begin{minipage}{.5\linewidth}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{./my-chapters/my-images/Question9/c_saiso.png}
+	\end{figure}
+\end{minipage}
+\begin{minipage}{.5\linewidth}
+	\begin{itemize}[label=-]
+		\item Giá trị $I_{ideal}$ được tính bằng cách lấy $I_{in}\times 0.1$
+		\item Giá trị $\Delta I = | I_{out} - I_{ideal} |$
+		\item Giá trị \finalresult{\Delta I_{max} = 5.37235\,\mu\textsf{A}} và \finalresult{\Delta I_{min} = 5.21271\,\mu\textsf{A}}
+		\item Sai số ở ngõ ra rơi vào tầm \finalresult{\Delta I_{o_{max}} = 0.13032\%} và \finalresult{\Delta I_{o_{min}} = 0.02708\%}
+	\end{itemize}
+\end{minipage}
