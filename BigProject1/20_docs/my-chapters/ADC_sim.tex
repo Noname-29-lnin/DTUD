@@ -1,0 +1,17 @@
+\section{Thực hiện mạch đọc điện áp cho ngõ ra ADC}
+
+Theo chuẩn ngõ ra điện áp đọc từ Sensor là từ $0 \rightarrow 5\,\textsf{V}$, với ngõ vào là từ $20^{o}C \rightarrow 80^{o}C$ với bước nhảy là $0.1^{o}C$. Thực hiện tính giá trị của một bước nhảy nhỏ nhất là:
+
+\[ \dfrac{5 - 0}{\dfrac{80 - 20}{0.1} + 1} \approx 8.3195 \,\textsf{mV} \]
+
+Vậy có nghĩa là $\Delta_{min} \approx 8.3195 \,\textsf{mV} $, từ đó ta có:
+
+\[ 2^{Q} = \dfrac{V_{ref^{+}} - V_{ref^{-}}}{\Delta_{min}} \]
+
+Giả sử, chọn $V_{ref^{+}} = 5\,\textsf{V}$ và $V_{ref^{-}} = 0\,\textsf{V}$. Ta có $Q \approx 9.23\,\textsf{bit}$
+
+Tuy nhiên, trong thị trường không có ADC $9.23\,\textsf{bit}$ cho nên nhóm em sẽ chọn con có trên thị trường là \href{https://www.ti.com/lit/ds/symlink/ads1115.pdf}{ADS1115IDGSR}, với các thông số tổng quát như sau:
+
+\begin{itemize}
+	\item 
+\end{itemize}

@@ -33,22 +33,6 @@
 % Configuration
 % =========================
 
-\newcommand{\question}[1]{%
-	\section*{#1}%
-	\addcontentsline{toc}{section}{#1}%
-}
-\newcommand{\answer}[2]{%
-	\subsection*{\textbf{#1}\kern0.2em)~#2}%
-	\addcontentsline{toc}{subsection}{#1)}%
-}
-
-\newcommand{\finalresult}[1]{%
-	\begin{tikzpicture}[baseline=(content.base)]
-		\node[draw=red, thick, rounded corners=3pt, inner sep=6pt] (content)
-		{\ensuremath{#1}};
-	\end{tikzpicture}%
-}
-%--- Header and footer
 \fancyhf{}
 \fancyhead[L]{\leftmark}
 % =========================
@@ -63,9 +47,9 @@
 \onehalfspacing
 \setlength{\parskip}{6pt} 
 \tableofcontents
-%\listoffigures
-%\listoftables
-%\listoflistings
+\listoffigures
+\listoftables
+\listoflistings
 \newpage
 \pagestyle{fancy}
 \MycountPages{number}
@@ -74,7 +58,7 @@
 
 \newpage
 
-\section*{Đề tài 4} 
+\section{Đề tài 4} 
 
 Thiết kế mạch đo nhiệt độ sử dụng Thermistor. Mạch có tầm đo $20 - 80 ^{o}C$, độ phân giải $0.1^{o}C$, ngõ ra là điện áp tương ứng từ $0-5\,\textsf{V}$:
 \begin{enumerate}[label=\arabic*.]
@@ -85,4 +69,5 @@ Thiết kế mạch đo nhiệt độ sử dụng Thermistor. Mạch có tầm �
 	\item Thiết kế mạch đọc điện áp cho ngõ ra ADC. Tiến hành lựa chọn ADC (số bit, nguồn). Mô phỏng mạch đọc và kiểm chứng.
 \end{enumerate}
 
+\include{./my-chapters/ADC_sim.tex}
 \end{document}

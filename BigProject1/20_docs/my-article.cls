@@ -52,15 +52,15 @@
 % =====================
 \setcounter{secnumdepth}{3} % Numbering depth for sections
 \setcounter{tocdepth}{3}    % Depth for TOC % Number equations, tables, figures by section
-% \AtBeginDocument{\counterwithin{equation}{section}}
-% \AtBeginDocument{\counterwithin{table}{section}}
-% \AtBeginDocument{\counterwithin{figure}{section}}
+ \AtBeginDocument{\counterwithin{equation}{section}}
+ \AtBeginDocument{\counterwithin{table}{section}}
+ \AtBeginDocument{\counterwithin{figure}{section}}
 \AtBeginDocument{\renewcommand*\bibname{References}}
 
 % --- Section ---
 \titleformat{\section} % command
   {\normalfont\Large\bfseries} % format (font, size, bold)
-  {\thesection} % label
+  {Chapter \thesection} % label
   {1em} % sep
   {} % before-code
   [] % after-code
