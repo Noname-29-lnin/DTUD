@@ -78,9 +78,6 @@
   {\thesubsubsection}
   {0.5em}
   {}
-\titleformat{\section}
-            {\normalfont\Large\bfseries}
-            { }{1em}{}
 % =====================
 % Setup page
 % =====================

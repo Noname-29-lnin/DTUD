@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  28 NOV 2025 17:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  28 NOV 2025 22:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -525,16 +525,16 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@count@id=\count337
 \enitdp@description=\count338
 )
-Package hyperref Info: Option `unicode' set `true' on input line 107.
+Package hyperref Info: Option `unicode' set `true' on input line 104.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 107.
+(hyperref)                setting the option has no effect on input line 104.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 107.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 107.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 104.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 104.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 107.
+Package hyperref Info: Option `colorlinks' set `true' on input line 104.
 ) (my-coverpage.sty
 Package: my-coverpage 2025/08/11 HCMUT Report Cover Page
 
@@ -1480,7 +1480,51 @@ ine 432.
 )
 Package babel Info: Making " an active character on input line 147.
 ))
-(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
+
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count407
+\calc@Bcount=\count408
+\calc@Adimen=\dimen345
+\calc@Bdimen=\dimen346
+\calc@Askip=\skip152
+\calc@Bskip=\skip153
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count409
+\calc@Cskip=\skip154
+)
+\AM@pagewidth=\dimen347
+\AM@pageheight=\dimen348
+\AM@fboxrule=\dimen349
+
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count410
+\AM@pagebox=\box137
+\AM@global@opts=\toks54
+\AM@pagecnt=\count411
+\AM@toc@title=\toks55
+\AM@lof@heading=\toks56
+\c@AM@survey=\count412
+\AM@templatesizebox=\box138
+) (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
 (main.aux
@@ -1489,26 +1533,26 @@ Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
  (my-chapters/ADC_sim.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1544,7 +1588,7 @@ LaTeX Font Info:    ... okay on input line 41.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 41.
+Package hyperref Info: Link coloring ON on input line 44.
 (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1553,17 +1597,17 @@ Package hyperref Info: Link coloring ON on input line 41.
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count407
-\scratchdimen=\dimen345
-\scratchbox=\box137
-\nofMPsegments=\count408
-\nofMParguments=\count409
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count410
-\MPscratchDim=\dimen346
-\MPnumerator=\count411
-\makeMPintoPDFobject=\count412
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count413
+\scratchdimen=\dimen350
+\scratchbox=\box139
+\nofMPsegments=\count414
+\nofMParguments=\count415
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count416
+\MPscratchDim=\dimen351
+\MPnumerator=\count417
+\makeMPintoPDFobject=\count418
+\everyMPtoPDFconversion=\toks58
 )
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1579,36 +1623,36 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count413
-<./my-chapters/my-images/01_logobachkhoatoi.png, id=14, 471.9231pt x 478.9092pt
+\c@lstlisting=\count419
+<./my-chapters/my-images/01_logobachkhoatoi.png, id=22, 471.9231pt x 478.9092pt
 >
 File: ./my-chapters/my-images/01_logobachkhoatoi.png Graphic file (type png)
 <use ./my-chapters/my-images/01_logobachkhoatoi.png>
 Package pdftex.def Info: ./my-chapters/my-images/01_logobachkhoatoi.png  used o
-n input line 43.
+n input line 46.
 (pdftex.def)             Requested size: 141.57802pt x 143.67386pt.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 43.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 
  (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (2.19716pt too wide) in paragraph at lines 43--43
+Overfull \hbox (2.19716pt too wide) in paragraph at lines 46--46
  []|\T5/cmr/bx/n/14 STT| 
  []
 
 
 
-<./my-chapters/my-images/bia.jpg, id=16, 301.125pt x 414.95026pt>
+<./my-chapters/my-images/bia.jpg, id=24, 301.125pt x 414.95026pt>
 File: ./my-chapters/my-images/bia.jpg Graphic file (type jpg)
 <use ./my-chapters/my-images/bia.jpg>
-Package pdftex.def Info: ./my-chapters/my-images/bia.jpg  used on input line 44
+Package pdftex.def Info: ./my-chapters/my-images/bia.jpg  used on input line 47
 .
 (pdftex.def)             Requested size: 597.62614pt x 845.06903pt.
 [1
@@ -1635,48 +1679,188 @@ s/my-images/bia.jpg> <./my-chapters/my-images/01_logobachkhoatoi.png>]
 
 [2]
 LaTeX Font Info:    Trying to load font information for T5+cmss on input line 6
-3.
+6.
  (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmss.fd
 File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 
-Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
-(babel)             Reported on input line 72.
-<./my-chapters/my-images/logo_DEE.png, id=32, 76.03406pt x 75.28125pt>
+<./my-chapters/my-images/logo_DEE.png, id=46, 76.03406pt x 75.28125pt>
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 72.
+ne 75.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 \include{./my-chapters/ADC_sim.tex}
+l.75 \include{./my-chapters/ADC_sim.tex}
                                          [1 <./my-chapters/my-images/logo_DEE.p
 ng>]
 \openout2 = `./my-chapters/ADC_sim.aux'.
 
- (my-chapters/ADC_sim.tex)
+ (my-chapters/ADC_sim.tex
 
+Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
+(babel)             Reported on input line 42.
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 72.
+ne 42.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 \include{./my-chapters/ADC_sim.tex}
-                                         [2
+l.42 	\item F
+             amily of devices: [2
 
 ]
+<./my-chapters/my-images/ADC/datasheet_2.png, id=70, 816.04875pt x 124.21407pt>
+
+File: ./my-chapters/my-images/ADC/datasheet_2.png Graphic file (type png)
+<use ./my-chapters/my-images/ADC/datasheet_2.png>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_2.png  used on i
+nput line 52.
+(pdftex.def)             Requested size: 435.32422pt x 66.26337pt.
+<./my-chapters/my-images/ADC/datasheet_1.png, id=71, 834.11626pt x 606.76688pt>
+
+File: ./my-chapters/my-images/ADC/datasheet_1.png Graphic file (type png)
+<use ./my-chapters/my-images/ADC/datasheet_1.png>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_1.png  used on i
+nput line 61.
+(pdftex.def)             Requested size: 435.32422pt x 316.6779pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 64.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[3 <./my-chapters/my-images/ADC/datasheet_2.png>]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 78.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[4 <./my-chapters/my-images/ADC/datasheet_1.png>]
+
+pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_3.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./my-chapters/my-images/ADC/datasheet_3.pdf, id=84, 261.47687pt x 196.735pt>
+File: ./my-chapters/my-images/ADC/datasheet_3.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/datasheet_3.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_3.pdf  used on i
+nput line 79.
+(pdftex.def)             Requested size: 227.16109pt x 170.9179pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 78--87
+[]$[]$ $[]$ 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_4.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./my-chapters/my-images/ADC/datasheet_4.pdf, id=85, 256.45813pt x 202.25563pt>
+
+File: ./my-chapters/my-images/ADC/datasheet_4.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/datasheet_4.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_4.pdf  used on i
+nput line 91.
+(pdftex.def)             Requested size: 227.16109pt x 179.15207pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 90--99
+[]$[]$ $[]$ 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_4_1.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./my-chapters/my-images/ADC/datasheet_4_1.pdf, id=86, 260.975pt x 201.25188pt>
+
+File: ./my-chapters/my-images/ADC/datasheet_4_1.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/datasheet_4_1.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_4_1.pdf  used on
+ input line 103.
+(pdftex.def)             Requested size: 227.16109pt x 175.17982pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 102--110
+[]$[]$ $[]$ 
+ []
+
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 113.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[5 <./my-chapters/my-images/ADC/datasheet_3.pdf> <./my-chapters/my-images/ADC/d
+atasheet_4.pdf> <./my-chapters/my-images/ADC/datasheet_4_1.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_5.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./my-chapters/my-images/ADC/datasheet_5.pdf, id=330, 255.45438pt x 191.71625pt
+>
+File: ./my-chapters/my-images/ADC/datasheet_5.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/datasheet_5.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_5.pdf  used on i
+nput line 114.
+(pdftex.def)             Requested size: 227.16109pt x 170.48065pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 113--121
+[]$[]$ $[]$ 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_7.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./my-chapters/my-images/ADC/datasheet_7.pdf, id=331, 260.47313pt x 203.76125pt
+>
+File: ./my-chapters/my-images/ADC/datasheet_7.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/datasheet_7.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_7.pdf  used on i
+nput line 125.
+(pdftex.def)             Requested size: 227.16109pt x 177.70302pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 124--133
+[]$[]$ $[]$ 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_8.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./my-chapters/my-images/ADC/datasheet_8.pdf, id=332, 255.20343pt x 194.22563pt
+>
+File: ./my-chapters/my-images/ADC/datasheet_8.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/datasheet_8.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_8.pdf  used on i
+nput line 137.
+(pdftex.def)             Requested size: 227.16109pt x 172.89285pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 136--145
+[]$[]$ $[]$ 
+ []
+
+)
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 75.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[6 <./my-chapters/my-images/ADC/datasheet_5.pdf> <./my-chapters/my-images/ADC/d
+atasheet_7.pdf> <./my-chapters/my-images/ADC/datasheet_8.pdf>]
 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20251128171834 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20251128225856 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
 (main.aux (my-chapters/ADC_sim.aux))
@@ -1685,16 +1869,16 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 62614AE69FDCD538796E3774819BF21A;424.
+(rerunfilecheck)             Checksum: 7361CDAD307D25FEBB63B6C497EAAC3E;1035.
  ) 
 Here is how much of TeX's memory you used:
- 32334 strings out of 468134
- 632318 string characters out of 5430740
- 1148351 words of memory out of 5000000
- 60379 multiletter control sequences out of 15000+600000
- 649743 words of font info for 88 fonts, out of 8000000 for 9000
+ 33124 strings out of 468134
+ 648613 string characters out of 5430740
+ 1166320 words of memory out of 5000000
+ 61141 multiletter control sequences out of 15000+600000
+ 651696 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,14n,101p,1065b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,15n,101p,1065b,637s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -1706,9 +1890,9 @@ l/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/nguye/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/nguye/AppData/Local
 /Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/nguye/AppData/Local/
 Programs/MiKTeX/fonts/type1/vntex/vnr/vnss12.pfb>
-Output written on main.pdf (4 pages, 179999 bytes).
+Output written on main.pdf (8 pages, 639436 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 44 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 100 words of extra memory for PDF output out of 10000 (max. 10000000)
 

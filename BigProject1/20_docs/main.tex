@@ -6,6 +6,9 @@
 \usepackage[T5]{fontenc}
 \usepackage[vietnamese]{babel}
 
+\usepackage{pdflscape}
+\usepackage{pdfpages}
+
 %\usepackage{textcomp}
 % =========================
 % Cover page information
@@ -42,7 +45,7 @@
 \pagestyle{empty}
 \MycoverFinalProject % Cover page
 \newpage
-\renewcommand{\arraystretch}{1.5} % tăng khoảng cách dòng (row height)
+\renewcommand{\arraystretch}{1.5}
 \setlength{\parindent}{1cm}
 \onehalfspacing
 \setlength{\parskip}{6pt} 
@@ -53,12 +56,12 @@
 \newpage
 \pagestyle{fancy}
 \MycountPages{number}
-\fancyfoot[L]{\includegraphics[width=.02\linewidth]{./my-chapters/my-images/logo_DEE.png}\text{ Department of Electronics}}
+\fancyfoot[L]{\includegraphics[width=.02\linewidth]{./my-chapters/my-images/logo_DEE.png}\text{Department of Electronics}}
 \fancyhead[R]{GVHD: Nguyễn Trung Hiếu}
 
 \newpage
 
-\section{Đề tài 4} 
+\section*{Đề tài 4} 
 
 Thiết kế mạch đo nhiệt độ sử dụng Thermistor. Mạch có tầm đo $20 - 80 ^{o}C$, độ phân giải $0.1^{o}C$, ngõ ra là điện áp tương ứng từ $0-5\,\textsf{V}$:
 \begin{enumerate}[label=\arabic*.]
