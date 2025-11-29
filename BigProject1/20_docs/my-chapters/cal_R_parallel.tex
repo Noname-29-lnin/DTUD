@@ -1,0 +1,27 @@
+\section{Lựa chọn điện trở song song để tuyến tính hóa}
+
+Theo datasheet của NTCLE100E3,
+
+$
+\begin{equation}
+	R_{(T)} = R_{ref} \times e^{A + B/T^{1} + C/T^{2} + D/T^{3}}
+	\label{Eq: RTH}
+\end{equation}
+$
+
+\[
+T_{(R)} = \left( A_{1} + B_{1} \ln^{2} \frac{R}{R_{ref}} - C_{1} \ln^2 \frac{R}{R_{ref}} - D_{1} \ln^3 \frac{R}{R_{ref}} \right)^{-1}
+\]
+
+Trong đó:
+
+\begin{itemize}[label=-]
+	\item $A$, $B$, $C$, $D$, $A_{1}$, $B_{1}$, $C_{1}$ và $D_{1}$ là các hằng số dựa vào thông số của vật liệu.
+	\item $R_{ref}$ là giá trị điện trở tại nhiệt độ tham chiếu (thường chọn ở $T = 25^{o}C$, $ R_{ref} = R_{25}$).
+	\item $T$ là nhiệt độ Kelvin (K). $T(^{o}C) = T(K) - 273.15$.
+\end{itemize}
+
+Từ phương trình \ref{Eq: RTH}, 
+
+\[ R_{TH} = R_{25} e^{A + \dfrac{B}{T}} + \dfrac{C}{T^{2}} + \dfrac{D}{T^{d}} \]
+\[ V_{e} = I \dfrac{R_{TH} \times R_{p}}{R_{TH} + R_{p}} \]
