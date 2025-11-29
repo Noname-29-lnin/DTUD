@@ -144,3 +144,36 @@ Tiếp theo, ta cần quan tâm đến giá trị như sau:
 	\end{minipage}
 \end{itemize}
 
+\subsection{Data Format}
+
+Với ADS1115 là một ADC 16-bit với ngõ ra là một chuỗi bit có dấu theo giá trị như sau:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{./my-chapters/my-images/ADC/datasheet_sampling.pdf}
+	\caption{ADS1115 Code Transition Diagram.}
+	\label{fig: CodeTransDiagram}
+\end{figure}
+
+Theo hình \ref{fig: CodeTransDiagram}, với $\textsf{FS} = 6.144$ như ở trên thì giá trị lớn nhất mà ADC có thể đọc được là $ V_{ref} \times \dfrac{2^{15} - 1}{2^{15}} \approx 6.1438\,\textsf{V}$ vẫn phù hợp với tầm đo là từ $0\rightarrow5 \,\textsf{V}$. Từ đó ta có công thức suy ngược từ $D_{out}$ nhận được từ ADC là:
+\[ V_{out} = \dfrac{V_{ref}}{2^{15}} \times D_{out} = \dfrac{6.1438}{32768}\times D_{out} \]
+
+\subsection{Kết quả của việc tính toán ADC}
+
+Ta có bảng tính toán giá bên dưới, trong bảng giá trị có các giá trị như sau:
+
+\begin{itemize}[label=-]
+	\item \textbf{T\_s :} là giá trị nhiệt độ chuẩn cần đo.
+	\item \textbf{V\_i :} là giá trị điện áp đo được từ sensor trong khoảng từ $0\rightarrow 5\,\textsf{V}$ với sai số là 5\%.
+	\item \textbf{Offset\_Error :} là giá trị sai số của ADS1115 do nhiệt độ tạo nên.
+	\item \textbf{Gain\_Error :} là giá trị của độ lợi của ADS1115 do nhiệt độ tạo nên.
+	\item \textbf{V\_i\_ADC :} là giá trị mà ADC thực sự nhận tại chân \texttt{IN0}.
+	\item \textbf{D\_out :} là giá trị tính toán từ giá trị điện đọc từ chân \texttt{IN0} với công thức là $\dfrac{V\_i\_ADC \times 2^{15}}{FS}$.
+	\item \textbf{D\_cal\_Error :} là giá trị mà thực sự ADS1115 cho ra ở ngõ ra với các giá trị sai số cộng thêm do chính ADC và nhiệt độ.
+	\item \textbf{Cal\_V :} là giá trị được tính trong MCU chuyển đổi từ giá trị Digital của ADS1115 gửi về cho MCU.
+	\item \textbf{Cal\_Temp :} là giá trị chuyển đổi từ điện áp tính toán được \texttt{Cal\_V} về giá trị nhiệt độ theo công thức chuẩn là $T = \dfrac{V_{in} + \dfrac{5}{3}}{\dfrac{1}{2}}$.
+\end{itemize}
+
+\begin{landscape}
+	\includepdf[pages=-,angle=90,offset=0cm 0cm]{./my-chapters/my-images/ADC/Export_file_ADC.pdf}
+\end{landscape}
