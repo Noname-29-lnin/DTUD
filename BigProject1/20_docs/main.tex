@@ -37,7 +37,13 @@
 % =========================
 
 \fancyhf{}
-\fancyhead[L]{\leftmark}
+%\fancyhead[L]{\leftmark}
+\newcommand{\finalresult}[1]{%
+	\begin{tikzpicture}[baseline=(content.base)]
+		\node[draw=red, thick, rounded corners=3pt, inner sep=6pt] (content)
+		{\ensuremath{#1}};
+	\end{tikzpicture}%
+}
 % =========================
 % Document
 % =========================
@@ -74,5 +80,6 @@ Thiết kế mạch đo nhiệt độ sử dụng Thermistor. Mạch có tầm �
 
 \include{./my-chapters/select_Thermistor.tex}
 \include{./my-chapters/cal_R_parallel.tex}
+\include{./my-chapters/sel_opamp.tex}
 \include{./my-chapters/ADC_sim.tex}
 \end{document}

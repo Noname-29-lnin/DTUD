@@ -60,7 +60,7 @@
 % --- Section ---
 \titleformat{\section} % command
   {\normalfont\Large\bfseries} % format (font, size, bold)
-  {Chapter \thesection} % label
+  {Chapter \thesection.} % label
   {1em} % sep
   {} % before-code
   [] % after-code

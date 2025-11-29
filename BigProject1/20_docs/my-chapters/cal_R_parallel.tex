@@ -29,7 +29,7 @@ Ta có:
 $
 	\begin{matrix}
 		\dfrac{dV_{e}}{dT} & = & \dfrac{I\times R_{p} \left( R_{TH} \left( -\dfrac{B}{T^{2}} - \dfrac{2C}{T_{3}} - \dfrac{3D}{T^{4}} \right) \left( R_{TH} + R_{p} \right) - R_{TH} \left( -\dfrac{B}{T^{2}} - \dfrac{2C}{T_{3}} - \dfrac{3D}{T^{4}} \right)R_{TH} \right)}{\left(R_{TH} + R_{p}\right)^{2}} \\[10pt]
-						   & = & \dfrac{I R_{p}^{2} R_{TH} \left( -\dfrac{B}{T^{2}} - \dfrac{2C}{T_{3}} - \dfrac{3D}{T^{4}} \right)}{\left(R_{TH} + R_{p}\right)^{2}}
+						   & = & \dfrac{I R_{p}^{2} R_{TH} \left( -\dfrac{B}{T^{2}} - \dfrac{2C}{T_{3}} - \dfrac{3D}{T^{4}} \right)}{\left(R_{TH} + R_{p}\right)^{2}} \hfill
 	\end{matrix}
 $
 
@@ -80,7 +80,14 @@ $
 
 Xét $\dfrac{V^{2}V_{e} }{d^{2}T } = 0 \quad \text{ Tại } T = 50^{o}C = 323.15K$.
 
-Từ Datasheets, ta có $R_{50} = 3605\,\Omega$.
+Từ Datasheets, 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\linewidth]{./my-chapters/my-images/Cal_R_parallel/Sel_R_50.png}
+\end{figure}
+
+Ta có $R_{50} = 3605\,\Omega$.
 
 $
 	\begin{matrix}
@@ -90,4 +97,4 @@ $
 	\end{matrix}
 $
 
-$\Rightarrow R_{p} = 2.698\,\textsf{k}\Omega \approx 2.7\,\textsf{k}\Omega$
+$\Rightarrow$ \finalresult{R_{p} = 2.698\,\textsf{k}\Omega \approx 2.7\,\textsf{k}\Omega}

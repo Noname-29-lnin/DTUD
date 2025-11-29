@@ -171,7 +171,7 @@ Ta có bảng tính toán giá bên dưới, trong bảng giá trị có các gi
 	\item \textbf{D\_out :} là giá trị tính toán từ giá trị điện đọc từ chân \texttt{IN0} với công thức là $\dfrac{V\_i\_ADC \times 2^{15}}{FS}$.
 	\item \textbf{D\_cal\_Error :} là giá trị mà thực sự ADS1115 cho ra ở ngõ ra với các giá trị sai số cộng thêm do chính ADC và nhiệt độ.
 	\item \textbf{Cal\_V :} là giá trị được tính trong MCU chuyển đổi từ giá trị Digital của ADS1115 gửi về cho MCU.
-	\item \textbf{Cal\_Temp :} là giá trị chuyển đổi từ điện áp tính toán được \texttt{Cal\_V} về giá trị nhiệt độ theo công thức chuẩn là $T = \dfrac{V_{in} + \dfrac{5}{3}}{\dfrac{1}{2}}$.
+	\item \textbf{Cal\_Temp :} là giá trị chuyển đổi từ điện áp tính toán được \texttt{Cal\_V} về giá trị nhiệt độ theo công thức chuẩn là $T = \dfrac{V_{in} + \dfrac{5}{3}}{\dfrac{1}{12}}$.
 \end{itemize}
 
 \begin{landscape}

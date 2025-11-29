@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  29 NOV 2025 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  29 NOV 2025 21:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1530,29 +1530,30 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 (main.aux
 Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
 (babel)             Reported on input line 9.
- (my-chapters/ADC_sim.aux))
+ (my-chapters/select_Thermistor.aux) (my-chapters/cal_R_parallel.aux)
+(my-chapters/sel_opamp.aux) (my-chapters/ADC_sim.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1588,7 +1589,7 @@ LaTeX Font Info:    ... okay on input line 44.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 44.
+Package hyperref Info: Link coloring ON on input line 50.
 (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1624,35 +1625,35 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count419
-<./my-chapters/my-images/01_logobachkhoatoi.png, id=30, 471.9231pt x 478.9092pt
+<./my-chapters/my-images/01_logobachkhoatoi.png, id=46, 471.9231pt x 478.9092pt
 >
 File: ./my-chapters/my-images/01_logobachkhoatoi.png Graphic file (type png)
 <use ./my-chapters/my-images/01_logobachkhoatoi.png>
 Package pdftex.def Info: ./my-chapters/my-images/01_logobachkhoatoi.png  used o
-n input line 46.
+n input line 52.
 (pdftex.def)             Requested size: 141.57802pt x 143.67386pt.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 46.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
 
  (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
 
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (2.19716pt too wide) in paragraph at lines 46--46
+Overfull \hbox (2.19716pt too wide) in paragraph at lines 52--52
  []|\T5/cmr/bx/n/14 STT| 
  []
 
 
 
-<./my-chapters/my-images/bia.jpg, id=32, 301.125pt x 414.95026pt>
+<./my-chapters/my-images/bia.jpg, id=48, 301.125pt x 414.95026pt>
 File: ./my-chapters/my-images/bia.jpg Graphic file (type jpg)
 <use ./my-chapters/my-images/bia.jpg>
-Package pdftex.def Info: ./my-chapters/my-images/bia.jpg  used on input line 47
+Package pdftex.def Info: ./my-chapters/my-images/bia.jpg  used on input line 53
 .
 (pdftex.def)             Requested size: 597.62614pt x 845.06903pt.
 [1
@@ -1678,55 +1679,204 @@ s/my-images/bia.jpg> <./my-chapters/my-images/01_logobachkhoatoi.png>]
 
 
 [2]
-LaTeX Font Info:    Trying to load font information for T5+cmss on input line 6
-6.
+LaTeX Font Info:    Trying to load font information for T5+cmss on input line 7
+2.
  (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmss.fd
 File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 
-<./my-chapters/my-images/logo_DEE.png, id=58, 76.03406pt x 75.28125pt>
+<./my-chapters/my-images/logo_DEE.png, id=80, 76.03406pt x 75.28125pt>
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 75.
+ne 81.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 \include{./my-chapters/ADC_sim.tex}
-                                         [1 <./my-chapters/my-images/logo_DEE.p
-ng>]
-\openout2 = `./my-chapters/ADC_sim.aux'.
+l.81 \include{./my-chapters/select_Thermistor.tex}
+                                                   [1 <./my-chapters/my-images/
+logo_DEE.png>]
+\openout2 = `./my-chapters/select_Thermistor.aux'.
 
- (my-chapters/ADC_sim.tex
+ (my-chapters/select_Thermistor.tex
 
-Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
-(babel)             Reported on input line 42.
+pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/Sel_Thermistor/Quick
+_datasheet.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
+.5> allowed
+<./my-chapters/my-images/Sel_Thermistor/Quick_datasheet.pdf, id=98, 258.9675pt 
+x 433.62pt>
+File: ./my-chapters/my-images/Sel_Thermistor/Quick_datasheet.pdf Graphic file (
+type pdf)
+<use ./my-chapters/my-images/Sel_Thermistor/Quick_datasheet.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/Sel_Thermistor/Quick_datasheet
+.pdf  used on input line 7.
+(pdftex.def)             Requested size: 290.22107pt x 486.00177pt.
+)
+
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 42.
+ne 81.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 	\item F
-             amily of devices: [2
+l.81 \include{./my-chapters/select_Thermistor.tex}
+                                                   [2
+
+ <./my-chapters/my-images/Sel_Thermistor/Quick_datasheet.pdf>]
+\openout2 = `./my-chapters/cal_R_parallel.aux'.
+
+ (my-chapters/cal_R_parallel.tex
+Overfull \hbox (18.76453pt too wide) in paragraph at lines 29--35
+[]$ [] $ 
+ []
+
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 45.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[3
+
+
 
 ]
-<./my-chapters/my-images/ADC/datasheet_2.png, id=82, 816.04875pt x 124.21407pt>
+<./my-chapters/my-images/Cal_R_parallel/Sel_B_25_85.png, id=164, 874.01532pt x 
+560.0925pt>
+File: ./my-chapters/my-images/Cal_R_parallel/Sel_B_25_85.png Graphic file (type
+ png)
+<use ./my-chapters/my-images/Cal_R_parallel/Sel_B_25_85.png>
+Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Sel_B_25_85.png
+  used on input line 55.
+(pdftex.def)             Requested size: 338.58632pt x 216.97377pt.
+<./my-chapters/my-images/Cal_R_parallel/Sel_ABCD.png, id=165, 873.2625pt x 543.
+53062pt>
+File: ./my-chapters/my-images/Cal_R_parallel/Sel_ABCD.png Graphic file (type pn
+g)
+<use ./my-chapters/my-images/Cal_R_parallel/Sel_ABCD.png>
+Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Sel_ABCD.png  u
+sed on input line 69.
+(pdftex.def)             Requested size: 338.58632pt x 210.74034pt.
 
+Overfull \hbox (31.06322pt too wide) in paragraph at lines 60--71
+[]$[]$ $[]$ 
+ []
+
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 81.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[4 <./my-chapters/my-images/Cal_R_parallel/Sel_B_25_85.png> <./my-chapters/my-i
+mages/Cal_R_parallel/Sel_ABCD.png>]
+<./my-chapters/my-images/Cal_R_parallel/Sel_R_50.png, id=174, 895.09406pt x 610
+.53094pt>
+File: ./my-chapters/my-images/Cal_R_parallel/Sel_R_50.png Graphic file (type pn
+g)
+<use ./my-chapters/my-images/Cal_R_parallel/Sel_R_50.png>
+Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Sel_R_50.png  u
+sed on input line 87.
+(pdftex.def)             Requested size: 338.58632pt x 230.95146pt.
+)
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 82.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[5 <./my-chapters/my-images/Cal_R_parallel/Sel_R_50.png>]
+\openout2 = `./my-chapters/sel_opamp.aux'.
+
+
+(my-chapters/sel_opamp.tex
+Overfull \hbox (17.33823pt too wide) in paragraph at lines 1--1
+|[]\T5/cmr/bx/n/17.28 Lüa chån OPAMP sû döng, mæ phäng OPAMP
+ []
+
+<./my-chapters/my-diagrams/Stage_Amplifier.png, id=183, 949.5475pt x 753.81625p
+t>
+File: ./my-chapters/my-diagrams/Stage_Amplifier.png Graphic file (type png)
+<use ./my-chapters/my-diagrams/Stage_Amplifier.png>
+Package pdftex.def Info: ./my-chapters/my-diagrams/Stage_Amplifier.png  used on
+ input line 9.
+(pdftex.def)             Requested size: 338.58632pt x 268.78563pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 30.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[6
+
+
+
+ <./my-chapters/my-diagrams/Stage_Amplifier.png>]
+<./my-chapters/my-images/Sel_OPAMP/TL082_package.png, id=194, 359.09157pt x 544
+.28343pt>
+File: ./my-chapters/my-images/Sel_OPAMP/TL082_package.png Graphic file (type pn
+g)
+<use ./my-chapters/my-images/Sel_OPAMP/TL082_package.png>
+Package pdftex.def Info: ./my-chapters/my-images/Sel_OPAMP/TL082_package.png  u
+sed on input line 50.
+(pdftex.def)             Requested size: 193.47578pt x 293.26088pt.
+<./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png, id=195, 686.565pt x 32
+0.69812pt>
+File: ./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png Graphic file (type
+ png)
+<use ./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png>
+Package pdftex.def Info: ./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png
+  used on input line 55.
+(pdftex.def)             Requested size: 386.95897pt x 180.74947pt.
+)
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 83.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[7 <./my-chapters/my-images/Sel_OPAMP/TL082_package.png>]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 83.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[8 <./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png>]
+\openout2 = `./my-chapters/ADC_sim.aux'.
+
+
+(my-chapters/ADC_sim.tex
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 42.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[9
+
+
+
+]
+<./my-chapters/my-images/ADC/datasheet_2.png, id=219, 816.04875pt x 124.21407pt
+>
 File: ./my-chapters/my-images/ADC/datasheet_2.png Graphic file (type png)
 <use ./my-chapters/my-images/ADC/datasheet_2.png>
 Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_2.png  used on i
 nput line 52.
 (pdftex.def)             Requested size: 435.32422pt x 66.26337pt.
-<./my-chapters/my-images/ADC/datasheet_1.png, id=83, 834.11626pt x 606.76688pt>
-
+<./my-chapters/my-images/ADC/datasheet_1.png, id=220, 834.11626pt x 606.76688pt
+>
 File: ./my-chapters/my-images/ADC/datasheet_1.png Graphic file (type png)
 <use ./my-chapters/my-images/ADC/datasheet_1.png>
 Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_1.png  used on i
@@ -1739,18 +1889,18 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 64.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[3 <./my-chapters/my-images/ADC/datasheet_2.png>]
+[10 <./my-chapters/my-images/ADC/datasheet_2.png>]
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 78.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[4 <./my-chapters/my-images/ADC/datasheet_1.png>]
+[11 <./my-chapters/my-images/ADC/datasheet_1.png>]
 
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_3.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./my-chapters/my-images/ADC/datasheet_3.pdf, id=96, 261.47687pt x 196.735pt>
+<./my-chapters/my-images/ADC/datasheet_3.pdf, id=234, 261.47687pt x 196.735pt>
 File: ./my-chapters/my-images/ADC/datasheet_3.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/datasheet_3.pdf>
 Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_3.pdf  used on i
@@ -1765,8 +1915,8 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 78--87
 
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_4.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./my-chapters/my-images/ADC/datasheet_4.pdf, id=97, 256.45813pt x 202.25563pt>
-
+<./my-chapters/my-images/ADC/datasheet_4.pdf, id=235, 256.45813pt x 202.25563pt
+>
 File: ./my-chapters/my-images/ADC/datasheet_4.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/datasheet_4.pdf>
 Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_4.pdf  used on i
@@ -1781,8 +1931,8 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 90--99
 
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_4_1.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./my-chapters/my-images/ADC/datasheet_4_1.pdf, id=98, 260.975pt x 201.25188pt>
-
+<./my-chapters/my-images/ADC/datasheet_4_1.pdf, id=236, 260.975pt x 201.25188pt
+>
 File: ./my-chapters/my-images/ADC/datasheet_4_1.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/datasheet_4_1.pdf>
 Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_4_1.pdf  used on
@@ -1800,12 +1950,12 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 113.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[5 <./my-chapters/my-images/ADC/datasheet_3.pdf> <./my-chapters/my-images/ADC/d
-atasheet_4.pdf> <./my-chapters/my-images/ADC/datasheet_4_1.pdf>]
+[12 <./my-chapters/my-images/ADC/datasheet_3.pdf> <./my-chapters/my-images/ADC/
+datasheet_4.pdf> <./my-chapters/my-images/ADC/datasheet_4_1.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_5.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./my-chapters/my-images/ADC/datasheet_5.pdf, id=342, 255.45438pt x 191.71625pt
+<./my-chapters/my-images/ADC/datasheet_5.pdf, id=479, 255.45438pt x 191.71625pt
 >
 File: ./my-chapters/my-images/ADC/datasheet_5.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/datasheet_5.pdf>
@@ -1821,7 +1971,7 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 113--121
 
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_7.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./my-chapters/my-images/ADC/datasheet_7.pdf, id=343, 260.47313pt x 203.76125pt
+<./my-chapters/my-images/ADC/datasheet_7.pdf, id=480, 260.47313pt x 203.76125pt
 >
 File: ./my-chapters/my-images/ADC/datasheet_7.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/datasheet_7.pdf>
@@ -1837,7 +1987,7 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 124--133
 
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_8.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./my-chapters/my-images/ADC/datasheet_8.pdf, id=344, 255.20343pt x 194.22563pt
+<./my-chapters/my-images/ADC/datasheet_8.pdf, id=481, 255.20343pt x 194.22563pt
 >
 File: ./my-chapters/my-images/ADC/datasheet_8.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/datasheet_8.pdf>
@@ -1854,7 +2004,7 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 136--145
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_sampli
 ng.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<./my-chapters/my-images/ADC/datasheet_sampling.pdf, id=345, 274.52562pt x 358.
+<./my-chapters/my-images/ADC/datasheet_sampling.pdf, id=482, 274.52562pt x 358.
 84062pt>
 File: ./my-chapters/my-images/ADC/datasheet_sampling.pdf Graphic file (type pdf
 )
@@ -1869,15 +2019,15 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 156.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[6 <./my-chapters/my-images/ADC/datasheet_5.pdf> <./my-chapters/my-images/ADC/d
-atasheet_7.pdf> <./my-chapters/my-images/ADC/datasheet_8.pdf>]
+[13 <./my-chapters/my-images/ADC/datasheet_5.pdf> <./my-chapters/my-images/ADC/
+datasheet_7.pdf> <./my-chapters/my-images/ADC/datasheet_8.pdf>]
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 159.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[7 <./my-chapters/my-images/ADC/datasheet_sampling.pdf>]
+[14 <./my-chapters/my-images/ADC/datasheet_sampling.pdf>]
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 1
 70.
 
@@ -1896,15 +2046,15 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 177.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[8]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=579, 794.97pt x 614.295pt>
+[15]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=715, 794.97pt x 614.295pt>
 
 File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/Export_file_ADC.pdf>
 Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf  used 
 on input line 178.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=581, page=1, 794.97pt x 61
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=717, page=1, 794.97pt x 61
 4.295pt>
 File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 1>
@@ -1932,202 +2082,205 @@ File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 1>
 Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
 1 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[9
-
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=600, page=2, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 2>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-2 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 2>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-2 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 2>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-2 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[10
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=605, page=3, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 3>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-3 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 3>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-3 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 3>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-3 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[11
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=611, page=4, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 4>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-4 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 4>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-4 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 4>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-4 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[12
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=616, page=5, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 5>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-5 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 5>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-5 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 5>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-5 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[13
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=621, page=6, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 6>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-6 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 6>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-6 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 6>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-6 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[14
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=626, page=7, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 7>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-7 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 7>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-7 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 7>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-7 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[15
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=631, page=8, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 8>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-8 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 8>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-8 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 8>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-8 used on input line 178.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 [16
+
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=732, page=2, 794.97pt x 61
+4.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 2>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+2 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 2>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+2 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 2>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+2 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[17
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=738, page=3, 794.97pt x 61
+4.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 3>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+3 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 3>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+3 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 3>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+3 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[18
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=743, page=4, 794.97pt x 61
+4.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 4>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+4 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 4>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+4 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 4>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+4 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[19
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=748, page=5, 794.97pt x 61
+4.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 5>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+5 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 5>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+5 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 5>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+5 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[20
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=753, page=6, 794.97pt x 61
+4.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 6>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+6 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 6>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+6 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 6>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+6 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[21
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=758, page=7, 794.97pt x 61
+4.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 7>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+7 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 7>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+7 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 7>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+7 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[22
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=763, page=8, 794.97pt x 61
+4.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 8>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+8 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 8>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+8 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 8>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+8 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[23
 
  <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
 ) 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20251129120220 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20251129213740 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
-(main.aux (my-chapters/ADC_sim.aux))
+(main.aux (my-chapters/select_Thermistor.aux) (my-chapters/cal_R_parallel.aux)
+(my-chapters/sel_opamp.aux) (my-chapters/ADC_sim.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 31D7F37DCEC06643B132C6E184BF3D82;1437.
+(rerunfilecheck)             Checksum: 446FA731F1408D7C410F28382B2CB421;2617.
  ) 
 Here is how much of TeX's memory you used:
- 33204 strings out of 468134
- 651739 string characters out of 5430740
- 1166320 words of memory out of 5000000
- 61204 multiletter control sequences out of 15000+600000
+ 33408 strings out of 468134
+ 659887 string characters out of 5430740
+ 1170443 words of memory out of 5000000
+ 61365 multiletter control sequences out of 15000+600000
  652007 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,101p,1065b,676s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nguye/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nguye/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nguye/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/nguye/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/nguye/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/nguye/AppData
-/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss12.pfb><C:/Users/nguye/AppData
-/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (18 pages, 776874 bytes).
+cmex10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nguye/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nguye/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nguye/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/ng
+uye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
+Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/
+Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/U
+sers/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Us
+ers/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss12.pfb><C:/Us
+ers/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
+Output written on main.pdf (25 pages, 1589015 bytes).
 PDF statistics:
- 694 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 840 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,56 @@
+\section{Lựa chọn OPAMP sử dụng, mô phỏng OPAMP theo datasheet}
+
+\subsection{Tại tầng khuếch đại}
+
+Ta xét ở tầng khuếch đại:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\linewidth]{./my-chapters/my-diagrams/Stage_Amplifier.png}
+\end{figure}
+
+\begin{enumerate}[label=\arabic*.]
+	\item Xét tại OPAMP đầu tiên có chức năng là một Buffer:
+	
+	\[ V_{o1} = V_{i} \pm V_{os} \]
+	
+	\item Xét tại OPAMP thứ hai có chức năng là thực hiện hàm $V_{o} = V_{i} + V_{ref}$:
+	
+	\[ V_{o} = \left( 1 + \dfrac{R_{3}}{R_{4}} \right)\left( V_{ref}\dfrac{R_{2}}{R_{1} + R_{2}} + V_{o1}\dfrac{R_{1}}{R_{1} + R_{2}} \right) \pm V_{os}\left( 1 + \dfrac{R_{3}}{R_{4}} \right) \mp I_{-}R_{3} \]
+\end{enumerate}
+
+Chọn $R_{1} = R_{2} = 1\,\textsf{k}\Omega$
+
+Chọn $R_{3} = R_{4} = 1\,\textsf{k}\Omega$
+
+Ta xét 2 con OPAMP trên là cùng một Package, ta có:
+
+\begin{enumerate}[label=\arabic*.]
+	\item Xét tại OPAMP đầu tiên có chức năng là một Buffer với ngõ điện áp ngõ ra sai số 5\% giá trị thì tại đây nhóm em chọn sai số phải rơi vào dưới 1\%:
+	
+	\[ \pm V_{os} < 0.08\,\textsf{V}\]
+	$\Rightarrow V_{os} $ phải có giá trị ở dưới 10 lần ngưỡng trên là cỡ $8\,\textsf{mV}$.
+	\item Xét tại OPAMP thứ hai phải có ngõ ra cũng rơi vào dưới 1\%:
+	
+	\[ \pm V_{os}\left( 1 + \dfrac{R_{3}}{R_{4}} \right) \mp I_{-}R_{3} < 0.05\,\textsf{V} \]
+	$\Rightarrow$ Với $V_{os} < 10\,\textsf{mV}$ thì $I_{-} > 70\,\mu\textsf{A}$.
+	
+	$\Rightarrow \left\{ 
+		\begin{matrix}
+			I_{os} = | I_{+} - I_{-} | < 30\,\mu\textsf{A}\\[6pt]
+			I_{ib} = \dfrac{I_{+} + I_{-}}{2} < 15\,\mu\textsf{A} 
+		\end{matrix}
+	\right.$
+\end{enumerate}
+
+Từ đó ở tầng khuếch đại nhóm em sử dụng \href{https://www.ti.com/lit/ds/symlink/tl082.pdf?ts=1690260841562}{TL082CP}, với thông số sau:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.4\linewidth]{./my-chapters/my-images/Sel_OPAMP/TL082_package.png}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png}
+\end{figure}
