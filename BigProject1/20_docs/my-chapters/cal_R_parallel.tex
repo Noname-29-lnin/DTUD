@@ -2,12 +2,10 @@
 
 Theo datasheet của NTCLE100E3,
 
-$
 \begin{equation}
 	R_{(T)} = R_{ref} \times e^{A + B/T^{1} + C/T^{2} + D/T^{3}}
 	\label{Eq: RTH}
 \end{equation}
-$
 
 \[
 T_{(R)} = \left( A_{1} + B_{1} \ln^{2} \frac{R}{R_{ref}} - C_{1} \ln^2 \frac{R}{R_{ref}} - D_{1} \ln^3 \frac{R}{R_{ref}} \right)^{-1}
@@ -15,7 +13,7 @@ T_{(R)} = \left( A_{1} + B_{1} \ln^{2} \frac{R}{R_{ref}} - C_{1} \ln^2 \frac{R}{
 
 Trong đó:
 
-\begin{itemize}[label=-]
+\begin{itemize}[label=-, leftmargin=2cm]
 	\item $A$, $B$, $C$, $D$, $A_{1}$, $B_{1}$, $C_{1}$ và $D_{1}$ là các hằng số dựa vào thông số của vật liệu.
 	\item $R_{ref}$ là giá trị điện trở tại nhiệt độ tham chiếu (thường chọn ở $T = 25^{o}C$, $ R_{ref} = R_{25}$).
 	\item $T$ là nhiệt độ Kelvin (K). $T(^{o}C) = T(K) - 273.15$.
@@ -23,5 +21,73 @@ Trong đó:
 
 Từ phương trình \ref{Eq: RTH}, 
 
-\[ R_{TH} = R_{25} e^{A + \dfrac{B}{T}} + \dfrac{C}{T^{2}} + \dfrac{D}{T^{d}} \]
-\[ V_{e} = I \dfrac{R_{TH} \times R_{p}}{R_{TH} + R_{p}} \]
+\[ R_{TH} = R_{25} \times e^{A + B/T^{1} + C/T^{2} + D/T^{3}} \]
+\[ V_{e} = I \times \dfrac{R_{TH} \times R_{p}}{R_{TH} + R_{p}} \]
+
+Ta có:
+
+$
+	\begin{matrix}
+		\dfrac{dV_{e}}{dT} & = & \dfrac{I\times R_{p} \left( R_{TH} \left( -\dfrac{B}{T^{2}} - \dfrac{2C}{T_{3}} - \dfrac{3D}{T^{4}} \right) \left( R_{TH} + R_{p} \right) - R_{TH} \left( -\dfrac{B}{T^{2}} - \dfrac{2C}{T_{3}} - \dfrac{3D}{T^{4}} \right)R_{TH} \right)}{\left(R_{TH} + R_{p}\right)^{2}} \\[10pt]
+						   & = & \dfrac{I R_{p}^{2} R_{TH} \left( -\dfrac{B}{T^{2}} - \dfrac{2C}{T_{3}} - \dfrac{3D}{T^{4}} \right)}{\left(R_{TH} + R_{p}\right)^{2}}
+	\end{matrix}
+$
+
+$
+	\dfrac{d^{2}V_{e}}{d^{2}T} = I R_{p}^{2} \left( \dfrac{ R_{TH} (A_{1}^{2} + A_{2})(R_{TH} + R_{p})^{2} -2(R_{TH} + R_{p})R_{TH}^{2}A_{1}^{2} }{(R_{TH} + R_{p})^{4}} \right)
+$
+
+Trong đó,
+
+\begin{itemize}[label=-]
+	\item $A_{1} = -\dfrac{B}{T^{2}} - \dfrac{2C}{T^{3}} - \dfrac{ 3D }{ T^{4} }$
+	\item $A_{2} = \dfrac{ 2B }{ T^{3} } + \dfrac{ 6C }{ T^{4} } + \dfrac{12D}{T^{5}}$
+\end{itemize}
+
+$
+\Rightarrow \dfrac{d^{2}V_{e}}{d^{2}T} = I R_{p}^{2} \left( \dfrac{R_{TH}( A_{1}^{2} + A_{2} ) (R_{TH} + R_{p}) - 2R_{TH}^{2} A_{1}^{2}}{ \left(R_{TH} + R_{p}\right)^{3} } \right) 
+$
+
+Từ Datasheet của NTCLE100E3 với $R_{25} = 10\,\textsf{k}\Omega$:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\linewidth]{./my-chapters/my-images/Cal_R_parallel/Sel_B_25_85.png}
+\end{figure}
+
+Ta chọn được $B_{25/85} = 3977$. Từ đó ta chọn được các giá trị của $A$, $B$, $C$ và $D$ như sau:
+
+\begin{minipage}{.3\linewidth}
+	\begin{itemize}[label=-]
+		\item $A = -14.6337$
+		\item $B = 4791,842$
+		\item $C = -115334$
+		\item $D = -3730535$
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{.7\linewidth}
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Cal_R_parallel/Sel_ABCD.png}
+\end{minipage}
+
+$\Rightarrow 
+\left\{ 
+	\begin{matrix}
+		A_{1} & = & -0.03802560045\\
+		A_{2} & = & 2.078383337
+	\end{matrix}		
+\right. \quad \text{ Tại } T = 50^{o}C = 323.15K
+$
+
+Xét $\dfrac{V^{2}V_{e} }{d^{2}T } = 0 \quad \text{ Tại } T = 50^{o}C = 323.15K$.
+
+Từ Datasheets, ta có $R_{50} = 3605\,\Omega$.
+
+$
+	\begin{matrix}
+		\Rightarrow & R_{p}^{2} R_{TH} \left( A_{1}^{2} + A_{2} \right) \left( R_{TH} + R_{p} \right) - 2 R_{p}^{2} R_{TH}^{2} A_{1}^{2} \hfill & = & 0 \\[6pt]
+		\Leftrightarrow & R_{p}^{2} R_{50} \left( A_{1}^{2} + A_{2} \right) \left( R_{50} + R_{p} \right) - 2 R_{p}^{2} R_{50}^{2} A_{1}^{2} \hfill& = & 0 \\[6pt]
+		\Leftrightarrow & R_{p}^{3} 5.962 - 16090 R_{p}^{2} \hfill & = & 0
+	\end{matrix}
+$
+
+$\Rightarrow R_{p} = 2.698\,\textsf{k}\Omega \approx 2.7\,\textsf{k}\Omega$
