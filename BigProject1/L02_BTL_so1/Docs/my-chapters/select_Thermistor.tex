@@ -1,0 +1,59 @@
+\section{Lựa chọn và Mô phỏng Thermistor 2 dây}
+
+\subsection{Lựa chọn Thermistor}
+
+Với Thermistor 2 dây, với mỗi dây có điện trở dây dẫn là $10\,\Omega$, với tầm đo là $20^{o}C \rightarrow 80^{o}C$ và span là $60^{o}C$. Nhóm em chọn con Thermistor NTC là \href{https://www.vishay.com/docs/29049/ntcle100.pdf}{NTCLE100E3} với các thông số tổng quan như sau:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\linewidth]{./my-chapters/my-images/Sel_Thermistor/Quick_datasheet.pdf}
+	\caption{Bảng Datasheet tổng quát của NTCLE100E3.}
+\end{figure}
+
+\subsection{Mô phỏng Thermistor}
+
+Đầu tiên, ta có mô hình SPICE mô phỏng NTCLE100E3103 như sau:
+
+\begin{lstlisting}[style=StyleCode, language=Pseudo, caption={Mô hình SPICE NTCLE100E3103.}]
+	.subckt NTC 1 2 Params:B0=-14.6337, B1=4791.842, B2=-115334, B3=-3.730535E+06, R25=10k,  
+	+ CTH=0.105, GTH0=0.007, GTH1=0, T=1, 
+	+ TK = 273.15 
+	***************************************************************** 
+	* 
+	Gthem 1 4  Value={V(1,4)/( R25*T*exp( (((B3/(V(3)+TK+TEMP)+B2)/(V(3)+TK+TEMP)+B1)/(V(3)+TK+TEMP) + B0) ) ) } 
+	* 
+	RP 1 4 1T 
+	RS 4 2 1n 
+	* 
+	Gtmp1 0 3  Value={V(1,4)*V(1,4)/( R25*T*exp( (((B3/(V(3)+TK+TEMP)+B2)/(V(3)+TK+TEMP)+B1)/(V(3)+TK+TEMP) + B0) ) ) } 
+	C_par 3 0 {CTH} 
+	R_par 3 0 1T 
+	Gpar  3 0 Value={V(3)*(GTH0+(GTH1*(V(3)+TEMP)))}  
+	* 
+	.ends 
+\end{lstlisting}
+
+Trong đó, 
+
+\begin{itemize}[label=-]
+	\item $ R_{Thermal} = \dfrac{1}{CTH} = \dfrac{1}{0.007} = 148.57\,\Omega $ trong đó \texttt{GTH} chính là hệ số tiêu tán của Thermistor.
+	\item $\tau = CTH \times R_{Thermal}$ 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.6\linewidth]{./my-chapters/my-images/Sel_Thermistor/tau_NTC.png}
+	\end{figure}
+	
+	$CTH = \dfrac{\tau}{R_{Thermal}} = \dfrac{15}{148.57} = 0.105\,\textsf{F}$.
+\end{itemize}
+
+\texttt{GTH} và \texttt{CTH} là hai đại lượng đặc trưng cho sự thay đổi điện trở do chính dòng điện chạy qua NTC đốt nóng nó.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\linewidth]{./my-chapters/my-images/Sel_Thermistor/temp_sweep.png}
+	\includegraphics[width=.6\linewidth]{./my-chapters/my-images/Sel_Thermistor/temp_sweep_schematic.png}
+	\caption{Mô phỏng đồ thị có hiệu ứng nhiệt.}
+\end{figure}
+
+\textbf{Nhận xét:} Ta thấy với dòng càng lớn chảy qua NTC điện trở sau khi  ổn định sẽ khá thấp do sự tỏa nhiệt lớn chính vì thế cần chọn dòng vừa đủ để hiêu ứng nhiệt được giảm bớt:

@@ -1,0 +1,21 @@
+\babel@toc {vietnamese}{}\relax 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Bảng Datasheet tổng quát của NTCLE100E3.}}{3}{figure.caption.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Mô phỏng đồ thị có hiệu ứng nhiệt.}}{5}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Mạch sau khi tuyến tính hóa bằng điện trở song song.}}{9}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Điện áp và Dòng điện sau khi tuyến tính hóa.}}{10}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Phương trình của $R_{eq}$ và $T (K)$ khi có nhiệt độ thay đổi.}}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Mạch chuyển đổi $V_{NTC}$ sang $V_{o}$.}}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Mô phỏng $V_{o}$ tại trường hợp lý tưởng.}}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Mạch đã điều chỉnh $R_{22}$ và $V_{ref}$ ở tầng khuếch đại vi sai.}}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Mô phỏng $V_{o}$ sau khi điều chỉnh mạch.}}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Tầm nhiệt độ có thể hoạt động.}}{16}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Các sai số Offset của OPAMP.}}{17}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Mạch mô phỏng nguồn dòng ở trạng thái không lý tưởng.}}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Mô phỏng giá trị $V_{eq1} - V_{eq2}$ với nguồn dòng không lý tưởng.}}{17}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sơ đồ tổng quan và công thức tính của INA128.}}{19}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Mạch căn chỉnh $V_{ref}$ cho INA128.}}{20}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Thiết kế mạch tổng quát của mạch đo nhiệt độ từ Sensor NTCLE100E3.}}{23}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Kết quả sau khi chạy mô phỏng đo từ $20\rightarrow 80^{o}C$ bằng Sensor NTCE100E3.}}{24}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Digital Input/Output của ADS1115.}}{31}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Electrical Characteristics của ADS1115.}}{32}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces ADS1115 Code Transition Diagram.}}{35}{figure.caption.28}%

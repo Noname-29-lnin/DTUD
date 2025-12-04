@@ -1,0 +1,19 @@
+\babel@toc {vietnamese}{}\relax 
+\contentsline {section}{\numberline {1}Lựa chọn và Mô phỏng Thermistor 2 dây}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Lựa chọn Thermistor}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Mô phỏng Thermistor}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Lựa chọn điện trở song song để tuyến tính hóa}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Tính toán giá trị điện trở song song}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Thiết kế mạch cho việc đo Sensor NTCLE100E3 ở lý tưởng}{9}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Thiết kế mạch tổng quát ở lý tưởng}{12}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Lựa chọn OPAMP sử dụng, mô phỏng OPAMP theo datasheet}{15}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Mạch tạo nguồn dòng}{15}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Mạch khuếch đại vi sai}{18}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Mạch cộng điện áp}{20}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Mạch tổng quát}{23}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Thực hiện mạch đọc điện áp cho ngõ ra ADC}{30}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Tổng quan về ADC}{30}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Electrical Characteristics của ADS1115}{30}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Typical Characteristics của ADS1115}{33}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Data Format}{35}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Kết quả của việc tính toán ADC}{36}{subsection.4.5}%

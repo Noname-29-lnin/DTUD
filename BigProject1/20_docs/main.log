@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  30 NOV 2025 00:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  30 NOV 2025 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1625,7 +1625,7 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count419
-<./my-chapters/my-images/01_logobachkhoatoi.png, id=58, 471.9231pt x 478.9092pt
+<./my-chapters/my-images/01_logobachkhoatoi.png, id=78, 471.9231pt x 478.9092pt
 >
 File: ./my-chapters/my-images/01_logobachkhoatoi.png Graphic file (type png)
 <use ./my-chapters/my-images/01_logobachkhoatoi.png>
@@ -1650,7 +1650,7 @@ Overfull \hbox (2.19716pt too wide) in paragraph at lines 52--52
 
 
 
-<./my-chapters/my-images/bia.jpg, id=60, 301.125pt x 414.95026pt>
+<./my-chapters/my-images/bia.jpg, id=80, 301.125pt x 414.95026pt>
 File: ./my-chapters/my-images/bia.jpg Graphic file (type jpg)
 <use ./my-chapters/my-images/bia.jpg>
 Package pdftex.def Info: ./my-chapters/my-images/bia.jpg  used on input line 53
@@ -1664,7 +1664,9 @@ s/my-images/bia.jpg> <./my-chapters/my-images/01_logobachkhoatoi.png>]
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- (main.lof)
+ (main.lof
+
+[2])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -1672,9 +1674,7 @@ s/my-images/bia.jpg> <./my-chapters/my-images/01_logobachkhoatoi.png>]
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
-
-
-[2] (main.lol)
+ (main.lol)
 \tf@lol=\write9
 \openout9 = `main.lol'.
 
@@ -1687,7 +1687,7 @@ LaTeX Font Info:    Trying to load font information for T5+cmss on input line 7
 File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 
-<./my-chapters/my-images/logo_DEE.png, id=107, 76.03406pt x 75.28125pt>
+<./my-chapters/my-images/logo_DEE.png, id=163, 76.03406pt x 75.28125pt>
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
@@ -1708,7 +1708,7 @@ logo_DEE.png>]
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/Sel_Thermistor/Quick
 _datasheet.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-<./my-chapters/my-images/Sel_Thermistor/Quick_datasheet.pdf, id=125, 258.9675pt
+<./my-chapters/my-images/Sel_Thermistor/Quick_datasheet.pdf, id=177, 258.9675pt
  x 433.62pt>
 File: ./my-chapters/my-images/Sel_Thermistor/Quick_datasheet.pdf Graphic file (
 type pdf)
@@ -1753,7 +1753,7 @@ been already used, duplicate ignored
                    \relax 
 l.24 	
       * [3 <./my-chapters/my-images/Sel_Thermistor/Quick_datasheet.pdf>]
-<./my-chapters/my-images/Sel_Thermistor/tau_NTC.png, id=191, 530.73282pt x 501.
+<./my-chapters/my-images/Sel_Thermistor/tau_NTC.png, id=243, 530.73282pt x 501.
 37312pt>
 File: ./my-chapters/my-images/Sel_Thermistor/tau_NTC.png Graphic file (type png
 )
@@ -1761,7 +1761,7 @@ File: ./my-chapters/my-images/Sel_Thermistor/tau_NTC.png Graphic file (type png
 Package pdftex.def Info: ./my-chapters/my-images/Sel_Thermistor/tau_NTC.png  us
 ed on input line 44.
 (pdftex.def)             Requested size: 290.22107pt x 274.17244pt.
-<./my-chapters/my-images/Sel_Thermistor/temp_sweep.png, id=192, 1023.825pt x 52
+<./my-chapters/my-images/Sel_Thermistor/temp_sweep.png, id=244, 1023.825pt x 52
 2.45187pt>
 File: ./my-chapters/my-images/Sel_Thermistor/temp_sweep.png Graphic file (type 
 png)
@@ -1769,7 +1769,7 @@ png)
 Package pdftex.def Info: ./my-chapters/my-images/Sel_Thermistor/temp_sweep.png 
  used on input line 54.
 (pdftex.def)             Requested size: 290.22107pt x 148.09515pt.
-<./my-chapters/my-images/Sel_Thermistor/temp_sweep_schematic.png, id=193, 852.9
+<./my-chapters/my-images/Sel_Thermistor/temp_sweep_schematic.png, id=245, 852.9
 3657pt x 318.43968pt>
 File: ./my-chapters/my-images/Sel_Thermistor/temp_sweep_schematic.png Graphic f
 ile (type png)
@@ -1796,7 +1796,7 @@ ages/Sel_Thermistor/temp_sweep_schematic.png>]
 \openout2 = `./my-chapters/cal_R_parallel.aux'.
 
  (my-chapters/cal_R_parallel.tex
-Overfull \hbox (18.76453pt too wide) in paragraph at lines 29--35
+Overfull \hbox (18.76453pt too wide) in paragraph at lines 31--37
 []$ [] $ 
  []
 
@@ -1805,31 +1805,31 @@ Overfull \hbox (18.76453pt too wide) in paragraph at lines 29--35
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 45.
+ne 46.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [6
 
 
 
 ]
-<./my-chapters/my-images/Cal_R_parallel/Sel_B_25_85.png, id=232, 874.01532pt x 
+<./my-chapters/my-images/Cal_R_parallel/Sel_B_25_85.png, id=283, 874.01532pt x 
 560.0925pt>
 File: ./my-chapters/my-images/Cal_R_parallel/Sel_B_25_85.png Graphic file (type
  png)
 <use ./my-chapters/my-images/Cal_R_parallel/Sel_B_25_85.png>
 Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Sel_B_25_85.png
-  used on input line 55.
+  used on input line 57.
 (pdftex.def)             Requested size: 338.58632pt x 216.97377pt.
-<./my-chapters/my-images/Cal_R_parallel/Sel_ABCD.png, id=233, 873.2625pt x 543.
+<./my-chapters/my-images/Cal_R_parallel/Sel_ABCD.png, id=284, 873.2625pt x 543.
 53062pt>
 File: ./my-chapters/my-images/Cal_R_parallel/Sel_ABCD.png Graphic file (type pn
 g)
 <use ./my-chapters/my-images/Cal_R_parallel/Sel_ABCD.png>
 Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Sel_ABCD.png  u
-sed on input line 69.
+sed on input line 71.
 (pdftex.def)             Requested size: 338.58632pt x 210.74034pt.
 
-Overfull \hbox (31.06322pt too wide) in paragraph at lines 60--71
+Overfull \hbox (31.06322pt too wide) in paragraph at lines 62--73
 []$[]$ $[]$ 
  []
 
@@ -1838,370 +1838,446 @@ Overfull \hbox (31.06322pt too wide) in paragraph at lines 60--71
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 81.
+ne 83.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [7 <./my-chapters/my-images/Cal_R_parallel/Sel_B_25_85.png> <./my-chapters/my-i
 mages/Cal_R_parallel/Sel_ABCD.png>]
-<./my-chapters/my-images/Cal_R_parallel/Sel_R_50.png, id=242, 895.09406pt x 610
+<./my-chapters/my-images/Cal_R_parallel/Sel_R_50.png, id=293, 895.09406pt x 610
 .53094pt>
 File: ./my-chapters/my-images/Cal_R_parallel/Sel_R_50.png Graphic file (type pn
 g)
 <use ./my-chapters/my-images/Cal_R_parallel/Sel_R_50.png>
 Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Sel_R_50.png  u
-sed on input line 87.
+sed on input line 89.
 (pdftex.def)             Requested size: 338.58632pt x 230.95146pt.
-<./my-chapters/my-images/Cal_R_parallel/Schematic_current.png, id=243, 342.5297
-pt x 479.54156pt>
+<./my-chapters/my-images/Cal_R_parallel/Schematic_current.png, id=294, 284.5631
+3pt x 424.58624pt>
 File: ./my-chapters/my-images/Cal_R_parallel/Schematic_current.png Graphic file
  (type png)
 <use ./my-chapters/my-images/Cal_R_parallel/Schematic_current.png>
 Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Schematic_curre
-nt.png  used on input line 106.
-(pdftex.def)             Requested size: 338.58632pt x 474.0598pt.
+nt.png  used on input line 108.
+(pdftex.def)             Requested size: 338.58632pt x 505.24446pt.
 
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 109.
+ne 111.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [8 <./my-chapters/my-images/Cal_R_parallel/Sel_R_50.png>]
-<./my-chapters/my-images/Cal_R_parallel/DC_sweep.png, id=251, 1120.9378pt x 570
-.63188pt>
-File: ./my-chapters/my-images/Cal_R_parallel/DC_sweep.png Graphic file (type pn
-g)
-<use ./my-chapters/my-images/Cal_R_parallel/DC_sweep.png>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/DC_sweep.png  u
-sed on input line 112.
-(pdftex.def)             Requested size: 483.69687pt x 246.23764pt.
+<./my-chapters/my-sim/R_eq_sim.pdf, id=302, 794.97pt x 614.295pt>
+File: ./my-chapters/my-sim/R_eq_sim.pdf Graphic file (type pdf)
+<use ./my-chapters/my-sim/R_eq_sim.pdf>
+Package pdftex.def Info: ./my-chapters/my-sim/R_eq_sim.pdf  used on input line 
+115.
+(pdftex.def)             Requested size: 483.69687pt x 373.77269pt.
 
-
-File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
-<use ./my-chapters/my-images/logo_DEE.png>
-Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 115.
-(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[9 <./my-chapters/my-images/Cal_R_parallel/Schematic_current.png>]
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 118.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[10 <./my-chapters/my-images/Cal_R_parallel/DC_sweep.png>]
-<./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, id=265, 794.
-97pt x 614.295pt>
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf  used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-<./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, id=267, page
-=1, 794.97pt x 614.295pt>
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 1>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page1 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 1>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page1 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 1>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page1 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 1>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page1 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[9 <./my-chapters/my-images/Cal_R_parallel/Schematic_current.png>]
+<./my-chapters/my-sim/R_eq_sim.png, id=309, 788.181pt x 300.249pt>
+File: ./my-chapters/my-sim/R_eq_sim.png Graphic file (type png)
+<use ./my-chapters/my-sim/R_eq_sim.png>
+Package pdftex.def Info: ./my-chapters/my-sim/R_eq_sim.png  used on input line 
+123.
+(pdftex.def)             Requested size: 483.69687pt x 184.26031pt.
 
 
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 1>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page1 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[11
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 126.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[10 <./my-chapters/my-sim/R_eq_sim.pdf, page is rotated 90 degrees>]
+Overfull \hbox (36.3525pt too wide) in paragraph at lines 134--135
+$\OMS/cmsy/m/n/12 )$ \T5/cmr/m/n/12 Ph÷ìng tr¼nh ^^_i»n trð $\OML/cmm/m/it/12 R
+[]$ \T5/cmr/m/n/12 theo nhi»t ^^_ë nh÷ sau: []. 
+ []
+
+<./my-chapters/my-images/Cal_Circuit_Ideal/overview_circuit.png, id=322, 1002.7
+4625pt x 456.95718pt>
+File: ./my-chapters/my-images/Cal_Circuit_Ideal/overview_circuit.png Graphic fi
+le (type png)
+<use ./my-chapters/my-images/Cal_Circuit_Ideal/overview_circuit.png>
+Package pdftex.def Info: ./my-chapters/my-images/Cal_Circuit_Ideal/overview_cir
+cuit.png  used on input line 156.
+(pdftex.def)             Requested size: 435.32422pt x 198.3843pt.
 
 
- <./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page is rot
-ated 90 degrees>]
-<./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, id=282, page
-=2, 794.97pt x 614.295pt>
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 2>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page2 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 2>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page2 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 159.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[11 <./my-chapters/my-sim/R_eq_sim.png>]
+<./my-chapters/my-images/Cal_Circuit_Ideal/v_o_before_adjust_value_ina.png, id=
+330, 1444.64719pt x 682.04813pt>
+File: ./my-chapters/my-images/Cal_Circuit_Ideal/v_o_before_adjust_value_ina.png
+ Graphic file (type png)
+<use ./my-chapters/my-images/Cal_Circuit_Ideal/v_o_before_adjust_value_ina.png>
+
+Package pdftex.def Info: ./my-chapters/my-images/Cal_Circuit_Ideal/v_o_before_a
+djust_value_ina.png  used on input line 174.
+(pdftex.def)             Requested size: 435.32422pt x 205.52144pt.
 
 
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 2>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page2 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[12
-
- <./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page is rot
-ated 90 degrees>]
-<./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, id=287, page
-=3, 794.97pt x 614.295pt>
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 3>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page3 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 3>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page3 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 177.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[12 <./my-chapters/my-images/Cal_Circuit_Ideal/overview_circuit.png>]
+<./my-chapters/my-images/Cal_Circuit_Ideal/circuit_after_adjust.png, id=341, 98
+0.16188pt x 447.92343pt>
+File: ./my-chapters/my-images/Cal_Circuit_Ideal/circuit_after_adjust.png Graphi
+c file (type png)
+<use ./my-chapters/my-images/Cal_Circuit_Ideal/circuit_after_adjust.png>
+Package pdftex.def Info: ./my-chapters/my-images/Cal_Circuit_Ideal/circuit_afte
+r_adjust.png  used on input line 189.
+(pdftex.def)             Requested size: 483.69687pt x 221.04272pt.
+<./my-chapters/my-images/Cal_Circuit_Ideal/v_o_after_adjust_value_ina.png, id=3
+42, 1444.64719pt x 682.80093pt>
+File: ./my-chapters/my-images/Cal_Circuit_Ideal/v_o_after_adjust_value_ina.png 
+Graphic file (type png)
+<use ./my-chapters/my-images/Cal_Circuit_Ideal/v_o_after_adjust_value_ina.png>
+Package pdftex.def Info: ./my-chapters/my-images/Cal_Circuit_Ideal/v_o_after_ad
+just_value_ina.png  used on input line 195.
+(pdftex.def)             Requested size: 483.69687pt x 228.61731pt.
 
 
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 3>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page3 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[13
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 198.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[13 <./my-chapters/my-images/Cal_Circuit_Ideal/v_o_before_adjust_value_ina.png>
+ <./my-chapters/my-images/Cal_Circuit_Ideal/circuit_after_adjust.png>])
 
- <./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page is rot
-ated 90 degrees>]
-<./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, id=292, page
-=4, 794.97pt x 614.295pt>
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 4>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page4 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 4>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page4 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 4>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page4 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[14
-
- <./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page is rot
-ated 90 degrees>]
-<./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, id=297, page
-=5, 794.97pt x 614.295pt>
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 5>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page5 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 5>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page5 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 5>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page5 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[15
-
- <./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page is rot
-ated 90 degrees>]
-<./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, id=302, page
-=6, 794.97pt x 614.295pt>
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 6>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page6 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 6>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page6 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 6>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page6 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[16
-
- <./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page is rot
-ated 90 degrees>]
-<./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, id=308, page
-=7, 794.97pt x 614.295pt>
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 7>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page7 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 7>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page7 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 7>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page7 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[17
-
- <./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page is rot
-ated 90 degrees>]
-<./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, id=313, page
-=8, 794.97pt x 614.295pt>
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 8>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page8 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 8>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page8 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 8>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page8 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[18
-
- <./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page is rot
-ated 90 degrees>]
-<./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, id=318, page
-=9, 794.97pt x 614.295pt>
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 9>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page9 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 9>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page9 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf Graphic 
-file (type pdf)
-<use ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page 9>
-Package pdftex.def Info: ./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_pa
-rallel.pdf , page9 used on input line 120.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[19
-
- <./my-chapters/my-images/Cal_R_parallel/Export_Cal_R_parallel.pdf, page is rot
-ated 90 degrees>])
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 82.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[14 <./my-chapters/my-images/Cal_Circuit_Ideal/v_o_after_adjust_value_ina.png>]
 \openout2 = `./my-chapters/sel_opamp.aux'.
 
- (my-chapters/sel_opamp.tex
+(my-chapters/sel_opamp.tex
 Overfull \hbox (17.33823pt too wide) in paragraph at lines 1--1
 |[]\T5/cmr/bx/n/17.28 Lüa chån OPAMP sû döng, mæ phäng OPAMP
  []
 
-<./my-chapters/my-diagrams/Stage_Amplifier.png, id=323, 949.5475pt x 753.81625p
+<./my-chapters/my-diagrams/current_const.png, id=356, 456.70625pt x 648.4225pt>
+
+File: ./my-chapters/my-diagrams/current_const.png Graphic file (type png)
+<use ./my-chapters/my-diagrams/current_const.png>
+Package pdftex.def Info: ./my-chapters/my-diagrams/current_const.png  used on i
+nput line 9.
+(pdftex.def)             Requested size: 193.47578pt x 274.69038pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 27.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[15
+
+
+
+ <./my-chapters/my-diagrams/current_const.png>]
+<my-chapters/my-images/Sel_OPAMP/CA3140E_current_const.png, id=366, 432.11438pt
+ x 596.98032pt>
+File: my-chapters/my-images/Sel_OPAMP/CA3140E_current_const.png Graphic file (t
+ype png)
+<use my-chapters/my-images/Sel_OPAMP/CA3140E_current_const.png>
+Package pdftex.def Info: my-chapters/my-images/Sel_OPAMP/CA3140E_current_const.
+png  used on input line 34.
+(pdftex.def)             Requested size: 338.58632pt x 467.78342pt.
+<my-chapters/my-images/Sel_OPAMP/CA3140E_offset.png, id=367, 861.2175pt x 334.2
+4875pt>
+File: my-chapters/my-images/Sel_OPAMP/CA3140E_offset.png Graphic file (type png
+)
+<use my-chapters/my-images/Sel_OPAMP/CA3140E_offset.png>
+Package pdftex.def Info: my-chapters/my-images/Sel_OPAMP/CA3140E_offset.png  us
+ed on input line 40.
+(pdftex.def)             Requested size: 338.58632pt x 131.41223pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 43.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[16 <./my-chapters/my-images/Sel_OPAMP/CA3140E_current_const.png>]
+<my-chapters/my-images/Sel_OPAMP/CA3140E_I_circuit.png, id=376, 822.07124pt x 4
+35.12563pt>
+File: my-chapters/my-images/Sel_OPAMP/CA3140E_I_circuit.png Graphic file (type 
+png)
+<use my-chapters/my-images/Sel_OPAMP/CA3140E_I_circuit.png>
+Package pdftex.def Info: my-chapters/my-images/Sel_OPAMP/CA3140E_I_circuit.png 
+ used on input line 46.
+(pdftex.def)             Requested size: 338.58632pt x 179.21268pt.
+<my-chapters/my-images/Sel_OPAMP/CA3140E_I_sim_1.png, id=377, 1444.64719pt x 68
+5.05937pt>
+File: my-chapters/my-images/Sel_OPAMP/CA3140E_I_sim_1.png Graphic file (type pn
+g)
+<use my-chapters/my-images/Sel_OPAMP/CA3140E_I_sim_1.png>
+Package pdftex.def Info: my-chapters/my-images/Sel_OPAMP/CA3140E_I_sim_1.png  u
+sed on input line 52.
+(pdftex.def)             Requested size: 338.58632pt x 160.5604pt.
+<./my-chapters/my-images/Sel_OPAMP/INA128PA_schematic_ideal.png, id=378, 393.72
+093pt x 355.3275pt>
+File: ./my-chapters/my-images/Sel_OPAMP/INA128PA_schematic_ideal.png Graphic fi
+le (type png)
+<use ./my-chapters/my-images/Sel_OPAMP/INA128PA_schematic_ideal.png>
+Package pdftex.def Info: ./my-chapters/my-images/Sel_OPAMP/INA128PA_schematic_i
+deal.png  used on input line 63.
+(pdftex.def)             Requested size: 386.95897pt x 349.2216pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 64.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[17 <./my-chapters/my-images/Sel_OPAMP/CA3140E_offset.png> <./my-chapters/my-im
+ages/Sel_OPAMP/CA3140E_I_circuit.png> <./my-chapters/my-images/Sel_OPAMP/CA3140
+E_I_sim_1.png>]
+<./my-chapters/my-images/Sel_OPAMP/INA128_overview.png, id=388, 788.19469pt x 4
+14.04688pt>
+File: ./my-chapters/my-images/Sel_OPAMP/INA128_overview.png Graphic file (type 
+png)
+<use ./my-chapters/my-images/Sel_OPAMP/INA128_overview.png>
+Package pdftex.def Info: ./my-chapters/my-images/Sel_OPAMP/INA128_overview.png 
+ used on input line 70.
+(pdftex.def)             Requested size: 435.32422pt x 228.68047pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 73.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[18 <./my-chapters/my-images/Sel_OPAMP/INA128PA_schematic_ideal.png>]
+<./my-chapters/my-images/Sel_OPAMP/INA128_Vref.png, id=396, 326.72063pt x 440.3
+9531pt>
+File: ./my-chapters/my-images/Sel_OPAMP/INA128_Vref.png Graphic file (type png)
+
+<use ./my-chapters/my-images/Sel_OPAMP/INA128_Vref.png>
+Package pdftex.def Info: ./my-chapters/my-images/Sel_OPAMP/INA128_Vref.png  use
+d on input line 78.
+(pdftex.def)             Requested size: 338.58632pt x 456.38754pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 81.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[19 <./my-chapters/my-images/Sel_OPAMP/INA128_overview.png>]
+<./my-chapters/my-diagrams/Stage_Amplifier.png, id=403, 949.5475pt x 753.81625p
 t>
 File: ./my-chapters/my-diagrams/Stage_Amplifier.png Graphic file (type png)
 <use ./my-chapters/my-diagrams/Stage_Amplifier.png>
 Package pdftex.def Info: ./my-chapters/my-diagrams/Stage_Amplifier.png  used on
- input line 9.
+ input line 88.
 (pdftex.def)             Requested size: 338.58632pt x 268.78563pt.
 
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 30.
+ne 90.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[20
+[20 <./my-chapters/my-images/Sel_OPAMP/INA128_Vref.png>]
 
-
-
-
- <./my-chapters/my-diagrams/Stage_Amplifier.png>]
-<./my-chapters/my-images/Sel_OPAMP/TL082_package.png, id=334, 359.09157pt x 544
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 114.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[21 <./my-chapters/my-diagrams/Stage_Amplifier.png>]
+<./my-chapters/my-images/Sel_OPAMP/TL082_package.png, id=421, 359.09157pt x 544
 .28343pt>
 File: ./my-chapters/my-images/Sel_OPAMP/TL082_package.png Graphic file (type pn
 g)
 <use ./my-chapters/my-images/Sel_OPAMP/TL082_package.png>
 Package pdftex.def Info: ./my-chapters/my-images/Sel_OPAMP/TL082_package.png  u
-sed on input line 50.
+sed on input line 129.
 (pdftex.def)             Requested size: 193.47578pt x 293.26088pt.
-<./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png, id=335, 686.565pt x 32
+<./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png, id=422, 686.565pt x 32
 0.69812pt>
 File: ./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png Graphic file (type
  png)
 <use ./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png>
 Package pdftex.def Info: ./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png
-  used on input line 55.
+  used on input line 134.
 (pdftex.def)             Requested size: 386.95897pt x 180.74947pt.
-)
+
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 83.
+ne 136.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[21 <./my-chapters/my-images/Sel_OPAMP/TL082_package.png>]
+[22 <./my-chapters/my-images/Sel_OPAMP/TL082_package.png>]
+<./my-chapters/my-images/schematic_tongthe.png, id=432, 684.30656pt x 438.8897p
+t>
+File: ./my-chapters/my-images/schematic_tongthe.png Graphic file (type png)
+<use ./my-chapters/my-images/schematic_tongthe.png>
+Package pdftex.def Info: ./my-chapters/my-images/schematic_tongthe.png  used on
+ input line 141.
+(pdftex.def)             Requested size: 483.69687pt x 310.2343pt.
+<./my-chapters/my-images/OutPut_V_final.png, id=433, 1444.64719pt x 682.80093pt
+>
+File: ./my-chapters/my-images/OutPut_V_final.png Graphic file (type png)
+<use ./my-chapters/my-images/OutPut_V_final.png>
+Package pdftex.def Info: ./my-chapters/my-images/OutPut_V_final.png  used on in
+put line 147.
+(pdftex.def)             Requested size: 435.32422pt x 205.74828pt.
+
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 83.
+ne 150.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[22 <./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png>]
+[23 <./my-chapters/my-images/Sel_OPAMP/TL08_vos_iib_ios.png> <./my-chapters/my-
+images/schematic_tongthe.png>]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 158.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[24 <./my-chapters/my-images/OutPut_V_final.png>]
+<./my-chapters/my-images/PROJECT.pdf, id=448, 794.97pt x 614.295pt>
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf  used on input lin
+e 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+<./my-chapters/my-images/PROJECT.pdf, id=450, page=1, 794.97pt x 614.295pt>
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 1>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page1 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 1>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page1 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 1>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page1 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 1>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page1 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 1>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page1 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[25
+
+
+ <./my-chapters/my-images/PROJECT.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/PROJECT.pdf, id=465, page=2, 794.97pt x 614.295pt>
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 2>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page2 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 2>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page2 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 2>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page2 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[26
+
+ <./my-chapters/my-images/PROJECT.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/PROJECT.pdf, id=470, page=3, 794.97pt x 614.295pt>
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 3>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page3 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 3>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page3 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 3>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page3 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[27
+
+ <./my-chapters/my-images/PROJECT.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/PROJECT.pdf, id=475, page=4, 794.97pt x 614.295pt>
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 4>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page4 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 4>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page4 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 4>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page4 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[28
+
+ <./my-chapters/my-images/PROJECT.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/PROJECT.pdf, id=481, page=5, 794.97pt x 614.295pt>
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 5>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page5 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 5>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page5 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/PROJECT.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/PROJECT.pdf, page 5>
+Package pdftex.def Info: ./my-chapters/my-images/PROJECT.pdf , page5 used on in
+put line 159.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[29
+
+ <./my-chapters/my-images/PROJECT.pdf, page is rotated 90 degrees>])
 \openout2 = `./my-chapters/ADC_sim.aux'.
 
 
@@ -2212,19 +2288,20 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 42.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[23
+[30
+
 
 
 
 ]
-<./my-chapters/my-images/ADC/datasheet_2.png, id=360, 816.04875pt x 124.21407pt
+<./my-chapters/my-images/ADC/datasheet_2.png, id=493, 816.04875pt x 124.21407pt
 >
 File: ./my-chapters/my-images/ADC/datasheet_2.png Graphic file (type png)
 <use ./my-chapters/my-images/ADC/datasheet_2.png>
 Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_2.png  used on i
 nput line 52.
 (pdftex.def)             Requested size: 435.32422pt x 66.26337pt.
-<./my-chapters/my-images/ADC/datasheet_1.png, id=361, 834.11626pt x 606.76688pt
+<./my-chapters/my-images/ADC/datasheet_1.png, id=494, 834.11626pt x 606.76688pt
 >
 File: ./my-chapters/my-images/ADC/datasheet_1.png Graphic file (type png)
 <use ./my-chapters/my-images/ADC/datasheet_1.png>
@@ -2238,18 +2315,18 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 64.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[24 <./my-chapters/my-images/ADC/datasheet_2.png>]
+[31 <./my-chapters/my-images/ADC/datasheet_2.png>]
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 78.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[25 <./my-chapters/my-images/ADC/datasheet_1.png>]
+[32 <./my-chapters/my-images/ADC/datasheet_1.png>]
 
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_3.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./my-chapters/my-images/ADC/datasheet_3.pdf, id=374, 261.47687pt x 196.735pt>
+<./my-chapters/my-images/ADC/datasheet_3.pdf, id=507, 261.47687pt x 196.735pt>
 File: ./my-chapters/my-images/ADC/datasheet_3.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/datasheet_3.pdf>
 Package pdftex.def Info: ./my-chapters/my-images/ADC/datasheet_3.pdf  used on i
@@ -2264,7 +2341,7 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 78--87
 
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_4.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./my-chapters/my-images/ADC/datasheet_4.pdf, id=375, 256.45813pt x 202.25563pt
+<./my-chapters/my-images/ADC/datasheet_4.pdf, id=508, 256.45813pt x 202.25563pt
 >
 File: ./my-chapters/my-images/ADC/datasheet_4.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/datasheet_4.pdf>
@@ -2280,7 +2357,7 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 90--99
 
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_4_1.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./my-chapters/my-images/ADC/datasheet_4_1.pdf, id=376, 260.975pt x 201.25188pt
+<./my-chapters/my-images/ADC/datasheet_4_1.pdf, id=509, 260.975pt x 201.25188pt
 >
 File: ./my-chapters/my-images/ADC/datasheet_4_1.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/datasheet_4_1.pdf>
@@ -2299,12 +2376,12 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 113.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[26 <./my-chapters/my-images/ADC/datasheet_3.pdf> <./my-chapters/my-images/ADC/
+[33 <./my-chapters/my-images/ADC/datasheet_3.pdf> <./my-chapters/my-images/ADC/
 datasheet_4.pdf> <./my-chapters/my-images/ADC/datasheet_4_1.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_5.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./my-chapters/my-images/ADC/datasheet_5.pdf, id=619, 255.45438pt x 191.71625pt
+<./my-chapters/my-images/ADC/datasheet_5.pdf, id=752, 255.45438pt x 191.71625pt
 >
 File: ./my-chapters/my-images/ADC/datasheet_5.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/datasheet_5.pdf>
@@ -2320,7 +2397,7 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 113--121
 
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_7.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./my-chapters/my-images/ADC/datasheet_7.pdf, id=620, 260.47313pt x 203.76125pt
+<./my-chapters/my-images/ADC/datasheet_7.pdf, id=753, 260.47313pt x 203.76125pt
 >
 File: ./my-chapters/my-images/ADC/datasheet_7.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/datasheet_7.pdf>
@@ -2336,7 +2413,7 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 124--133
 
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_8.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./my-chapters/my-images/ADC/datasheet_8.pdf, id=621, 255.20343pt x 194.22563pt
+<./my-chapters/my-images/ADC/datasheet_8.pdf, id=754, 255.20343pt x 194.22563pt
 >
 File: ./my-chapters/my-images/ADC/datasheet_8.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/datasheet_8.pdf>
@@ -2353,7 +2430,7 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 136--145
 pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/ADC/datasheet_sampli
 ng.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<./my-chapters/my-images/ADC/datasheet_sampling.pdf, id=622, 274.52562pt x 358.
+<./my-chapters/my-images/ADC/datasheet_sampling.pdf, id=755, 274.52562pt x 358.
 84062pt>
 File: ./my-chapters/my-images/ADC/datasheet_sampling.pdf Graphic file (type pdf
 )
@@ -2368,7 +2445,7 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 156.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[27 <./my-chapters/my-images/ADC/datasheet_5.pdf> <./my-chapters/my-images/ADC/
+[34 <./my-chapters/my-images/ADC/datasheet_5.pdf> <./my-chapters/my-images/ADC/
 datasheet_7.pdf> <./my-chapters/my-images/ADC/datasheet_8.pdf>]
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
@@ -2376,7 +2453,7 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 159.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[28 <./my-chapters/my-images/ADC/datasheet_sampling.pdf>]
+[35 <./my-chapters/my-images/ADC/datasheet_sampling.pdf>]
 Overfull \hbox (17.0404pt too wide) in paragraph at lines 171--172
 []\T5/cmr/bx/n/12 D_out : \T5/cmr/m/n/12 l  gi¡ trà t½nh to¡n tø gi¡ trà ^^_i»n
  ^^_åc tø ch¥n \T5/cmtt/m/n/12 IN0 \T5/cmr/m/n/12 vîi cæng thùc l  $[]$. 
@@ -2389,15 +2466,15 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 177.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[29]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=855, 794.97pt x 614.295pt>
+[36]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=988, 794.97pt x 614.295pt>
 
 File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/Export_file_ADC.pdf>
 Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf  used 
 on input line 178.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=857, page=1, 794.97pt x 61
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=990, page=1, 794.97pt x 61
 4.295pt>
 File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 1>
@@ -2425,168 +2502,146 @@ File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
 <use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 1>
 Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
 1 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[30
-
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=872, page=2, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 2>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-2 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 2>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-2 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 2>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-2 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[31
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=877, page=3, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 3>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-3 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 3>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-3 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 3>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-3 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[32
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=882, page=4, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 4>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-4 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 4>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-4 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 4>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-4 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[33
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=887, page=5, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 5>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-5 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 5>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-5 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 5>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-5 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[34
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=893, page=6, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 6>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-6 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 6>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-6 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 6>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-6 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[35
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=898, page=7, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 7>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-7 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 7>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-7 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 7>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-7 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-[36
-
- <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
-<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=903, page=8, 794.97pt x 61
-4.295pt>
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 8>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-8 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 8>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-8 used on input line 178.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
-<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 8>
-Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
-8 used on input line 178.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 [37
+
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=1005, page=2, 794.97pt x 6
+14.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 2>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+2 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 2>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+2 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 2>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+2 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[38
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=1010, page=3, 794.97pt x 6
+14.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 3>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+3 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 3>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+3 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 3>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+3 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[39
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=1015, page=4, 794.97pt x 6
+14.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 4>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+4 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 4>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+4 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 4>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+4 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[40
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=1021, page=5, 794.97pt x 6
+14.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 5>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+5 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 5>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+5 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 5>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+5 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[41
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=1026, page=6, 794.97pt x 6
+14.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 6>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+6 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 6>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+6 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 6>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+6 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[42
+
+ <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
+<./my-chapters/my-images/ADC/Export_file_ADC.pdf, id=1031, page=7, 794.97pt x 6
+14.295pt>
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 7>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+7 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 7>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+7 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+
+File: ./my-chapters/my-images/ADC/Export_file_ADC.pdf Graphic file (type pdf)
+<use ./my-chapters/my-images/ADC/Export_file_ADC.pdf, page 7>
+Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
+7 used on input line 178.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+[43
 
  <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
 ) 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20251130004455 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20251130232626 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
 (main.aux (my-chapters/select_Thermistor.aux) (my-chapters/cal_R_parallel.aux)
@@ -2596,14 +2651,14 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A5CEE3E7346D968AB0DB655B41BA12C1;3398.
+(rerunfilecheck)             Checksum: 04248D2E3E396A7E7AE043490817128C;4563.
  ) 
 Here is how much of TeX's memory you used:
- 33834 strings out of 468134
- 667978 string characters out of 5430740
- 1296441 words of memory out of 5000000
- 61751 multiletter control sequences out of 15000+600000
- 653292 words of font info for 93 fonts, out of 8000000 for 9000
+ 33965 strings out of 468134
+ 672966 string characters out of 5430740
+ 1296495 words of memory out of 5000000
+ 61850 multiletter control sequences out of 15000+600000
+ 653914 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,101p,1065b,2107s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -2623,9 +2678,9 @@ ers/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr6.pfb><C:/User
 s/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss12.pfb><C:/User
 s/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb><C:/User
 s/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt8.pfb>
-Output written on main.pdf (40 pages, 2042192 bytes).
+Output written on main.pdf (46 pages, 2682240 bytes).
 PDF statistics:
- 997 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1131 PDF objects out of 1200 (max. 8388607)
+ 123 named destinations out of 1000 (max. 500000)
+ 432 words of extra memory for PDF output out of 10000 (max. 10000000)
 
