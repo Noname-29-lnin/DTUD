@@ -25,7 +25,7 @@
  Since the API for these two implementations is exactly the same, an application can be linked either against the
  software I2C implementation or the hardware I2C implementation.
 
- Use 4.7k pull-up resistor on the SDA and SCL pin.
+ Use --4.7k pull-up resistor-- on the SDA and SCL pin.
  
  Adapt the SCL and SDA port and pin definitions and eventually the delay routine in the module 
  i2cmaster.S to your target when using the software I2C implementation ! 

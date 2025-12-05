@@ -1,13 +1,10 @@
 /*
- * ads1115.c
- *
- * Created: 03.04.2017 10:20:01
- *  Author: Tony
+ * ADS1115.c
+ *  Author: Noname-29-lnin
  */ 
 
-#include <util/delay.h>
-#include "ads1115.h"
-#include "i2cmaster.h"
+#include "./../Inc/ADS1115.h"
+#include "./../Inc/TWI_protocol.h"
 
 /**************************************************************************/
 /*!
@@ -204,3 +201,4 @@ int16_t ads1115_readADC_Diff_A2_3(uint8_t addr, ads1115_datarate dr, ads1115_fsr
 	
 	return (int16_t)ads1115_read_register(addr, ADS1115_REG_CONVERSION);
 }
+

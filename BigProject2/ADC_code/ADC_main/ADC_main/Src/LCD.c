@@ -4,7 +4,7 @@
  * Created: 12/4/2025 9:43:44 AM
  *  Author: Noname-29-lnin
  */ 
-#include "LCD.h"
+#include "./../Inc/LCD.h"
 
 
 void lcd_init(void) {	

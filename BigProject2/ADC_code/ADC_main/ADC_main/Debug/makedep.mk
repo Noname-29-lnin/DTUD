@@ -4,13 +4,11 @@
 
 main.c
 
-Src\ADS1115.c
+Src\ads1115.c
 
-Src\calib.c
-
-Src\Cal_ADC.c
+Src\Calib.c
 
 Src\LCD.c
 
-Src\TWI_protocol.c
+Src\i2cmaster.c
 

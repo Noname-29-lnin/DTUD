@@ -6,8 +6,8 @@
  */ 
 
 #include <util/delay.h>
-#include "ads1115.h"
-#include "i2cmaster.h"
+#include "./../Inc/ads1115.h"
+#include "./../Inc/i2cmaster.h"
 
 /**************************************************************************/
 /*!

@@ -1,25 +1,10 @@
-/*************************************************************************
-* Title:    I2C master library using hardware TWI interface
-* Author:   Peter Fleury <pfleury@gmx.ch>  http://jump.to/fleury
-* File:     $Id: twimaster.c,v 1.4 2015/01/17 12:16:05 peter Exp $
-* Software: AVR-GCC 3.4.3 / avr-libc 1.2.3
-* Target:   any AVR device with hardware TWI 
-* Usage:    API compatible with I2C Software Library i2cmaster.h
-**************************************************************************/
-#include <inttypes.h>
-#include <compat/twi.h>
+/*
+ * TWI_protocol.c
+ *  Author: Noname-29-lnin
+ *  Cre: 
+ */ 
 
-#include "i2cmaster.h"
-
-
-/* define CPU frequency in hz here if not defined in Makefile */
-#ifndef F_CPU
-#define F_CPU 4000000UL
-#endif
-
-/* I2C clock in Hz */
-#define SCL_CLOCK  100000L
-
+#include "./../Inc/TWI_protocol.h"
 
 /*************************************************************************
  Initialization of the I2C bus interface. Need to be called only once
