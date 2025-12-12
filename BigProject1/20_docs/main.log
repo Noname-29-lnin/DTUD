@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  30 NOV 2025 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  8 DEC 2025 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2641,7 +2641,7 @@ Package pdftex.def Info: ./my-chapters/my-images/ADC/Export_file_ADC.pdf , page
  <./my-chapters/my-images/ADC/Export_file_ADC.pdf, page is rotated 90 degrees>]
 ) 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20251130232626 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20251208145822 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
 (main.aux (my-chapters/select_Thermistor.aux) (my-chapters/cal_R_parallel.aux)
