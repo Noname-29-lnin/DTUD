@@ -5,12 +5,14 @@
  * Author : nguye
  */ 
 
-#define F_CPU 16000000UL
+#define F_CPU 8000000UL
 
 #include <avr/io.h>
 #include <stdbool.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
+#include <avr/eeprom.h>
+#include <stdint.h>
 
 #include "./Inc/ADS1115.h"
 #include "./Inc/TWI_protocol.h"
@@ -20,7 +22,10 @@
 #define BTN_CHECKMODE		2
 #define BTN_SAVEMODE		3
 #define PIN_MODE_CALIB		PIND
-#define CHECK_MODE_CALIB	((PIN_MODE_CALIB & (1 << POS_MODE_CALIB)) != 0)
+#define PIN_CHECK			4
+#define CHECK_MODE_CALIB	((PIN_MODE_CALIB & (1 << POS_MODE_CALIB)) == 0)
+#define CHECK_LED_ON		PORTD|=(1<<PIN_CHECK)
+#define CHECK_LED_OFF		PORTD&=~(1<<PIN_CHECK)
 // Functional Proccess
 void btn_interrup(void);
 void Func_Calib20(void);
@@ -53,22 +58,57 @@ uint16_t caladc_temp	= 0;
 
 int main(void)
 {
-	i2c_init();								// Init I2C
+	lcd_init();
+	i2c_init();
+
+	btn_savemode = false;
+	btn_selectmode = CALIB_20;
+	btn_adcmode = ADC_CEL;
 	DDRD	&= ~((1 << POS_MODE_CALIB) | (1 << BTN_CHECKMODE) | (1 << BTN_SAVEMODE));
+	DDRD	|= (1<<PIN_CHECK);
 	PORTD	|= (1 << POS_MODE_CALIB) | (1 << BTN_CHECKMODE) | (1 << BTN_SAVEMODE);
-	btn_interrup();
+	PORTD   &= ~(1<<PIN_CHECK);
+	btn_interrup();   // b?t interrupt sau c�ng
+	
 	
 	lcd_goto_xy(0,0);
 	lcd_write_string("DTUD - N04");
 	lcd_goto_xy(1, 0);
 	lcd_write_string("NTC: 20 - 80oC");
-	_delay_ms(1000);
+	CHECK_LED_ON;
+	while(!btn_savemode){}
+		btn_savemode = false;
+	CHECK_LED_OFF;
+	//_delay_ms(1000);
 	lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
 	_delay_ms(100);
     while (1) 
     {
 		if(CHECK_MODE_CALIB){
 			calib_lcd_init();
+			while (!btn_savemode){
+				switch(btn_selectmode){
+					case CALIB_20:
+						calib_lcd_20();
+						break;
+					case CALIB_25:
+						calib_lcd_25();
+						break;
+					case CALIB_50:
+						calib_lcd_50();
+						break;
+					case CALIB_80:
+						calib_lcd_80();
+						break;
+					default:
+						calib_lcd_20();
+						break;
+				}
+				_delay_ms(500);
+			}
+			btn_savemode = false;
+			lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
+			_delay_ms(100);
 			switch(btn_selectmode){
 				case CALIB_20:
 					Func_Calib20();
@@ -170,74 +210,126 @@ ISR(INT1_vect){
 
 // Function - Calib20
 void Func_Calib20(void){
-	calib_lcd_20();
-	if(btn_savemode) {
-		btn_savemode = false;
-		lcd_goto_xy(0,0);
-		lcd_write_string("Calib 20oC");
-		lcd_goto_xy(1, 15);
-		lcd_send_data('V');
-		while(!btn_savemode){
-			calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
-			lcd_goto_xy(1, 0);
-			lcd_write_data(CalADC_vol(calib_temp), 4);
-			_delay_ms(50);
-		}
-		 calib_data_20 = calib_temp;
-		 btn_savemode = false;
+	//calib_lcd_20();
+	// if(btn_savemode) {
+	// 	btn_savemode = false;
+	// 	lcd_goto_xy(0,0);
+	// 	lcd_write_string("Calib 20oC");
+	// 	lcd_goto_xy(1, 15);
+	// 	lcd_send_data('V');
+	// 	while(!btn_savemode){
+	// 		calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+	// 		lcd_goto_xy(1, 0);
+	// 		lcd_write_data(CalADC_vol(calib_temp), 4);
+	// 		_delay_ms(50);
+	// 	}
+	// 	 calib_data_20 = calib_temp;
+	// 	 btn_savemode = false;
+	// }
+	lcd_goto_xy(0,0);
+	lcd_write_string("Calib 20oC");
+	lcd_goto_xy(1, 15);
+	lcd_send_data('V');
+	while(!btn_savemode){
+		calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+		lcd_goto_xy(1, 0);
+		lcd_write_data(CalADC_vol(calib_temp), 4);
+		_delay_ms(50);
 	}
+		calib_data_20 = calib_temp;
+		btn_savemode = false;
 }
 void Func_Calib25(void){
-	calib_lcd_25();
-	if(btn_savemode) {
-		btn_savemode = false;
-		lcd_goto_xy(0,0);
-		lcd_write_string("Calib 25oC");
-		lcd_goto_xy(1, 15);
-		lcd_send_data('V');
-		while(!btn_savemode){
-			calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
-			lcd_goto_xy(1, 0);
-			lcd_write_data(CalADC_vol(calib_temp), 4);
-			_delay_ms(50);
-		}
-		calib_data_25 = calib_temp;
-		btn_savemode = false;
+	// calib_lcd_25();
+	// if(btn_savemode) {
+	// 	btn_savemode = false;
+	// 	lcd_goto_xy(0,0);
+	// 	lcd_write_string("Calib 25oC");
+	// 	lcd_goto_xy(1, 15);
+	// 	lcd_send_data('V');
+	// 	while(!btn_savemode){
+	// 		calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+	// 		lcd_goto_xy(1, 0);
+	// 		lcd_write_data(CalADC_vol(calib_temp), 4);
+	// 		_delay_ms(50);
+	// 	}
+	// 	calib_data_25 = calib_temp;
+	// 	btn_savemode = false;
+	// }
+	lcd_goto_xy(0,0);
+	lcd_write_string("Calib 25oC");
+	lcd_goto_xy(1, 15);
+	lcd_send_data('V');
+	while(!btn_savemode){
+		calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+		lcd_goto_xy(1, 0);
+		lcd_write_data(CalADC_vol(calib_temp), 4);
+		_delay_ms(50);
 	}
+	calib_data_25 = calib_temp;
+	btn_savemode = false;
 }
 void Func_Calib50(void){
-	calib_lcd_50();
-	if(btn_savemode){
-		btn_savemode = false;
-		lcd_goto_xy(0,0);
-		lcd_write_string("Calib 50oC");
-		lcd_goto_xy(1, 15);
-		lcd_send_data('V');
-		while(!btn_savemode){
-			calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
-			lcd_goto_xy(1, 0);
-			lcd_write_data(CalADC_vol(calib_temp), 4);
-			_delay_ms(50);
-		}
-		calib_data_50 = calib_temp;
-		btn_savemode = false;
+	// calib_lcd_50();
+	// if(btn_savemode){
+	// 	btn_savemode = false;
+	// 	lcd_goto_xy(0,0);
+	// 	lcd_write_string("Calib 50oC");
+	// 	lcd_goto_xy(1, 15);
+	// 	lcd_send_data('V');
+	// 	while(!btn_savemode){
+	// 		calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+	// 		lcd_goto_xy(1, 0);
+	// 		lcd_write_data(CalADC_vol(calib_temp), 4);
+	// 		_delay_ms(50);
+	// 	}
+	// 	calib_data_50 = calib_temp;
+	// 	btn_savemode = false;
+	// }
+	lcd_goto_xy(0,0);
+	lcd_write_string("Calib 50oC");
+	lcd_goto_xy(1, 15);
+	lcd_send_data('V');
+	while(!btn_savemode){
+		calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+		lcd_goto_xy(1, 0);
+		lcd_write_data(CalADC_vol(calib_temp), 4);
+		_delay_ms(50);
 	}
+	calib_data_50 = calib_temp;
+	btn_savemode = false;
 }
 void Func_Calib80(void){
-	calib_lcd_80();
-	if(btn_savemode){
-		btn_savemode = false;
-		lcd_goto_xy(0,0);
-		lcd_write_string("Calib 80oC");
-		lcd_goto_xy(1, 15);
-		lcd_send_data('V');
-		while(!btn_savemode){
-			calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
-			lcd_goto_xy(1, 0);
-			lcd_write_data(CalADC_vol(calib_temp), 4);
-			_delay_ms(50);
-		}
-		calib_data_80 = calib_temp;
-		btn_savemode = false;
+	// calib_lcd_80();
+	// if(btn_savemode){
+	// 	btn_savemode = false;
+	// 	lcd_goto_xy(0,0);
+	// 	lcd_write_string("Calib 80oC");
+	// 	lcd_goto_xy(1, 15);
+	// 	lcd_send_data('V');
+	// 	while(!btn_savemode){
+	// 		calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+	// 		lcd_goto_xy(1, 0);
+	// 		lcd_write_data(CalADC_vol(calib_temp), 4);
+	// 		_delay_ms(50);
+	// 	}
+	// 	calib_data_80 = calib_temp;
+	// 	btn_savemode = false;
+	// }
+	lcd_goto_xy(0,0);
+	lcd_write_string("Calib 80oC");
+	lcd_goto_xy(1, 15);
+	lcd_send_data('V');
+	while(!btn_savemode){
+		calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+		lcd_goto_xy(1, 0);
+		lcd_write_data(CalADC_vol(calib_temp), 4);
+		_delay_ms(50);
 	}
+	calib_data_80 = calib_temp;
+	btn_savemode = false;
+}
+
+void calib_save_data_eeprom(){
+	
 }
