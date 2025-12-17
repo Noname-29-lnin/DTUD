@@ -94,3 +94,9 @@ void calib_lcd_80(void){
 	lcd_send_data(BOLD_0);
 }
 
+void calib_lcd_print_result(void){
+	lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
+	_delay_ms(5);
+	lcd_goto_xy(0,0);
+	lcd_write_string("Val_Calib ?");
+}

@@ -41,11 +41,14 @@ void calib_lcd_20(void);
 void calib_lcd_25(void);
 void calib_lcd_50(void);
 void calib_lcd_80(void);
+void calib_lcd_print_result(void);
 
 void CalADC_lcd_init(void);
 void CalADC_lcd_VOL(void);
 void CalADC_lcd_CEL(void);
-float CalADC_vol(uint16_t value_hex);
-float CalADC_cel(uint16_t value_hex);
+
+void CalADC_lcd_Print_Calib(void);
+// float CalADC_vol(uint16_t value_hex);
+// float CalADC_cel(uint16_t value_hex);
 
 #endif

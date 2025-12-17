@@ -38,35 +38,50 @@ void CalADC_lcd_init(void){
 	lcd_write_CusChar(BOLD_8, char_adcmode_cel);
 	lcd_write_CusChar(ADCMODE_CEL_1, char_adcmode_cel_1);
 	lcd_write_CusChar(ADCMODE_CEL_2, char_adcmode_cel_2);
+	lcd_write_CusChar(CELSIUS, char_colsius);
 }
 void CalADC_lcd_VOL(void){
 	lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
 	_delay_ms(5);
 	lcd_goto_xy(1,0);
-	lcd_send_command(BOLD_0);
-	lcd_send_command(BOLD_2);
-	lcd_send_command(BOLD_5);
+	lcd_send_data(BOLD_0);
+	lcd_send_data(BOLD_2);
+	lcd_send_data(BOLD_5);
 	lcd_goto_xy(1,13);
-	lcd_send_command('C');
-	lcd_send_command('e');
-	lcd_send_command('l');
+	lcd_send_data('C');
+	lcd_send_data('e');
+	lcd_send_data('l');
 }
 void CalADC_lcd_CEL(void){
 	lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
 	_delay_ms(5);
 	lcd_goto_xy(1,0);
-	lcd_send_command('V');
-	lcd_send_command('o');
-	lcd_send_command('l');
+	lcd_send_data('V');
+	lcd_send_data('o');
+	lcd_send_data('l');
 	lcd_goto_xy(1,13);
-	lcd_send_command(BOLD_8);
-	lcd_send_command(ADCMODE_CEL_1);
-	lcd_send_command(ADCMODE_CEL_2);
+	lcd_send_data(BOLD_8);
+	lcd_send_data(ADCMODE_CEL_1);
+	lcd_send_data(ADCMODE_CEL_2);
+}
+void CalADC_lcd_Print_Calib(void){
+	lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
+	_delay_ms(5);
+	lcd_goto_xy(0,10);
+	lcd_write_string("Calib");
+	lcd_goto_xy(1,0);
+	lcd_send_data('V');
+	lcd_send_data('o');
+	lcd_send_data('l');
+	lcd_goto_xy(1,13);
+	lcd_send_data('C');
+	lcd_send_data('e');
+	lcd_send_data('l');
 }
 
-float CalADC_vol(uint16_t value_hex){
-	return (float)(value_hex * 6.144)/(32768.0);
-}
-float CalADC_cel(uint16_t value_hex){
-	return (float)((value_hex * 6.144)/(32768.0) + 1.666667) * 12.0;
-}
+// float CalADC_vol(uint16_t value_hex){
+// 	return (float)(value_hex * 6.144)/(32768.0);
+// }
+// float CalADC_cel(uint16_t value_hex){
+// 	return (float)((value_hex * 6.144)/(32768.0) + 1.666667) * 12.0;
+// }
