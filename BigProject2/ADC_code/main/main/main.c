@@ -199,6 +199,7 @@ int main(void)
 							lcd_goto_xy(1, 0);
 							caladc_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);	
 							lcd_write_data(CalADC_vol(caladc_temp), 4);
+							lcd_send_data(' ');
 							_delay_ms(100);
 						}
 						break;
@@ -210,6 +211,7 @@ int main(void)
 							lcd_goto_xy(1, 0);
 							caladc_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
 							lcd_write_data(CalADC_cel(caladc_temp), 2);
+							lcd_send_data(' ');
 							_delay_ms(100);
 						}
 						break;
