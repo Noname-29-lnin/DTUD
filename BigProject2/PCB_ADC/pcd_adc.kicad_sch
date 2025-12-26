@@ -5023,7 +5023,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "22pF"
 			(at 249.428 110.49 90)
 			(effects
 				(font
@@ -7549,7 +7549,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "22pF"
 			(at 266.192 110.49 90)
 			(effects
 				(font
