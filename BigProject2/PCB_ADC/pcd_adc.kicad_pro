@@ -505,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../20_docs/my-chapters/my-diagrams/PCB/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

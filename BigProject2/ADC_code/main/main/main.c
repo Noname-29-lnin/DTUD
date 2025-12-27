@@ -75,6 +75,8 @@ uint16_t caladc_temp	= 0;
 
 int main(void)
 {
+	//DDRB |= (1 << 5);   // ??t bit 5 c?a Port B l�m Output (t??ng ?ng Pin 13)
+	//PORTB |= (1 << 5);  // ??t bit 5 c?a Port B l�n m?c High (B?t ?�n)
 	lcd_init();
 	i2c_init();
 

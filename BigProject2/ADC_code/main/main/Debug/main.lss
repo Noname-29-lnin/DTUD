@@ -719,10 +719,10 @@ void ADC_print_calib(void){
 
 000004f4 <main>:
 
-uint16_t caladc_temp	= 0;
-
 int main(void)
 {
+	//DDRB |= (1 << 5);   // ??t bit 5 c?a Port B làm Output (t??ng ?ng Pin 13)
+	//PORTB |= (1 << 5);  // ??t bit 5 c?a Port B lên m?c High (B?t ?èn)
 	lcd_init();
      4f4:	0e 94 51 06 	call	0xca2	; 0xca2 <lcd_init>
 	i2c_init();
