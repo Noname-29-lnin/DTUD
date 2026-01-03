@@ -22,7 +22,7 @@
 #define LCD_D4			2
 #define LCD_D5			3
 #define LCD_D6			4
-#define LCD_D7			5
+#define LCD_D7			5 //
 
 #define LCD_EN			2
 #define	LCD_RW			1

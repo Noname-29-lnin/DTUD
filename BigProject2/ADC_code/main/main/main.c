@@ -75,10 +75,13 @@ uint16_t caladc_temp	= 0;
 
 int main(void)
 {
-	//DDRB |= (1 << 5);   // ??t bit 5 c?a Port B l�m Output (t??ng ?ng Pin 13)
-	//PORTB |= (1 << 5);  // ??t bit 5 c?a Port B l�n m?c High (B?t ?�n)
+	DDRB |= (1 << 0);
+	PORTB |= (1 << 0);
+	//PORTB &= ~(1 << 5);
 	lcd_init();
 	i2c_init();
+	DDRD |= (1 << 7);
+	PORTD |= (1 << 7);
 
 	btn_savemode = false;
 	btn_selectmode = CALIB_20;
@@ -101,9 +104,10 @@ int main(void)
 	//_delay_ms(1000);
 	lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
 	_delay_ms(100);
-
+	DDRD |= (1 << 6);
 	while(1){
 		if(CHECK_MODE_CALIB){
+			PORTD |= (1 << 6);
 			lcd_goto_xy(0,0);
 			lcd_write_string("Calib mode");
 			while(!btn_savemode){}
@@ -161,6 +165,7 @@ int main(void)
 				// save all value when calib in EEPROM
 			}
 		} else {
+			PORTD &= ~(1 << 6);
 			lcd_goto_xy(0,0);
 			lcd_write_string("Normal mode");
 			while(!btn_savemode){}
