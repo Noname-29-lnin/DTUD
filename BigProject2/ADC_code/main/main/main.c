@@ -75,13 +75,14 @@ uint16_t caladc_temp	= 0;
 
 int main(void)
 {
+	_delay_ms(100);
 	DDRB |= (1 << 0);
 	PORTB |= (1 << 0);
 	//PORTB &= ~(1 << 5);
 	lcd_init();
 	i2c_init();
-	DDRD |= (1 << 7);
-	PORTD |= (1 << 7);
+	_delay_ms(100);
+	PORTB &= ~(1 << 0);
 
 	btn_savemode = false;
 	btn_selectmode = CALIB_20;
@@ -91,12 +92,15 @@ int main(void)
 	PORTD	|= (1 << POS_MODE_CALIB) | (1 << BTN_CHECKMODE) | (1 << BTN_SAVEMODE);
 	PORTD   &= ~(1<<PIN_CHECK);
 	btn_interrup();
-	
+	_delay_ms(100);
+	PORTB |= (1 << 0);
 	
 	lcd_goto_xy(0,0);
 	lcd_write_string("DTUD - N04");
 	lcd_goto_xy(1, 0);
 	lcd_write_string("NTC: 20 - 80oC");
+	DDRD |= (1 << 7);
+	PORTD |= (1 << 7);
 	CHECK_LED_ON;
 	while(!btn_savemode){}
 		btn_savemode = false;

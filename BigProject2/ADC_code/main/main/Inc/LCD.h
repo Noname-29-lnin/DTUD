@@ -24,9 +24,9 @@
 #define LCD_D6			4
 #define LCD_D7			5 //
 
-#define LCD_EN			2
+#define LCD_EN			0
 #define	LCD_RW			1
-#define	LCD_RS			0
+#define	LCD_RS			2
 
 #define LCD_CMD_CLEAR_DISPLAY				0x01
 #define LCD_CMD_CURSOR_HOME					0x02

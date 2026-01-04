@@ -8,9 +8,9 @@
 static void lcd_pulse_enable(void)
 {
 	CTL_BUS |= (1 << LCD_EN);
-	_delay_us(100);
+	_delay_us(200);
 	CTL_BUS &= ~(1 << LCD_EN);
-	_delay_us(100);
+	_delay_us(200);
 }
 
 /*
@@ -21,6 +21,7 @@ static void lcd_send_nibble(uint8_t nibble)
 	lcd_pulse_enable();
 }
 */
+/*
 static void lcd_send_nibble(uint8_t byte)
 {
 	DATA_BUS &= ~((1<<LCD_D4)|(1<<LCD_D5)|(1<<LCD_D6)|(1<<LCD_D7)); // clear PB2..PB5
@@ -42,7 +43,7 @@ void lcd_send_data(uint8_t data)
 	lcd_send_nibble((data << 4) & 0xF0);
 	CTL_BUS &= ~(1 << LCD_RS);        // RS=0
 }
-
+*/
 /*
 void lcd_init(void)
 {
@@ -67,6 +68,7 @@ void lcd_init(void)
 	_delay_ms(5);
 }
 */
+/*
 void lcd_init(void)
 {
 	DATA_DDR |= (1<<LCD_D4)|(1<<LCD_D5)|(1<<LCD_D6)|(1<<LCD_D7);
@@ -74,10 +76,7 @@ void lcd_init(void)
 
 	CTL_BUS &= ~(1<<LCD_RS); // RS=0
 	CTL_BUS &= ~(1<<LCD_RW); // RW=0
-
-	_delay_ms(20);           // ch? LCD lên ngu?n ?n ??nh (>=15ms)
-
-	// B??c ép v? 8-bit b?ng cách g?i nibble cao 0x3 nhi?u l?n
+	_delay_ms(20);
 	lcd_send_nibble(0x30);   // ch? nibble cao (0x3)
 	_delay_ms(5);
 	lcd_send_nibble(0x30);
@@ -85,7 +84,6 @@ void lcd_init(void)
 	lcd_send_nibble(0x30);
 	_delay_us(150);
 
-	// Chuy?n sang 4-bit
 	lcd_send_nibble(0x20);   // nibble cao = 0x2
 	_delay_us(150);
 
@@ -96,7 +94,54 @@ void lcd_init(void)
 	lcd_send_command(LCD_CMD_CLEAR_DISPLAY);       // 0x01
 	_delay_ms(2);
 }
+*/
+static void lcd_send_nibble(uint8_t byte)
+{
+	DATA_BUS &= ~((1<<LCD_D4)|(1<<LCD_D5)|(1<<LCD_D6)|(1<<LCD_D7));
+	DATA_BUS |= ((byte & 0xF0) >> 2); // bit7..4 -> PB5..PB2
+	lcd_pulse_enable();
+}
 
+void lcd_send_command(uint8_t command)
+{
+	CTL_BUS &= ~(1 << LCD_RS);
+	lcd_send_nibble(command & 0xF0);
+	lcd_send_nibble((command << 4) & 0xF0);
+	_delay_us(50);
+}
+
+void lcd_send_data(uint8_t data)
+{
+	CTL_BUS |= (1 << LCD_RS);
+	lcd_send_nibble(data & 0xF0);
+	lcd_send_nibble((data << 4) & 0xF0);
+	_delay_us(50);
+}
+
+void lcd_init(void)
+{
+	DATA_DDR |= (1<<LCD_D4)|(1<<LCD_D5)|(1<<LCD_D6)|(1<<LCD_D7);
+	CTL_DDR  |= (1<<LCD_EN)|(1<<LCD_RW)|(1<<LCD_RS);
+
+	CTL_BUS &= ~((1<<LCD_RS)|(1<<LCD_RW)|(1<<LCD_EN));
+	
+	_delay_ms(50);
+	
+	lcd_send_nibble(0x30);
+	_delay_ms(5);
+	lcd_send_nibble(0x30);
+	_delay_us(150);
+	lcd_send_nibble(0x30);
+	_delay_us(150);
+	lcd_send_nibble(0x20);
+	_delay_us(150);
+
+	lcd_send_command(LCD_CMD_4BIT_2ROW_5X7);
+	lcd_send_command(LCD_CMD_DISPLAY_NO_CURSOR);
+	lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
+	_delay_ms(2);
+	lcd_send_command(LCD_CMD_ENTRY_MODE_INCREASE);
+}
 
 void lcd_write_string(const char* str)
 {
