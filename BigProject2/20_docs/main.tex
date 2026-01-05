@@ -29,7 +29,7 @@
 \MemberTableData{
 1 & 2212904 & Đoàn Ngọc Sang & L02 & 100\% \\ \hline
 2 & 2210780 & Nguyễn Đại Đồng & L02 & 100\% \\ \hline
-3 & 2210164 & Trần Nguyễn Trâm Ánh & L02 & 70\% \\ \hline
+3 & 2210164 & Trần Nguyễn Trâm Ánh & L02 & 100\% \\ \hline
 }
 
 % =========================
@@ -77,5 +77,16 @@ Thiết kế mạch đo nhiệt độ sử dụng Thermistor. Mạch có tầm �
 	\item Đảm bảo sai số (giữa giá trị lý thuyết và thực tế đo qua mạch) $\pm 5\%$.
 	\item Thiết kế mạch đọc điện áp cho ngõ ra ADC. Tiến hành lựa chọn ADC (số bit, nguồn). Mô phỏng mạch đọc và kiểm chứng.
 \end{enumerate}
+
+\include{./my-chapters/thiet_ke_mach.tex}
+\include{./my-chapters/power_source.tex}
 \include{./my-chapters/adc_code.tex}
+
+\appendix
+\section{Đoạn mã code của chương trình đọc nhiệt độ}
+\lstinputlisting[style=StyleCode, language=C, caption={main\_ADC.c}]{./../ADC_code/main/main/main.c}
+\lstinputlisting[style=StyleCode, language=C, caption={Func.h}]{./../ADC_code/main/main/Inc/Func.h}
+\lstinputlisting[style=StyleCode, language=C, caption={Cal\_ADC.c}]{./../ADC_code/main/main/Src/Cal_ADC.c}
+\lstinputlisting[style=StyleCode, language=C, caption={calib\_ADC.c}]{./../ADC_code/main/main/Src/calib.c}
+
 \end{document}

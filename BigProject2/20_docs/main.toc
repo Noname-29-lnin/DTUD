@@ -1,4 +1,18 @@
 \babel@toc {vietnamese}{}\relax 
-\contentsline {section}{\numberline {1}Thực hiện mạch đọc ADC}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Lưu đồ giải thuật của mạch đọc ADC}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Mạch đọc ADC}{4}{subsection.1.2}%
+\contentsline {section}{\numberline {1}Thực hiện mạch đo nhiệt độ}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Mô phỏng trên Multisim}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Thực thi mạch trên Altium}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Schematic}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Layout}{4}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Thực hiện test mạch thực tế}{6}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Kết luận}{15}{subsubsection.1.2.4}%
+\contentsline {section}{\numberline {2}Thực hiện mạch nguồn}{16}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Điện áp sau khi chỉnh lưu}{16}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Điện áp cấp $+12V$}{17}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Điện áp cấp $-12V$}{19}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Điện áp cấp $+5V$}{21}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Thực thi mạch nguồn}{23}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Thực hiện mạch đọc ADC}{26}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Lưu đồ giải thuật của mạch đọc ADC}{26}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Mạch đọc ADC}{28}{subsection.3.2}%
+\contentsline {section}{\numberline {A}Đoạn mã code của chương trình đọc nhiệt độ}{31}{appendix.A}%

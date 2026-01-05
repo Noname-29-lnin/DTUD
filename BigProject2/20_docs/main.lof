@@ -1,7 +1,33 @@
 \babel@toc {vietnamese}{}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Sơ đồ kết nối chân trên ATmega328P.}}{2}{figure.caption.1}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Sơ đồ kết nối tổng quan cho mạch đọc ADC.}}{3}{figure.caption.2}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Flowchart của mạch đo mạch ADC.}}{3}{figure.caption.3}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Schematic của mạch đọc ADC.}}{4}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Layout của mạch đọc ADC.}}{5}{figure.caption.5}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces 3D của mạch đọc ADC.}}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic Nmultisim}}{2}{figure.caption.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Mô phỏng trên Multisim}}{3}{figure.caption.2}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Schematic của Mạch đọc nhiệt độ.}}{3}{figure.caption.3}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Layout của Mạch đọc nhiệt độ.}}{4}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Mô hình 3D của Mạch đọc nhiệt độ.}}{4}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Mạch thực tế của Mạch đọc nhiệt độ.}}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Kiểm tra tạo nguồn dòng $1m\textsf {A}$.}}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Kiểm tra mạch tao điện áp tham chiếu cho INA128 Theo lý thuyết là $0.2\textsf {V}$.}}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Kiểm tra mạch tạo điên áp cộng $8\textsf {V}$.}}{8}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Kiểm tra điện áp Zenner.}}{9}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Điện áp ngõ ra tại $30^{o}C theo lý thuyết.$}}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Tính toán nhiệt độ hiện tại theo datasheet.}}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Kết quả đo điện trở ban đầu của NTC.}}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Tinh chỉnh điện áp từ $8\textsf {V}$ xuống $7.25\textsf {V}$.}}{14}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Kết quả thực nghiệm khảo sát nhiệt độ và điện áp.}}{14}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Tổng quan của mạch nguồn.}}{16}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Mạch chỉnh lưu điện áp đầu vào.}}{16}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Mạch cung cấp nguồn $+12V$.}}{17}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Mạch cung cấp nguồn $-12V$.}}{19}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Mạch cung cấp nguồn $+5V$}}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Thiết kế mạch nguồn.}}{23}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Hình ảnh thực tế của mạch nguồn.}}{24}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Hình ảnh thực tế của mạch nguồn tại $+12V$.}}{24}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Hình ảnh thực tế của mạch nguồn tại $-12V$.}}{25}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Hình ảnh thực tế của mạch nguồn tại $+5V$.}}{25}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sơ đồ kết nối chân trên ATmega328P.}}{26}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sơ đồ kết nối tổng quan cho mạch đọc ADC.}}{27}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Flowchart của mạch đo mạch ADC.}}{27}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Schematic của mạch đọc ADC.}}{28}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Layout của mạch đọc ADC.}}{29}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 3D của mạch đọc ADC.}}{29}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Mạch thực tế của mạch ADC.}}{30}{figure.caption.33}%

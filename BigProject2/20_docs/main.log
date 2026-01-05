@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  27 DEC 2025 12:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  5 JAN 2026 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1530,7 +1530,8 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 (main.aux
 Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
 (babel)             Reported on input line 9.
- (my-chapters/adc_code.aux))
+ (my-chapters/thiet_ke_mach.aux) (my-chapters/power_source.aux)
+(my-chapters/adc_code.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -1624,7 +1625,7 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count419
-<./my-chapters/my-images/01_logobachkhoatoi.png, id=18, 471.9231pt x 478.9092pt
+<./my-chapters/my-images/01_logobachkhoatoi.png, id=74, 471.9231pt x 478.9092pt
 >
 File: ./my-chapters/my-images/01_logobachkhoatoi.png Graphic file (type png)
 <use ./my-chapters/my-images/01_logobachkhoatoi.png>
@@ -1649,7 +1650,7 @@ Overfull \hbox (2.19716pt too wide) in paragraph at lines 52--52
 
 
 
-<./my-chapters/my-images/bia.jpg, id=20, 301.125pt x 414.95026pt>
+<./my-chapters/my-images/bia.jpg, id=76, 301.125pt x 414.95026pt>
 File: ./my-chapters/my-images/bia.jpg Graphic file (type jpg)
 <use ./my-chapters/my-images/bia.jpg>
 Package pdftex.def Info: ./my-chapters/my-images/bia.jpg  used on input line 53
@@ -1663,11 +1664,29 @@ s/my-images/bia.jpg> <./my-chapters/my-images/01_logobachkhoatoi.png>]
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- (main.lof)
+ (main.lof
+
+[2]
+LaTeX Font Info:    Trying to load font information for T5+cmss on input line 8
+.
+ (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmss.fd
+File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+
+LaTeX Warning: Command \' invalid in math mode on input line 12.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 12.
+
+Missing character: There is no þ in font cmr12!
+Missing character: There is no ¸ in font cmr12!
+)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- (main.lot)
+
+
+[3] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
@@ -1677,40 +1696,536 @@ s/my-images/bia.jpg> <./my-chapters/my-images/01_logobachkhoatoi.png>]
 
 
 
-[2]
-LaTeX Font Info:    Trying to load font information for T5+cmss on input line 7
-2.
- (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmss.fd
-File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
+[4]
 
-<./my-chapters/my-images/logo_DEE.png, id=47, 76.03406pt x 75.28125pt>
+<./my-chapters/my-images/logo_DEE.png, id=194, 76.03406pt x 75.28125pt>
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 80.
+ne 81.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 \include{./my-chapters/adc_code.tex}
-                                          [1 <./my-chapters/my-images/logo_DEE.
-png>]
+l.81 \include{./my-chapters/thiet_ke_mach.tex}
+                                               [1 <./my-chapters/my-images/logo
+_DEE.png>]
+\openout2 = `./my-chapters/thiet_ke_mach.aux'.
+
+ (my-chapters/thiet_ke_mach.tex
+<my-chapters/my-images/Circuit_sim/overview_mul.png, id=206, 634.62094pt x 438.
+13687pt>
+File: my-chapters/my-images/Circuit_sim/overview_mul.png Graphic file (type png
+)
+<use my-chapters/my-images/Circuit_sim/overview_mul.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/overview_mul.png  us
+ed on input line 6.
+(pdftex.def)             Requested size: 338.58632pt x 233.76244pt.
+<my-chapters/my-images/Circuit_sim/sim_multisim.png, id=207, 363.759pt x 188.38
+38pt>
+File: my-chapters/my-images/Circuit_sim/sim_multisim.png Graphic file (type png
+)
+<use my-chapters/my-images/Circuit_sim/sim_multisim.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/sim_multisim.png  us
+ed on input line 18.
+(pdftex.def)             Requested size: 338.58632pt x 175.35033pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 22.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 
+      [2
+
+ <./my-chapters/my-images/Circuit_sim/overview_mul.png>]
+<my-chapters/my-images/Circuit_sim/PCB_schematic_sensor.png, id=213, 582.4962pt
+ x 361.35pt>
+File: my-chapters/my-images/Circuit_sim/PCB_schematic_sensor.png Graphic file (
+type png)
+<use my-chapters/my-images/Circuit_sim/PCB_schematic_sensor.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/PCB_schematic_sensor
+.png  used on input line 29.
+(pdftex.def)             Requested size: 386.95897pt x 240.05765pt.
+<my-chapters/my-images/Circuit_sim/PCB_layout_sensor.png, id=214, 416.2752pt x 
+277.5168pt>
+File: my-chapters/my-images/Circuit_sim/PCB_layout_sensor.png Graphic file (typ
+e png)
+<use my-chapters/my-images/Circuit_sim/PCB_layout_sensor.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/PCB_layout_sensor.pn
+g  used on input line 39.
+(pdftex.def)             Requested size: 217.66211pt x 145.1099pt.
+<my-chapters/my-images/Circuit_sim/PCB_layout_sensor_1.png, id=215, 416.757pt x
+ 275.1078pt>
+File: my-chapters/my-images/Circuit_sim/PCB_layout_sensor_1.png Graphic file (t
+ype png)
+<use my-chapters/my-images/Circuit_sim/PCB_layout_sensor_1.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/PCB_layout_sensor_1.
+png  used on input line 42.
+(pdftex.def)             Requested size: 217.66211pt x 143.68234pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 47.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 
+      [3 <./my-chapters/my-images/Circuit_sim/sim_multisim.png> <./my-chapters/
+my-images/Circuit_sim/PCB_schematic_sensor.png>]
+<my-chapters/my-images/Circuit_sim/PCB_3d.png, id=224, 825.83531pt x 532.99126p
+t>
+File: my-chapters/my-images/Circuit_sim/PCB_3d.png Graphic file (type png)
+<use my-chapters/my-images/Circuit_sim/PCB_3d.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/PCB_3d.png  used on 
+input line 50.
+(pdftex.def)             Requested size: 338.58632pt x 218.52783pt.
+<my-chapters/my-images/Circuit_sim/PCB_thucte.png, id=225, 288.5982pt x 216.328
+2pt>
+File: my-chapters/my-images/Circuit_sim/PCB_thucte.png Graphic file (type png)
+<use my-chapters/my-images/Circuit_sim/PCB_thucte.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/PCB_thucte.png  used
+ on input line 57.
+(pdftex.def)             Requested size: 338.58632pt x 253.79945pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 61.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.61 
+      [4 <./my-chapters/my-images/Circuit_sim/PCB_layout_sensor.png> <./my-chap
+ters/my-images/Circuit_sim/PCB_layout_sensor_1.png> <./my-chapters/my-images/Ci
+rcuit_sim/PCB_3d.png>]
+<my-chapters/my-images/Circuit_sim/CIRCUIT_1mA.png, id=233, 1445.4pt x 1927.2pt
+>
+File: my-chapters/my-images/Circuit_sim/CIRCUIT_1mA.png Graphic file (type png)
+
+<use my-chapters/my-images/Circuit_sim/CIRCUIT_1mA.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/CIRCUIT_1mA.png  use
+d on input line 66.
+(pdftex.def)             Requested size: 338.58632pt x 451.45114pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 70.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[5 <./my-chapters/my-images/Circuit_sim/PCB_thucte.png>]
+<my-chapters/my-images/Circuit_sim/CIRCUIT_0_2V.png, id=240, 1445.4pt x 1927.2p
+t>
+File: my-chapters/my-images/Circuit_sim/CIRCUIT_0_2V.png Graphic file (type png
+)
+<use my-chapters/my-images/Circuit_sim/CIRCUIT_0_2V.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/CIRCUIT_0_2V.png  us
+ed on input line 75.
+(pdftex.def)             Requested size: 338.58632pt x 451.45114pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 79.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[6 <./my-chapters/my-images/Circuit_sim/CIRCUIT_1mA.png>]
+<my-chapters/my-images/Circuit_sim/CIRCUIT_8V.png, id=247, 1445.4pt x 1927.2pt>
+
+File: my-chapters/my-images/Circuit_sim/CIRCUIT_8V.png Graphic file (type png)
+<use my-chapters/my-images/Circuit_sim/CIRCUIT_8V.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/CIRCUIT_8V.png  used
+ on input line 82.
+(pdftex.def)             Requested size: 338.58632pt x 451.45114pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 86.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[7 <./my-chapters/my-images/Circuit_sim/CIRCUIT_0_2V.png>]
+<my-chapters/my-images/Circuit_sim/CIRCUIT_check_zenor.png, id=254, 377.2494pt 
+x 296.7888pt>
+File: my-chapters/my-images/Circuit_sim/CIRCUIT_check_zenor.png Graphic file (t
+ype png)
+<use my-chapters/my-images/Circuit_sim/CIRCUIT_check_zenor.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/CIRCUIT_check_zenor.
+png  used on input line 89.
+(pdftex.def)             Requested size: 338.58632pt x 266.39192pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 93.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[8 <./my-chapters/my-images/Circuit_sim/CIRCUIT_8V.png>]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 134.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[9 <./my-chapters/my-images/Circuit_sim/CIRCUIT_check_zenor.png>]
+<my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check.png, id=270, 1001.24063pt 
+x 482.55281pt>
+File: my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check.png Graphic file (typ
+e png)
+<use my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check.pn
+g  used on input line 149.
+(pdftex.def)             Requested size: 435.32422pt x 209.80568pt.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 150.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 150.
+
+Missing character: There is no þ in font cmr12!
+Missing character: There is no ¸ in font cmr12!
+
+LaTeX Warning: Command \' invalid in math mode on input line 150.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 150.
+
+Missing character: There is no þ in font cmr12!
+Missing character: There is no ¸ in font cmr12!
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 152.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[10]
+<my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NTC.png, id=278, 700.86844
+pt x 570.63188pt>
+File: my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NTC.png Graphic file 
+(type png)
+<use my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NTC.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NT
+C.png  used on input line 156.
+(pdftex.def)             Requested size: 435.32422pt x 354.44115pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 160.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[11 <./my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check.png>]
+<my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NTC_Vol.png, id=285, 700.1
+1563pt x 528.47438pt>
+File: my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NTC_Vol.png Graphic f
+ile (type png)
+<use my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NTC_Vol.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NT
+C_Vol.png  used on input line 163.
+(pdftex.def)             Requested size: 386.95897pt x 292.09717pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 167.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[12 <./my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NTC.png>]
+<my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NTC_After_Vol.png, id=292,
+ 650.43pt x 584.1825pt>
+File: my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NTC_After_Vol.png Gra
+phic file (type png)
+<use my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NTC_After_Vol.png>
+Package pdftex.def Info: my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NT
+C_After_Vol.png  used on input line 170.
+(pdftex.def)             Requested size: 386.95897pt x 347.55278pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 174.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[13 <./my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NTC_Vol.png>]
+<./my-ref/saiso_dodac.pdf, id=300, 475.02469pt x 149.8097pt>
+File: ./my-ref/saiso_dodac.pdf Graphic file (type pdf)
+<use ./my-ref/saiso_dodac.pdf>
+Package pdftex.def Info: ./my-ref/saiso_dodac.pdf  used on input line 218.
+(pdftex.def)             Requested size: 483.69687pt x 152.55011pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 224.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[14 <./my-chapters/my-images/Circuit_sim/CIRCUIT_pre_check_NTC_After_Vol.png> <
+./my-ref/saiso_dodac.pdf>])
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 81.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[15]
+\openout2 = `./my-chapters/power_source.aux'.
+
+ (my-chapters/power_source.tex
+
+pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/Power_Source/power_s
+upply.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
+llowed
+<./my-chapters/my-images/Power_Source/power_supply.pdf, id=324, 655.1423pt x 13
+5.5737pt>
+File: ./my-chapters/my-images/Power_Source/power_supply.pdf Graphic file (type 
+pdf)
+<use ./my-chapters/my-images/Power_Source/power_supply.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/Power_Source/power_supply.pdf 
+ used on input line 5.
+(pdftex.def)             Requested size: 435.32422pt x 90.0871pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/Power_Source/mach_ch
+inh_luu.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<./my-chapters/my-images/Power_Source/mach_chinh_luu.pdf, id=325, 262.05682pt x
+ 118.25038pt>
+File: ./my-chapters/my-images/Power_Source/mach_chinh_luu.pdf Graphic file (typ
+e pdf)
+<use ./my-chapters/my-images/Power_Source/mach_chinh_luu.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/Power_Source/mach_chinh_luu.pd
+f  used on input line 13.
+(pdftex.def)             Requested size: 290.22107pt x 130.97076pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 26.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[16
+
+
+
+ <./my-chapters/my-images/Power_Source/power_supply.pdf> <./my-chapters/my-imag
+es/Power_Source/mach_chinh_luu.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 37.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/Power_Source/supply_
++12V.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
+lowed
+<./my-chapters/my-images/Power_Source/supply_+12V.pdf, id=342, 277.79094pt x 66
+.84544pt>
+File: ./my-chapters/my-images/Power_Source/supply_+12V.pdf Graphic file (type p
+df)
+<use ./my-chapters/my-images/Power_Source/supply_+12V.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/Power_Source/supply_+12V.pdf  
+used on input line 41.
+(pdftex.def)             Requested size: 290.22107pt x 69.83786pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 54.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[17 <./my-chapters/my-images/Power_Source/supply_+12V.pdf>]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 84.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[18]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 86.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 86.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/Power_Source/supply_
+-12V.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
+lowed
+<./my-chapters/my-images/Power_Source/supply_-12V.pdf, id=358, 278.62383pt x 71
+.92943pt>
+File: ./my-chapters/my-images/Power_Source/supply_-12V.pdf Graphic file (type p
+df)
+<use ./my-chapters/my-images/Power_Source/supply_-12V.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/Power_Source/supply_-12V.pdf  
+used on input line 90.
+(pdftex.def)             Requested size: 290.22107pt x 74.93105pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 113.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[19 <./my-chapters/my-images/Power_Source/supply_-12V.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 135.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./my-chapters/my-images/Power_Source/power_s
+upply_5V.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
+> allowed
+<./my-chapters/my-images/Power_Source/power_supply_5V.pdf, id=369, 185.279pt x 
+110.76501pt>
+File: ./my-chapters/my-images/Power_Source/power_supply_5V.pdf Graphic file (ty
+pe pdf)
+<use ./my-chapters/my-images/Power_Source/power_supply_5V.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/Power_Source/power_supply_5V.p
+df  used on input line 139.
+(pdftex.def)             Requested size: 290.22107pt x 173.52791pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 143.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[20]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 161.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[21 <./my-chapters/my-images/Power_Source/power_supply_5V.pdf>]
+<./my-chapters/my-images/Power_Source/layout_B.pdf, id=386, 160.34906pt x 300.3
+722pt>
+File: ./my-chapters/my-images/Power_Source/layout_B.pdf Graphic file (type pdf)
+
+<use ./my-chapters/my-images/Power_Source/layout_B.pdf>
+Package pdftex.def Info: ./my-chapters/my-images/Power_Source/layout_B.pdf  use
+d on input line 234.
+(pdftex.def)             Requested size: 217.66211pt x 407.7445pt.
+<./my-chapters/my-images/Power_Source/model_3D.png, id=387, 212.29312pt x 374.9
+0062pt>
+File: ./my-chapters/my-images/Power_Source/model_3D.png Graphic file (type png)
+
+<use ./my-chapters/my-images/Power_Source/model_3D.png>
+Package pdftex.def Info: ./my-chapters/my-images/Power_Source/model_3D.png  use
+d on input line 237.
+(pdftex.def)             Requested size: 217.66211pt x 384.40147pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 241.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[22]
+<./my-chapters/my-images/Power_Source/mach_thucte.jpg, id=393, 906.38625pt x 51
+8.6878pt>
+File: ./my-chapters/my-images/Power_Source/mach_thucte.jpg Graphic file (type j
+pg)
+<use ./my-chapters/my-images/Power_Source/mach_thucte.jpg>
+Package pdftex.def Info: ./my-chapters/my-images/Power_Source/mach_thucte.jpg  
+used on input line 244.
+(pdftex.def)             Requested size: 338.58632pt x 193.75557pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 247.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[23 <./my-chapters/my-images/Power_Source/layout_B.pdf, page is rotated 90 degr
+ees> <./my-chapters/my-images/Power_Source/model_3D.png>]
+<./my-chapters/my-images/Power_Source/thucte_+12V.jpg, id=402, 557.08125pt x 66
+5.48625pt>
+File: ./my-chapters/my-images/Power_Source/thucte_+12V.jpg Graphic file (type j
+pg)
+<use ./my-chapters/my-images/Power_Source/thucte_+12V.jpg>
+Package pdftex.def Info: ./my-chapters/my-images/Power_Source/thucte_+12V.jpg  
+used on input line 250.
+(pdftex.def)             Requested size: 290.22107pt x 346.70473pt.
+<./my-chapters/my-images/Power_Source/thucte_-12V.jpg, id=403, 722.7pt x 670.75
+594pt>
+File: ./my-chapters/my-images/Power_Source/thucte_-12V.jpg Graphic file (type j
+pg)
+<use ./my-chapters/my-images/Power_Source/thucte_-12V.jpg>
+Package pdftex.def Info: ./my-chapters/my-images/Power_Source/thucte_-12V.jpg  
+used on input line 256.
+(pdftex.def)             Requested size: 290.22107pt x 269.36205pt.
+
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 259.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[24 <./my-chapters/my-images/Power_Source/mach_thucte.jpg> <./my-chapters/my-im
+ages/Power_Source/thucte_+12V.jpg>]
+<./my-chapters/my-images/Power_Source/thucte_5V.jpg, id=409, 722.7pt x 735.4978
+2pt>
+File: ./my-chapters/my-images/Power_Source/thucte_5V.jpg Graphic file (type jpg
+)
+<use ./my-chapters/my-images/Power_Source/thucte_5V.jpg>
+Package pdftex.def Info: ./my-chapters/my-images/Power_Source/thucte_5V.jpg  us
+ed on input line 262.
+(pdftex.def)             Requested size: 290.22107pt x 295.36108pt.
+)
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 82.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[25 <./my-chapters/my-images/Power_Source/thucte_-12V.jpg> <./my-chapters/my-im
+ages/Power_Source/thucte_5V.jpg>]
 \openout2 = `./my-chapters/adc_code.aux'.
 
  (my-chapters/adc_code.tex
-<./my-chapters/my-images/PCB_ADC/ADC_spec_mapping.png, id=64, 1378.14874pt x 82
-9.0975pt>
+<./my-chapters/my-images/PCB_ADC/ADC_spec_mapping.png, id=415, 1378.14874pt x 8
+29.0975pt>
 File: ./my-chapters/my-images/PCB_ADC/ADC_spec_mapping.png Graphic file (type p
 ng)
 <use ./my-chapters/my-images/PCB_ADC/ADC_spec_mapping.png>
 Package pdftex.def Info: ./my-chapters/my-images/PCB_ADC/ADC_spec_mapping.png  
 used on input line 9.
 (pdftex.def)             Requested size: 386.95897pt x 232.79092pt.
-<./my-chapters/my-images/PCB_ADC/ADC_spec_overview_connect.png, id=65, 757.8312
-5pt x 578.16pt>
+<./my-chapters/my-images/PCB_ADC/ADC_spec_overview_connect.png, id=416, 757.831
+25pt x 578.16pt>
 File: ./my-chapters/my-images/PCB_ADC/ADC_spec_overview_connect.png Graphic fil
 e (type png)
 <use ./my-chapters/my-images/PCB_ADC/ADC_spec_overview_connect.png>
@@ -1724,24 +2239,20 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 18.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[26
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.18 
-      [2
+
 
  <./my-chapters/my-images/PCB_ADC/ADC_spec_mapping.png>]
-<./my-chapters/my-images/PCB_ADC/overflow_diagram.png, id=71, 1975.38pt x 1042.
-89626pt>
+<./my-chapters/my-images/PCB_ADC/overflow_diagram.png, id=423, 1975.38pt x 1042
+.89626pt>
 File: ./my-chapters/my-images/PCB_ADC/overflow_diagram.png Graphic file (type p
 ng)
 <use ./my-chapters/my-images/PCB_ADC/overflow_diagram.png>
 Package pdftex.def Info: ./my-chapters/my-images/PCB_ADC/overflow_diagram.png  
 used on input line 21.
 (pdftex.def)             Requested size: 386.95897pt x 204.27896pt.
-<./my-chapters/my-diagrams/pcd_adc.pdf, id=72, 845.0531pt x 597.52838pt>
+<./my-chapters/my-diagrams/pcd_adc.pdf, id=424, 845.0531pt x 597.52838pt>
 File: ./my-chapters/my-diagrams/pcd_adc.pdf Graphic file (type pdf)
 <use ./my-chapters/my-diagrams/pcd_adc.pdf>
 Package pdftex.def Info: ./my-chapters/my-diagrams/pcd_adc.pdf  used on input l
@@ -1754,9 +2265,9 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 32.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[3 <./my-chapters/my-images/PCB_ADC/ADC_spec_overview_connect.png> <./my-chapte
-rs/my-images/PCB_ADC/overflow_diagram.png>]
-<my-chapters/my-images/PCB_ADC/pcb_adc.png, id=80, 635.37375pt x 449.42906pt>
+[27 <./my-chapters/my-images/PCB_ADC/ADC_spec_overview_connect.png> <./my-chapt
+ers/my-images/PCB_ADC/overflow_diagram.png>]
+<my-chapters/my-images/PCB_ADC/pcb_adc.png, id=433, 635.37375pt x 449.42906pt>
 File: my-chapters/my-images/PCB_ADC/pcb_adc.png Graphic file (type png)
 <use my-chapters/my-images/PCB_ADC/pcb_adc.png>
 Package pdftex.def Info: my-chapters/my-images/PCB_ADC/pcb_adc.png  used on inp
@@ -1769,63 +2280,186 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 38.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[4 <./my-chapters/my-diagrams/pcd_adc.pdf>]
-<my-chapters/my-images/PCB_ADC/3D_topview.png, id=91, 768.62157pt x 548.0475pt>
-
+[28 <./my-chapters/my-diagrams/pcd_adc.pdf>]
+<my-chapters/my-images/PCB_ADC/3D_topview.png, id=444, 768.62157pt x 548.0475pt
+>
 File: my-chapters/my-images/PCB_ADC/3D_topview.png Graphic file (type png)
 <use my-chapters/my-images/PCB_ADC/3D_topview.png>
 Package pdftex.def Info: my-chapters/my-images/PCB_ADC/3D_topview.png  used on 
 input line 42.
 (pdftex.def)             Requested size: 217.66211pt x 155.20001pt.
-<my-chapters/my-images/PCB_ADC/3D_underview.png, id=92, 754.31813pt x 540.51938
-pt>
+<my-chapters/my-images/PCB_ADC/3D_underview.png, id=445, 754.31813pt x 540.5193
+8pt>
 File: my-chapters/my-images/PCB_ADC/3D_underview.png Graphic file (type png)
 <use my-chapters/my-images/PCB_ADC/3D_underview.png>
 Package pdftex.def Info: my-chapters/my-images/PCB_ADC/3D_underview.png  used o
 n input line 45.
 (pdftex.def)             Requested size: 217.66211pt x 155.96307pt.
+<my-chapters/my-images/PCB_ADC/Real_ADCPCB.png, id=446, 1709.63719pt x 1065.982
+5pt>
+File: my-chapters/my-images/PCB_ADC/Real_ADCPCB.png Graphic file (type png)
+<use my-chapters/my-images/PCB_ADC/Real_ADCPCB.png>
+Package pdftex.def Info: my-chapters/my-images/PCB_ADC/Real_ADCPCB.png  used on
+ input line 52.
+(pdftex.def)             Requested size: 386.95897pt x 241.26707pt.
 )
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
-ne 80.
+ne 83.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[5 <./my-chapters/my-images/PCB_ADC/pcb_adc.png> <./my-chapters/my-images/PCB_A
-DC/3D_topview.png> <./my-chapters/my-images/PCB_ADC/3D_underview.png>]
+[29 <./my-chapters/my-images/PCB_ADC/pcb_adc.png> <./my-chapters/my-images/PCB_
+ADC/3D_topview.png> <./my-chapters/my-images/PCB_ADC/3D_underview.png>]
 
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 83.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[30 <./my-chapters/my-images/PCB_ADC/Real_ADCPCB.png>]
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 87.
+LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 8
+7.
+
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt.fd
+File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+(../ADC_code/main/main/main.c
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 60.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[31
+
+
+]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 124.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[32]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 188.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[33]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 252.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[34]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 316.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[35]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 380.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[36]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 444.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[37]) (../ADC_code/main/main/Inc/Func.h
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 22.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[38]) (../ADC_code/main/main/Src/Cal_ADC.c
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 28.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[39])
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 90.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[40] (../ADC_code/main/main/Src/calib.c
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 65.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[41])
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 92.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[42] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20251227123134 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20260105233730 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
-(main.aux (my-chapters/adc_code.aux))
+(main.aux (my-chapters/thiet_ke_mach.aux) (my-chapters/power_source.aux)
+(my-chapters/adc_code.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 87C6DC82BEFDDD4332DD195304E3D6EE;643.
+(rerunfilecheck)             Checksum: 98A02FF8DA9C296A61EBF2C769D0FB13;3452.
  ) 
 Here is how much of TeX's memory you used:
- 33110 strings out of 468134
- 648169 string characters out of 5430740
- 1168497 words of memory out of 5000000
- 61125 multiletter control sequences out of 15000+600000
- 651696 words of font info for 90 fonts, out of 8000000 for 9000
+ 35065 strings out of 468134
+ 688900 string characters out of 5430740
+ 1804499 words of memory out of 5000000
+ 62226 multiletter control sequences out of 15000+600000
+ 657580 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,14n,101p,1065b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKT
-eX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKT
-eX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTe
-X/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX
-/fonts/type1/vntex/vnr/vnss12.pfb>
-Output written on main.pdf (7 pages, 651986 bytes).
+ 99i,15n,101p,1065b,2290s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\nguye\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi525\tctt
+0800.pk> <C:\Users\nguye\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1200.pk><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nguye/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nguye/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nguye/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nguye/
+AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/nguye/
+AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/nguye/A
+ppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/nguye/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr6.pfb><C:/Users/nguye/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss12.pfb><C:/Users/nguye/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Users/nguye/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt8.pfb>
+Output written on main.pdf (46 pages, 40519535 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1482 PDF objects out of 1728 (max. 8388607)
+ 827 named destinations out of 1000 (max. 500000)
+ 339 words of extra memory for PDF output out of 10000 (max. 10000000)
 

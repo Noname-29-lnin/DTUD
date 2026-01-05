@@ -2,7 +2,7 @@
  * main.c
  *
  * Created: 12/5/2025 2:26:53 PM
- * Author : nguye
+ * Author : Noname-29-lnin
  */ 
 
 #define F_CPU 16000000UL
@@ -33,19 +33,7 @@ void Func_Calib25(void);
 void Func_Calib50(void);
 void Func_Calib80(void);
 void ADC_print_calib(void);
-
-// float CalADC_vol(uint16_t value_hex){
-// 	return (float)(value_hex * 6.144)/(32768.0);
-// }
-float CalADC_vol(uint16_t value_hex){
-    int16_t raw = (int16_t)value_hex;          // signed
-    return ((float)raw) * 6.144f / 32768.0f;   // volts
-}
-
-float CalADC_cel(uint16_t value_hex){
-	int16_t raw = (int16_t)value_hex;          // signed
-	return (float)((((float)raw) * 6.144f)/(32768.0f) + 1.666667f) * 12.0;
-}
+void calib_lcd_reset(void);
 
 // Global Variables
 uint16_t ads1115_Data;
@@ -55,7 +43,8 @@ typedef enum {
 	CALIB_25	= 1,
 	CALIB_50	= 2,
 	CALIB_80	= 3,
-	CALIB_PRINT = 4
+	CALIB_PRINT = 4,
+	CALIB_RESET = 5
 } SELECTMODE_e;
 volatile SELECTMODE_e btn_selectmode = CALIB_20;
 typedef enum {
@@ -65,13 +54,97 @@ typedef enum {
 } ADCMODE_e;
 volatile ADCMODE_e btn_adcmode = ADC_CEL;
 
+#define EEP_ADDR_20     0x00
+#define EEP_ADDR_25     0x02
+#define EEP_ADDR_50     0x04
+#define EEP_ADDR_80     0x06
 uint16_t calib_temp		= 0;
 uint16_t calib_data_20	= 0;
 uint16_t calib_data_25	= 2222;
 uint16_t calib_data_50	= 13333;
 uint16_t calib_data_80	= 26667;
-
+void Save_Calib_To_EEPROM(void) {
+	eeprom_update_word((uint16_t*)EEP_ADDR_20, calib_data_20);
+	eeprom_update_word((uint16_t*)EEP_ADDR_25, calib_data_25);
+	eeprom_update_word((uint16_t*)EEP_ADDR_50, calib_data_50);
+	eeprom_update_word((uint16_t*)EEP_ADDR_80, calib_data_80);
+}
 uint16_t caladc_temp	= 0;
+float calib_slope = 0.00225f;
+float calib_offset = 20.0f;
+const float standard_temps[4] = {20.0f, 25.0f, 50.0f, 80.0f};
+void Update_Calib_Coefficients(void) {
+	float sum_x = 0;
+	float sum_y = 0;
+	float sum_xy = 0;
+	float sum_xx = 0;
+	float count = 4.0f;
+	float adc_values[4];
+	adc_values[0] = (float)((int16_t)calib_data_20);
+	adc_values[1] = (float)((int16_t)calib_data_25);
+	adc_values[2] = (float)((int16_t)calib_data_50);
+	adc_values[3] = (float)((int16_t)calib_data_80);
+	for (int i = 0; i < 4; i++) {
+		sum_x  += adc_values[i];
+		sum_y  += standard_temps[i];
+		sum_xy += adc_values[i] * standard_temps[i];
+		sum_xx += adc_values[i] * adc_values[i];
+	}
+	float denominator = (count * sum_xx) - (sum_x * sum_x);
+	if (denominator != 0) {
+		calib_slope = ((count * sum_xy) - (sum_x * sum_y)) / denominator;
+		calib_offset = (sum_y - (calib_slope * sum_x)) / count;
+		} else {
+		calib_slope = 0.00225f;
+		calib_offset = 20.0f;
+	}
+}
+void Reset_Calib_To_EEPROM(void) {
+	calib_data_20 = 0;
+	calib_data_25 = 2222;
+	calib_data_50 = 13333;
+	calib_data_80 = 26667;
+	Save_Calib_To_EEPROM();
+	Update_Calib_Coefficients();
+}
+void Load_Calib_From_EEPROM(void) {
+	uint16_t temp_val;
+	// Read data calib 20
+	temp_val = eeprom_read_word((uint16_t*)EEP_ADDR_20);
+	if(temp_val != 0xFFFF) calib_data_20 = temp_val;
+	// Read data calib 25
+	temp_val = eeprom_read_word((uint16_t*)EEP_ADDR_25);
+	if(temp_val != 0xFFFF) calib_data_25 = temp_val;
+	// Read data calib 50
+	temp_val = eeprom_read_word((uint16_t*)EEP_ADDR_50);
+	if(temp_val != 0xFFFF) calib_data_50 = temp_val;
+	// Read data calib 80
+	temp_val = eeprom_read_word((uint16_t*)EEP_ADDR_80);
+	if(temp_val != 0xFFFF) calib_data_80 = temp_val;
+	Update_Calib_Coefficients();
+}
+// float CalADC_vol(uint16_t value_hex){
+// 	return (float)(value_hex * 6.144)/(32768.0);
+// }
+float CalADC_vol(uint16_t value_hex){
+	int16_t raw = (int16_t)value_hex;          // signed
+	return ((float)raw) * 6.144f / 32768.0f;   // volts
+}
+
+float CalADC_cel(uint16_t value_hex){
+	int16_t raw = (int16_t)value_hex;          // signed
+	return (float)((((float)raw) * 6.144f)/(32768.0f) + 1.666667f) * 12.0;
+}
+
+float CalADC_cel_aftercalib(uint16_t value_hex){
+	int16_t raw = (int16_t)value_hex;
+	float temperature = (calib_slope * (float)raw) + calib_offset;
+	return temperature;
+}
+
+uint16_t Read_data_ADC(){
+	return ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 1, DATARATE_128SPS, FSR_6_144);
+}
 
 int main(void)
 {
@@ -137,6 +210,9 @@ int main(void)
 						case CALIB_PRINT:
 							calib_lcd_print_result();
 							break;
+						case CALIB_RESET:
+							calib_lcd_reset();
+							break;
 						default:
 							calib_lcd_20();
 							break;
@@ -162,11 +238,27 @@ int main(void)
 					case CALIB_PRINT:
 						ADC_print_calib();
 						break;
+					case CALIB_RESET:
+						Reset_Calib_To_EEPROM();
+						_delay_ms(100);
+						lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
+						_delay_ms(100);
+						lcd_goto_xy(0,0);
+						lcd_write_string("Done Reset");
+						_delay_ms(500);
+						break;
 					default:
 						Func_Calib20();
 						break;
 				}
 				// save all value when calib in EEPROM
+				lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
+				_delay_ms(100);
+				Save_Calib_To_EEPROM();
+				_delay_ms(500);
+				lcd_goto_xy(0,0);
+				lcd_write_string("Saved to EEPROM ");
+				_delay_ms(500);
 			}
 		} else {
 			PORTD &= ~(1 << 6);
@@ -175,6 +267,15 @@ int main(void)
 			while(!btn_savemode){}
 			btn_savemode = false;
 			// write all values on EEPROM 
+			_delay_ms(500);
+			lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
+			_delay_ms(500);
+			lcd_goto_xy(0,0);
+			lcd_write_string("Done Load");
+			lcd_goto_xy(1,0);
+			lcd_write_string("EEPROM");
+			Load_Calib_From_EEPROM();
+			_delay_ms(500);
 			lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
 			_delay_ms(100);
 			while(1){
@@ -208,10 +309,10 @@ int main(void)
 						lcd_send_data('V');
 						while(!btn_savemode){
 							lcd_goto_xy(1, 0);
-							caladc_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);	
+							caladc_temp = Read_data_ADC();
 							lcd_write_data(CalADC_vol(caladc_temp), 4);
 							lcd_send_data(' ');
-							_delay_ms(100);
+							_delay_ms(500);
 						}
 						break;
 					case ADC_CEL:
@@ -220,10 +321,11 @@ int main(void)
 						lcd_send_data('C');
 						while(!btn_savemode){
 							lcd_goto_xy(1, 0);
-							caladc_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+							caladc_temp = Read_data_ADC();
 							lcd_write_data(CalADC_cel(caladc_temp), 2);
+							//lcd_write_data(CalADC_cel_aftercalib(caladc_temp), 2);
 							lcd_send_data(' ');
-							_delay_ms(100);
+							_delay_ms(500);
 						}
 						break;
 					case ADC_PRINT_CALIB:
@@ -234,7 +336,7 @@ int main(void)
 						lcd_send_data('V');
 						while(!btn_savemode){
 							lcd_goto_xy(1, 0);
-							caladc_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);	
+							caladc_temp = Read_data_ADC();
 							lcd_write_data(CalADC_vol(caladc_temp), 4);
 						}
 						break;
@@ -256,7 +358,7 @@ void btn_interrup(void){
 ISR(INT0_vect) {
 	// if(CHECK_MODE_CALIB){
 		btn_selectmode++;
-		if (btn_selectmode > CALIB_PRINT) {btn_selectmode = CALIB_20;}
+		if (btn_selectmode > CALIB_RESET) {btn_selectmode = CALIB_20;}
 	// } else {
 		btn_adcmode ++;
 		if(btn_adcmode > ADC_PRINT_CALIB){ btn_adcmode = ADC_CEL;}
@@ -275,7 +377,7 @@ void Func_Calib20(void){
 	lcd_goto_xy(1, 15);
 	lcd_send_data('V');
 	while(!btn_savemode){
-		calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+		calib_temp = Read_data_ADC();
 		lcd_goto_xy(1, 0);
 		lcd_write_data(CalADC_vol(calib_temp), 4);
 		_delay_ms(50);
@@ -289,7 +391,7 @@ void Func_Calib25(void){
 	lcd_goto_xy(1, 15);
 	lcd_send_data('V');
 	while(!btn_savemode){
-		calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+		calib_temp = Read_data_ADC();
 		lcd_goto_xy(1, 0);
 		lcd_write_data(CalADC_vol(calib_temp), 4);
 		_delay_ms(50);
@@ -303,7 +405,7 @@ void Func_Calib50(void){
 	lcd_goto_xy(1, 15);
 	lcd_send_data('V');
 	while(!btn_savemode){
-		calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+		calib_temp = Read_data_ADC();
 		lcd_goto_xy(1, 0);
 		lcd_write_data(CalADC_vol(calib_temp), 4);
 		_delay_ms(50);
@@ -317,7 +419,7 @@ void Func_Calib80(void){
 	lcd_goto_xy(1, 15);
 	lcd_send_data('V');
 	while(!btn_savemode){
-		calib_temp = ads1115_readADC_SingleEnded(ADS1115_ADDR_GND, 0, DATARATE_128SPS, FSR_6_144);
+		calib_temp = Read_data_ADC();
 		lcd_goto_xy(1, 0);
 		lcd_write_data(CalADC_vol(calib_temp), 4);
 		_delay_ms(50);
@@ -371,4 +473,10 @@ void ADC_print_calib(void){
 	lcd_send_data('V');
 	while (!btn_savemode){}
 	btn_savemode = false;
+}
+void calib_lcd_reset(void){
+	lcd_send_command(LCD_CMD_CLEAR_DISPLAY);
+	_delay_ms(100);
+	lcd_goto_xy(0,0);
+	lcd_write_string("Reset Value ?");
 }

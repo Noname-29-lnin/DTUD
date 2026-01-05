@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "3362W-1-105")(type "KiCad")(uri "${KIPRJMOD}/Lib/3362W-1-105")(options "")(descr ""))
-  (lib (name "LCD-16X2")(type "KiCad")(uri "${KIPRJMOD}/Lib/LCD-16X2")(options "")(descr ""))
-)
